@@ -128,6 +128,9 @@ public class CustomizationWindow : Window, IDisposable
 
         if (ImGui.CollapsingHeader("Event Tester###Testerheader")) EventTester();
 
+
+        if (ImGui.CollapsingHeader("Event Queue###QueueHeader")) EventQueue();
+
         ImGui.NewLine();
 
         if (ImGui.CollapsingHeader("Config Reset"))
@@ -424,6 +427,12 @@ public class CustomizationWindow : Window, IDisposable
 
             i++;
         }
+    }
+
+    private void EventQueue()
+    {
+        ImGui.TextWrapped("Here are the last 10 triggered events and their voicelines:");
+        foreach (var lastTrigger in PluginServices.Announcer.GetLastTriggers()) ImGui.TextWrapped(lastTrigger);
     }
 
     public void Dispose()

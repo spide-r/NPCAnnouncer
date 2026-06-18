@@ -203,6 +203,7 @@ public class DutyManager : IDutyManager, IEventPublisher
 
     public void DutyStarted(IDutyStateEventArgs args)
     {
+        PluginServices.Announcer.ClearQueue(); // new duty - fully reset everything
         EmitToBroker(new MatchStartedMessage());
     }
 

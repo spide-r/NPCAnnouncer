@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using System.Timers;
 using Dalamud.Game.ClientState.Conditions;
 using FFXIVClientStructs.FFXIV.Client.UI;
 using PvPAnnouncer.Data;
@@ -10,10 +12,8 @@ using Enumerable = System.Linq.Enumerable;
 
 namespace PvPAnnouncer.Impl;
 
-public class Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastRepository shoutcastRepository)
-    : IAnnouncer
+public class Announcer : IAnnouncer, IDisposable
 {
-    private readonly Queue<string> _lastEvents = new();
     /*
      * Objectives:
      * 1. Comment a Reasonable amount
@@ -26,16 +26,56 @@ public class Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastR
     //todo rewrite - divide and conquer
     // per announcer %
 
+    private readonly Queue<(string eventStr, DateTime entered)> _lastEvents = new();
+    private readonly Queue<(string line, DateTime entered)> _lastVoiceLines = new();
+    private readonly Queue<string> _lastTriggers = new();
 
-    private readonly Queue<string> _lastVoiceLines = new();
     private int _lastVoiceLineLength;
     private long _timestamp;
+    private readonly IEventShoutcastMapping _eventShoutcastMapping;
+    private readonly IShoutcastRepository _shoutcastRepository;
+    private readonly Timer _clearTimer;
+
+    public Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastRepository shoutcastRepository)
+    {
+        _eventShoutcastMapping = eventShoutcastMapping;
+        _shoutcastRepository = shoutcastRepository;
+        _clearTimer = new Timer(60 * 1000);
+        _clearTimer.Elapsed += ClearQueueAfter;
+        _clearTimer.Enabled = true;
+    }
+
+    public List<string> GetLastTriggers()
+    {
+        return _lastTriggers.ToList();
+    }
 
     public void ClearQueue()
     {
         _lastVoiceLines.Clear();
         _lastEvents.Clear();
         _timestamp = 0;
+    }
+
+
+    private void ClearQueueAfter(object? sender, ElapsedEventArgs elapsedEventArgs)
+    {
+        while (_lastVoiceLines.Count > 0 && (DateTime.UtcNow - _lastVoiceLines.Peek().entered).TotalSeconds >
+               60 * PluginServices.Config.ClearVoicelinesAfter)
+        {
+            PluginServices.PluginLog.Verbose(
+                $"Dequeuing Voice Line {_lastVoiceLines.Peek().line} from history as its older than {PluginServices.Config.ClearVoicelinesAfter} minute(s)");
+            _lastVoiceLines.Dequeue();
+        }
+
+        while (_lastEvents.Count > 0 && (DateTime.UtcNow - _lastEvents.Peek().entered).TotalSeconds >
+               60 * PluginServices.Config.ClearEventsAfter)
+        {
+            PluginServices.PluginLog.Verbose(
+                $"Dequeuing Event {_lastEvents.Peek().eventStr} from history as its older than {PluginServices.Config.ClearEventsAfter} minute(s)");
+
+            _lastEvents.Dequeue();
+        }
     }
 
     private bool ShouldAnnounce() // this function will determine if the settings let us 
@@ -205,12 +245,12 @@ public class Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastR
         PluginServices.PluginLog.Verbose("Adding Event to history");
         if (_lastEvents.Count > PluginServices.Config.RepeatEventCommentaryQueue - 1)
         {
-            PluginServices.PluginLog.Verbose($"Dequeuing Event from history");
+            PluginServices.PluginLog.Verbose($"Dequeuing Event {_lastEvents.Peek().eventStr} from history");
 
             _lastEvents.Dequeue();
         }
 
-        _lastEvents.Enqueue(e.Id);
+        _lastEvents.Enqueue((e.Id, DateTime.UtcNow));
     }
 
 
@@ -220,20 +260,20 @@ public class Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastR
 
         if (_lastVoiceLines.Count > PluginServices.Config.RepeatVoiceLineQueue - 1)
         {
-            PluginServices.PluginLog.Verbose($"Dequeuing Voice Line from history");
+            PluginServices.PluginLog.Verbose($"Dequeuing Voice Line {_lastVoiceLines.Peek().line} from history");
 
             _lastVoiceLines.Dequeue();
         }
 
-        _lastVoiceLines.Enqueue(talk.Id);
+        _lastVoiceLines.Enqueue((talk.Id, DateTime.UtcNow));
     }
 
     private bool FailsRepeatCommentaryCheck(PvPEvent pvpEvent)
     {
-        bool b = _lastEvents.Contains(pvpEvent.Id);
+        var b = _lastEvents.Any(e => e.eventStr.Equals(pvpEvent.Id));
         foreach (var lastEvent in _lastEvents)
         {
-            PluginServices.PluginLog.Verbose($"Last Event: {lastEvent}");
+            PluginServices.PluginLog.Verbose($"Last Event: {lastEvent.eventStr}");
         }
 
         PluginServices.PluginLog.Verbose($"Repeat commentary check triggered - value is {b}");
@@ -245,9 +285,9 @@ public class Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastR
     {
         List<Shoutcast> sounds = [];
 
-        foreach (var shoutcastId in eventShoutcastMapping.GetShoutcastList(pvpEvent.Id))
+        foreach (var shoutcastId in _eventShoutcastMapping.GetShoutcastList(pvpEvent.Id))
         {
-            var sound = shoutcastRepository.GetShoutcast(shoutcastId);
+            var sound = _shoutcastRepository.GetShoutcast(shoutcastId);
             if (sound == null)
             {
                 PluginServices.PluginLog.Warning($"{shoutcastId} not found.");
@@ -287,7 +327,7 @@ public class Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastR
         if (!bypass)
         {
             foreach (var sound in Enumerable.Where(Enumerable.ToList(sounds),
-                         sound => _lastVoiceLines.Contains(sound.Id)))
+                         sound => _lastVoiceLines.Any(s => s.line.Equals(sound.Id))))
             {
                 sounds.Remove(sound);
             }
@@ -327,10 +367,19 @@ public class Announcer(IEventShoutcastMapping eventShoutcastMapping, IShoutcastR
         AddEventToRecentList(pvpEvent);
         if (chosenLine != null)
         {
+            _lastTriggers.Enqueue($"{pvpEvent.Id} -> {chosenLine.Id}");
+            if (_lastTriggers.Count > 10) _lastTriggers.Dequeue();
+
             AddVoiceLineToRecentList(chosenLine);
             _lastVoiceLineLength = chosenLine.Duration;
         }
 
         _timestamp = DateTimeOffset.Now.ToUnixTimeSeconds();
+    }
+
+    public void Dispose()
+    {
+        _clearTimer.Enabled = false;
+        _clearTimer.Dispose();
     }
 }

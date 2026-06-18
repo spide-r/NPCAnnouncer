@@ -78,6 +78,8 @@ public class ConfigWindow : Window, IDisposable
         var repeatVoiceLine = _configuration.RepeatVoiceLineQueue;
         var repeatEventCommentary = _configuration.RepeatEventCommentaryQueue;
         var animationDelayFactor = _configuration.AnimationDelayFactor;
+        var clearEventsAfter = _configuration.ClearEventsAfter;
+        var clearVoicelinesAfter = _configuration.ClearVoicelinesAfter;
         var notify = _configuration.Notify;
         var icon = _configuration.WantsIcon;
 
@@ -276,6 +278,25 @@ public class ConfigWindow : Window, IDisposable
         if (ImGui.SliderInt("###SliderEvents", ref repeatEventCommentary, 1, 10))
         {
             _configuration.RepeatEventCommentaryQueue = repeatEventCommentary;
+            _configuration.Save();
+        }
+
+        ImGui.Unindent();
+        ImGui.TextWrapped("Maximum amount of minutes an event can be put on cooldown before being triggered");
+        ImGui.Indent();
+        if (ImGui.SliderInt("###SliderClearEvents", ref clearEventsAfter, 1, 10))
+        {
+            _configuration.ClearEventsAfter = clearEventsAfter;
+            _configuration.Save();
+        }
+
+        ImGui.Unindent();
+
+        ImGui.TextWrapped("Maximum amount of minutes a voiceline can be put on cooldown before being heard again");
+        ImGui.Indent();
+        if (ImGui.SliderInt("###SliderClearVoicelines", ref clearVoicelinesAfter, 1, 10))
+        {
+            _configuration.ClearVoicelinesAfter = clearVoicelinesAfter;
             _configuration.Save();
         }
 

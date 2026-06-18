@@ -120,6 +120,7 @@ namespace PvPAnnouncer
             PluginServices.EventHooksPublisher.Dispose();
             PluginServices.PlayerStateTracker.Dispose();
             PluginServices.DutyManager.Dispose();
+            PluginServices.Announcer.Dispose();
             UnloadCommands();
         }
     }

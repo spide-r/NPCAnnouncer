@@ -20,6 +20,8 @@ namespace PvPAnnouncer
 
         public bool NewConfig { get; set; } = true;
         public int RepeatVoiceLineQueue { get; set; } = 3;
+        public int ClearEventsAfter { get; set; } = 2;
+        public int ClearVoicelinesAfter { get; set; } = 5;
         public int RepeatEventCommentaryQueue { get; set; } = 3;
         public int AnimationDelayFactor { get; set; } = 250;
 

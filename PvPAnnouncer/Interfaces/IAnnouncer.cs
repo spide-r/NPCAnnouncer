@@ -1,4 +1,5 @@
-﻿using PvPAnnouncer.Data;
+﻿using System.Collections.Generic;
+using PvPAnnouncer.Data;
 using PvPAnnouncer.Interfaces.PvPEvents;
 
 namespace PvPAnnouncer.Interfaces;
@@ -11,4 +12,6 @@ public interface IAnnouncer
     void SendBattleTalk(Shoutcast shoutcast);
     void ClearQueue();
     void PlayAndSendBattleTalkForTesting(Shoutcast shoutcast);
+    List<string> GetLastTriggers();
+    void Dispose();
 }
