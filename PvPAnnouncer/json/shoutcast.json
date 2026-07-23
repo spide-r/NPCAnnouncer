@@ -2616,13 +2616,6 @@
     "npcYell": "3484"
   },
   {
-    "id": "ThereIsNoEscapeAlisaie",
-    "icon": "073036",
-    "shoutcaster": "Alisaie",
-    "soundPath": "sound/voice/vo_line/8201108",
-    "npcYell": "9585"
-  },
-  {
     "id": "BackInTheGame",
     "icon": "073036",
     "shoutcaster": "Alisaie",

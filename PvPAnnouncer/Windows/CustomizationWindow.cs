@@ -63,6 +63,8 @@ public class CustomizationWindow : Window, IDisposable
                 "Once we have created a few shoutcasts, we must \"map\" the shoutcast to an associated event. This allows the plugin to select it when an event is triggered.\nThis can be done here:");
 
             if (ImGui.Button("Add & Remove Shoutcasts for Events")) PluginServices.VoicelineMappingWindow.Toggle();
+            ImGui.Spacing();
+            ImGui.TextWrapped("Do you speak more than one language? Translate voicelines here!");
             if (ImGui.Button("Translate Voicelines")) PluginServices.TranslateWindow.Toggle();
         }
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Numerics;
 using Dalamud.Bindings.ImGui;
 using Dalamud.Interface.Windowing;
+using PvPAnnouncer.Data;
 
 namespace PvPAnnouncer.Windows;
 
@@ -119,6 +120,12 @@ public class TranslateWindow : Window, IDisposable
             var text = PluginServices.JsonLoader.ProcessObjectForExport(PluginServices.Config.Translations);
             ImGui.SetClipboardText(text);
             PluginServices.ChatGui.Print("Copied all translations to the clipboard!");
+        }
+
+        if (ImguiTools.CtrlShiftButton("Clear All Translations"))
+        {
+            PluginServices.Config.Translations.Clear();
+            PluginServices.Config.Save();
         }
     }
 
