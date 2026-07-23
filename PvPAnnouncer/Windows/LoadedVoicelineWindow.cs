@@ -13,6 +13,7 @@ public class LoadedVoicelineWindow : Window, IDisposable
     private readonly List<Shoutcast> _allBattleTalks;
     private List<string> toFilter = ["All"];
     private string _textFilter = "";
+    private int _filterIndex;
 
     public LoadedVoicelineWindow(IShoutcastRepository shoutcastRepository) : base(
         "Loaded Voice Lines", ImGuiWindowFlags.AlwaysVerticalScrollbar)
@@ -31,7 +32,6 @@ public class LoadedVoicelineWindow : Window, IDisposable
     {
     }
 
-    private int _filterIndex = 0;
 
     public override void Draw()
     {
@@ -77,7 +77,7 @@ public class LoadedVoicelineWindow : Window, IDisposable
                 var text = bt.GetTranscriptionWithGender(PluginServices.Config.Language,
                     PluginServices.Config.WantsAttribute("Feminine Pronouns"), PluginServices.SeStringEvaluator);
                 if (text.Equals(""))
-                    text = "Untranslated Text! Contact the PvPAnnouncer developer if you wish to contribute!";
+                    text = InternalConstants.Untranslated;
 
                 if (!_textFilter.Equals(""))
                     if (!text.Contains(_textFilter, StringComparison.CurrentCultureIgnoreCase))

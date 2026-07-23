@@ -308,6 +308,8 @@ public class ConfigWindow : Window, IDisposable
             _configuration.RepeatVoiceLineQueue = 3;
             _configuration.RepeatEventCommentaryQueue = 3;
             _configuration.AnimationDelayFactor = 250;
+            _configuration.ClearVoicelinesAfter = 5;
+            _configuration.ClearEventsAfter = 2;
             _configuration.Save();
         }
 

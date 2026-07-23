@@ -148,18 +148,6 @@
     "cutsceneLine": "TEXT_VOICEMAN_07410_000090_METEM"
   },
   {
-    "id": "RobotKo",
-    "shoutcaster": "Referee",
-    "duration": "6",
-    "style": "5",
-    "cutsceneLine": "TEXT_VOICEMAN_07010_000020_REFEREE"
-  },
-  {
-    "id": "BannedCompoundRobot",
-    "shoutcaster": "Referee",
-    "contentDirectorBattleTalkVo": "8205440"
-  },
-  {
     "id": "ViciousBlow",
     "icon": "073287",
     "shoutcaster": "Metem",
@@ -4546,16 +4534,6 @@
     "duration": "5",
     "transcription": {
       "en": "It's over! We will stop them!"
-    }
-  },
-  {
-    "id": "NoHoldingBackWukMahjong",
-    "icon": "073265",
-    "shoutcaster": "Wuk Lamat",
-    "soundPath": "sound/voice/vo_line/8291190",
-    "duration": "3",
-    "transcription": {
-      "en": "TODO REMOVE THIS!!!!!!!!!!!!!!!!!!"
     }
   },
   {

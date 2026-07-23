@@ -65,6 +65,7 @@ internal class PluginServices
     internal static VoicelineCreationWindow VoicelineCreationWindow { get; private set; }
     internal static VoicelineMappingWindow VoicelineMappingWindow { get; private set; }
     internal static CustomizationWindow CustomizationWindow { get; private set; }
+    internal static TranslateWindow TranslateWindow { get; private set; }
     internal static ConfigWindow ConfigWindow { get; private set; }
     internal static MainWindow MainWindow { get; private set; }
     internal static DevWindow DevWindow { get; private set; }
@@ -99,6 +100,7 @@ internal class PluginServices
         VoicelineMappingWindow = new VoicelineMappingWindow();
         CustomizationWindow = new CustomizationWindow(Config);
         VoicelineManagementWindow = new VoicelineManagementWindow();
+        TranslateWindow = new TranslateWindow();
         ConfigWindow = new ConfigWindow(ShoutcastRepository, Config,
             EventShoutcastMapping);
         MainWindow = new MainWindow();
@@ -111,6 +113,7 @@ internal class PluginServices
         window.AddWindow(VoicelineMappingWindow);
         window.AddWindow(CustomizationWindow);
         window.AddWindow(VoicelineManagementWindow);
+        window.AddWindow(TranslateWindow);
         ListenerLoader = new EventListenerLoader();
         ListenerLoader.LoadEventListeners();
     }

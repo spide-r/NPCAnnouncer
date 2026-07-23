@@ -183,6 +183,13 @@ public class JsonLoader(
         return newObj;
     }
 
+    public Dictionary<string, string> ConvertJsonToTranslation(string json)
+    {
+        var r = JsonNode.Parse(json);
+        var dict = r?.Deserialize<Dictionary<string, string>>();
+        return dict ?? [];
+    }
+
     public Dictionary<string, List<string>> GetDelta(List<string> add, List<string> remove)
     {
         var newObj = new Dictionary<string, List<string>>

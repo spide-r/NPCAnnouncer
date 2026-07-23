@@ -63,6 +63,8 @@ namespace PvPAnnouncer
 
         public List<string> MutedShouts { get; set; } = [];
 
+        public Dictionary<string, string> Translations { get; set; } = []; //id -> jsonof(lang: text)
+
 
         public string Language { get; set; } = "en";
         public string TextLanguage { get; set; } = "en";

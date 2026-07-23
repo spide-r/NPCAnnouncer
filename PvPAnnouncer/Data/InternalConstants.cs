@@ -10,6 +10,9 @@ public abstract class InternalConstants : ImguiTools
     public const string DefaultSoundPath = "sound/voice/vo_line/8205794";
     public const string ErrorContactDev = "Uh oh! You shouldn't see this! Contact the NPCAnnouncer dev!";
 
+    public const string Untranslated =
+        "Untranslated Text! Contact the NPCAnnouncer developer if you wish to contribute!";
+
     public static readonly List<string> LimitBreakListStr =
     [
         "WhatPower", "PotentMagicks", "WhatAClash", "ThrillingBattle", "NeitherSideHoldingBack", "BattleElectrifying",

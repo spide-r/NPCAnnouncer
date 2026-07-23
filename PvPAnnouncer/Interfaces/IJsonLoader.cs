@@ -22,6 +22,7 @@ public interface IJsonLoader
     public JsonObject BuildJsonMapping(string eventId, List<string> shouts);
 
     public Dictionary<string, List<string>> ConvertJsonToMappingDelta(string json);
+    public Dictionary<string, string> ConvertJsonToTranslation(string json);
     public Dictionary<string, List<string>> GetDelta(List<string> add, List<string> remove);
 
     public JsonObject ConvertMappingDeltaToJson(string eventId, List<string> add, List<string> remove);

@@ -647,7 +647,7 @@ public class VoicelineCreationWindow : Window, IDisposable
 
                         if (text.Equals(""))
                         {
-                            text = "Untranslated Text! Contact the NPCAnnouncer developer if you wish to contribute!";
+                            text = InternalConstants.Untranslated;
                         }
 
 
