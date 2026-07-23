@@ -2341,14 +2341,14 @@
     "icon": "073008",
     "shoutcaster": "Alphinaud",
     "soundPath": "sound/voice/vo_line/8201086",
-    "npcYell": "3089"
+    "npcYell": "7737"
   },
   {
     "id": "AwayWithYou",
     "icon": "073008",
     "shoutcaster": "Alphinaud",
     "soundPath": "sound/voice/vo_line/8201087",
-    "npcYell": "10247"
+    "npcYell": "14069"
   },
   {
     "id": "IHaveMyPride",
@@ -2383,7 +2383,7 @@
     "icon": "073008",
     "shoutcaster": "Alphinaud",
     "soundPath": "sound/voice/vo_line/8201089",
-    "npcYell": "14071"
+    "npcYell": "3092"
   },
   {
     "id": "SoItComesToThis",
@@ -2418,7 +2418,7 @@
     "icon": "073008",
     "shoutcaster": "Alphinaud",
     "soundPath": "sound/voice/vo_line/8203009",
-    "npcYell": "7803"
+    "npcYell": "13463"
   },
   {
     "id": "GiveItEverythingAlisaie",
@@ -2632,7 +2632,7 @@
     "icon": "073036",
     "shoutcaster": "Alisaie",
     "soundPath": "sound/voice/vo_line/8201108",
-    "npcYell": "7612"
+    "npcYell": "9585"
   },
   {
     "id": "BackInTheGame",
@@ -2653,7 +2653,7 @@
     "icon": "073036",
     "shoutcaster": "Alisaie",
     "soundPath": "sound/voice/vo_line/8202376",
-    "npcYell": "17776"
+    "npcYell": "10904"
   },
   {
     "id": "DefeatIsNotAnOption",
@@ -2956,7 +2956,7 @@
     "shoutcaster": "Thancred",
     "soundPath": "sound/voice/vo_line/8202053",
     "duration": "2",
-    "npcYell": "4856"
+    "npcYell": "7784"
   },
   {
     "id": "ComeOn",
@@ -2992,7 +2992,7 @@
     "shoutcaster": "Thancred",
     "soundPath": "sound/voice/vo_line/8203023",
     "duration": "2",
-    "npcYell": "8441"
+    "npcYell": "12351"
   },
   {
     "id": "ThatWasUnbecoming",
@@ -3020,7 +3020,7 @@
     "shoutcaster": "Thancred",
     "soundPath": "sound/voice/vo_line/8201651",
     "duration": "3",
-    "npcYell": "4238"
+    "npcYell": "14148"
   },
   {
     "id": "NoMistakes",
@@ -3544,7 +3544,7 @@
     "shoutcaster": "Y'shtola",
     "soundPath": "sound/voice/vo_line/8201108",
     "duration": "2",
-    "npcYell": "2671"
+    "npcYell": "9585"
   },
   {
     "id": "AndNowToReturnTheFavor",
@@ -3562,7 +3562,9 @@
     "shoutcaster": "Y'shtola",
     "soundPath": "sound/voice/vo_line/8201640",
     "duration": "2",
-    "npcYell": "3886"
+    "transcription": {
+      "en": "Make Ready!"
+    }
   },
   {
     "id": "WereCountingOnYou",
@@ -3620,7 +3622,7 @@
     "shoutcaster": "Y'shtola",
     "soundPath": "sound/voice/vo_line/8202110",
     "duration": "2",
-    "npcYell": "4718"
+    "npcYell": "7841"
   },
   {
     "id": "MayTheTwelveGuideYou",
@@ -3950,7 +3952,7 @@
     "shoutcaster": "Estinien",
     "soundPath": "sound/voice/vo_line/8203062",
     "duration": "2",
-    "npcYell": "12472"
+    "npcYell": "13497"
   },
   {
     "id": "RoarNidhogg",
@@ -4246,7 +4248,7 @@
     "shoutcaster": "G'raha Tia",
     "soundPath": "sound/voice/vo_line/8202337",
     "duration": "2",
-    "npcYell": "8894"
+    "npcYell": "18236"
   },
   {
     "id": "FindCoverEnergy",
@@ -4552,7 +4554,9 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8291190",
     "duration": "3",
-    "npcYell": "4299"
+    "transcription": {
+      "en": "TODO REMOVE THIS!!!!!!!!!!!!!!!!!!"
+    }
   },
   {
     "id": "HowDidThatHappenWuk",
@@ -4730,7 +4734,9 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8204280",
     "duration": "2",
-    "npcYell": "3323"
+    "transcription": {
+      "en": "Impressive!"
+    }
   },
   {
     "id": "TheyllPayForThatWuk",
@@ -4754,7 +4760,7 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8205040",
     "duration": "2",
-    "npcYell": "4299"
+    "npcYell": "15932"
   },
   {
     "id": "KeepItUpWuk",
@@ -4762,7 +4768,9 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8205043",
     "duration": "2",
-    "npcYell": "6472"
+    "transcription": {
+      "en": "Keep it up!"
+    }
   },
   {
     "id": "LetsGetToIt",
@@ -4848,7 +4856,9 @@
     "shoutcaster": "Koana",
     "soundPath": "sound/voice/vo_line/8291211",
     "duration": "3",
-    "npcYell": "1632"
+    "transcription": {
+      "en": "Stay alert."
+    }
   },
   {
     "id": "HaveThemStrike",
@@ -5034,7 +5044,9 @@
     "shoutcaster": "Bakool Ja Ja",
     "soundPath": "sound/voice/vo_line/8291230",
     "duration": "4",
-    "npcYell": "4514"
+    "transcription": {
+      "en": "Victory will be ours."
+    }
   },
   {
     "id": "NoDownWithoutFight",
@@ -5911,7 +5923,7 @@
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203205",
     "contentDirectorBattleTalkVo": "8203205",
-    "npcYell": "7616"
+    "npcYell": "13526"
   },
   {
     "id": "FallEmet",
@@ -5921,7 +5933,7 @@
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203207",
     "contentDirectorBattleTalkVo": "8203207",
-    "npcYell": "13486"
+    "npcYell": "13528"
   },
   {
     "id": "ReputationTowers",
@@ -6093,7 +6105,9 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8202542",
-    "npcYell": "13818"
+    "transcription": {
+      "en": "Down with you!"
+    }
   },
   {
     "id": "ThereAymeric",
@@ -6102,7 +6116,7 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8202544",
-    "npcYell": "7795"
+    "npcYell": "13397"
   },
   {
     "id": "ItEndsHere",
@@ -6111,7 +6125,7 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8202546",
-    "npcYell": "3968"
+    "npcYell": "13264"
   },
   {
     "id": "Damn",
@@ -6371,7 +6385,7 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203455",
-    "npcYell": "13487"
+    "npcYell": "13924"
   },
   {
     "id": "GotYou",
@@ -6391,7 +6405,7 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203457",
-    "npcYell": "3473"
+    "npcYell": "14103"
   },
   {
     "id": "DarknessTakeYou",
@@ -6409,7 +6423,9 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203460",
-    "npcYell": "7565"
+    "transcription": {
+      "en": "Stay sharp!"
+    }
   },
   {
     "id": "AreYouAlrightZero",
@@ -6418,7 +6434,9 @@
     "duration": "4",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203461",
-    "npcYell": "16659"
+    "transcription": {
+      "en": "Are you alright?"
+    }
   },
   {
     "id": "HaveCareZero",
@@ -6427,7 +6445,9 @@
     "duration": "4",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203462",
-    "npcYell": "19208"
+    "transcription": {
+      "en": "Have care."
+    }
   },
   {
     "id": "HowAboutThis",
@@ -6436,7 +6456,9 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203465",
-    "npcYell": "4855"
+    "transcription": {
+      "en": "How about this?"
+    }
   },
   {
     "id": "DefeatedZenos",
@@ -6465,7 +6487,7 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203480",
-    "npcYell": "16118"
+    "npcYell": "15227"
   },
   {
     "id": "StillMore",
@@ -6505,7 +6527,9 @@
     "duration": "3",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8291301",
-    "npcYell": "17092"
+    "transcription": {
+      "en": "What now?"
+    }
   },
   {
     "id": "TroublingDevelopment",
