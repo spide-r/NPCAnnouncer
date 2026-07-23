@@ -73,7 +73,6 @@ public partial class Shoutcast(
         }
 
         var toEval = transcription;
-        PluginServices.PluginLog.Verbose($"To Eval: {toEval}, Fem: {fem}");
 
 
         //Only parameters in SeStrings are if(PlayerParameter(4) for gender stuff - largest amt of params i saw as of 7.0 was 3 - setting 5 just to be safe but due to how this plugin works i dont think we'll go past 1 
@@ -81,13 +80,11 @@ public partial class Shoutcast(
         if (fem)
         {
             var femStr = evaluator.EvaluateMacroString(GenderRegex().Replace(toEval, "$1")).ToString();
-            PluginServices.PluginLog.Verbose($"Evaluated: {femStr}");
             return femStr;
         }
         else
         {
             var mascStr = evaluator.EvaluateMacroString(GenderRegex().Replace(toEval, "$2")).ToString();
-            PluginServices.PluginLog.Verbose($"Evaluated: {mascStr}");
 
             return mascStr;
         }

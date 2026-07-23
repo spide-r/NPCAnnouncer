@@ -78,7 +78,7 @@ internal class PluginServices
         Config = pluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
         PvPEventBroker = new EventBroker();
         EventHooksPublisher = new EventHooksPublisher();
-        SoundManager = new SoundManager();
+        SoundManager = new PluginSoundManager();
         PlayerStateTracker = new PlayerStateTracker();
         Config.Initialize(pluginInterface, PlayerStateTracker, GameConfig);
         DutyManager = new DutyManager(PlayerStateTracker);
