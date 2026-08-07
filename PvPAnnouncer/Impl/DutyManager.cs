@@ -181,16 +181,23 @@ public class DutyManager : IDutyManager, IEventPublisher
         {
             EmitToBroker(new MatchLossMessage());
         }
+
+        ResetScoreTracking(); // Already Checked it once, don't need to check it again
     }
 
 
-    public void PvPMatchEntered(uint territory)
+    private void ResetScoreTracking()
     {
         _ourPoints = 0;
         _rightPoints = 0;
         _leftPoints = 0;
         _ourProgress = 0.0;
         _enemyProgress = 0.0;
+    }
+
+    public void PvPMatchEntered(uint territory)
+    {
+        ResetScoreTracking();
         PluginServices.PluginLog.Verbose($"OnMatchEntered {territory}");
         EmitToBroker(new MatchEnteredMessage((ushort) territory));
         unsafe

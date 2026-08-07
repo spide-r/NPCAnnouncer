@@ -80,9 +80,11 @@ public class PluginSoundManager : ISoundManager, IDisposable
     private unsafe SoundData* InitSoundDetour(SoundManager* manager, CStringPointer path, float volume, uint soundIdx,
         uint unk1, bool unk2, SoundVolumeCategory category)
     {
-        PluginServices.PluginLog.Verbose($"INITSOUND: {path.ToString()} {volume} {soundIdx} {unk1} {unk2} {category}");
-        //return InitSoundHook.Original( manager, path, volume, soundIdx, unk1, unk2, category );
-        //todo pull config w/ dict of path -> volume, set to appropriate volume here - do NOT strip language - make sure people dont bust their eardrums 
+        //PluginServices.PluginLog.Verbose($"INITSOUND: {path.ToString()} {volume} {soundIdx} {unk1} {unk2} {category}");
+        //GOTCHA: for voiceline audio specifically, there seems to be a clamp to 1.0f volume either tied to the
+        //voiceline file/scd itself or elsewhere in the game codecode, i have no clue how to find it, so this will remain a pipe dream
+        //if you figure this out: pull config w/ dict of path -> volume, set to appropriate volume here
+        //do NOT strip language - make sure people dont bust their eardrums 
         return InitSoundHook.Original(manager, path, volume, soundIdx, unk1, unk2, category);
     }
 
