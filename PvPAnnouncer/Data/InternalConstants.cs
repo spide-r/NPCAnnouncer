@@ -9,6 +9,7 @@ public abstract class InternalConstants : ImguiTools
     public const string PvPAnnouncerDevName = "NPCAnnouncer Dev";
     public const string DefaultSoundPath = "sound/voice/vo_line/8205794";
     public const string ErrorContactDev = "Uh oh! You shouldn't see this! Contact the NPCAnnouncer dev!";
+    public const string MahjongAttribute = "Contains Mahjong Reference (Non-English)";
 
     public const string Untranslated =
         "Untranslated Text! Contact the NPCAnnouncer developer if you wish to contribute!";
@@ -30,7 +31,7 @@ public abstract class InternalConstants : ImguiTools
         "VictoryWithinReach", "ReleaseYourPotential", "YouHaveThem", "ForTheHouseOfLeveilleur", "FocusReleaseAlphinaud",
         "SoItComesToThis", "TheoryInPractice",
         "GiveItEverythingAlisaie", "ShowThemWhatYoureMadeOf", "ExpectedWhenSerious", "KeepUpTheOffensive",
-        "JustGettingStarted", "Fall", "ThereIsNoEscapeAlisaie", "KeepThemOnTheirHeels",
+        "JustGettingStarted", "Fall", "KeepThemOnTheirHeels",
         "DanceOfTheStars", "ThereIsNoEscapeYshtola", "AndNowToReturnTheFavor", "HoldNothingBack", "HaveThemNowEstinien",
         "EndTheirStruggles",
         "GiveItEverything", "DeclareIntentions", "MakeAStandOurselves", "FinishThemTooMuch", "PointsAndAll",

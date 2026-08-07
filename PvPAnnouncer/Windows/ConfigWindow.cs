@@ -56,6 +56,13 @@ public class ConfigWindow : Window, IDisposable
 
             _configuration.Save();
         }
+
+        if (attr.Equals(InternalConstants.MahjongAttribute))
+        {
+            ImGuiComponents.HelpMarker(
+                "If you use a language other than english, this determines if you want to hear voicelines that mention mahjong terms." +
+                "\nThis has no effect on English voicelines");
+        }
     }
 
 

@@ -356,6 +356,14 @@ namespace PvPAnnouncer
         {
             foreach (var p in attributes)
             {
+                if (Language.Equals("en"))
+                {
+                    if (p.Equals(InternalConstants.MahjongAttribute))
+                    {
+                        continue; //user is using english so the mahjong attribute toggle doesn't apply here
+                    }
+                }
+
                 if (!DesiredAttributes.Contains(p))
                 {
                     return false;

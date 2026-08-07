@@ -1327,7 +1327,8 @@
     ],
     "duration": "4",
     "transcription": {
-      "en": "This man has absolutely no respect for the rules!"
+      "en": "This man has absolutely no respect for the rules!",
+      "fr": "Incroyable ! Brute Bomber se moque clairement des règles !"
     }
   },
   {
@@ -1340,7 +1341,8 @@
     ],
     "duration": "3",
     "transcription": {
-      "en": "He's up on the post! You know what that means."
+      "en": "He's up on the post! You know what that means.",
+      "fr": "Et voilà qu'il monte sur l'un des poteaux !"
     }
   },
   {
@@ -1350,7 +1352,8 @@
     "soundPath": "sound/voice/vo_line/8205374",
     "duration": "3",
     "transcription": {
-      "en": "It's the Bombarian press!"
+      "en": "It's the Bombarian press!",
+      "fr": "Aïe, aïe, aïe ! Le broiement bombo bestial !"
     }
   },
   {
@@ -1363,7 +1366,8 @@
     ],
     "duration": "4",
     "transcription": {
-      "en": "Oh mercy is she doing what I think she's doing?"
+      "en": "Oh mercy is she doing what I think she's doing?",
+      "fr": "Black Cat va-t-elle faire appel à cette fameuse technique !?"
     }
   },
   {
@@ -1373,7 +1377,8 @@
     "soundPath": "sound/voice/vo_line/8206126",
     "duration": "5",
     "transcription": {
-      "en": "Yes! You've got the serpent on the back tail! Press the advantage and finish this!"
+      "en": "Yes! You've got the serpent on the back tail! Press the advantage and finish this!",
+      "fr": "Le challenger ne laisse aucun répit à son adversaire ! Allez, il faut continuer !"
     }
   },
   {
@@ -1383,8 +1388,12 @@
     "soundPath": "sound/voice/vo_line/8291277",
     "duration": "3",
     "transcription": {
-      "en": "This could be a real game changer."
-    }
+      "en": "This could be a real game changer.",
+      "fr": "Oho ! Le challenger ne compte pas abandonner sans se battre !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjBoldMove",
@@ -1393,8 +1402,12 @@
     "soundPath": "sound/voice/vo_line/8291276",
     "duration": "4",
     "transcription": {
-      "en": "A bold move from our challenger, but will it pay off?"
-    }
+      "en": "A bold move from our challenger, but will it pay off?",
+      "fr": "Riichi ! Notre challenger prend la tête !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjChallengerRecover",
@@ -1403,8 +1416,12 @@
     "soundPath": "sound/voice/vo_line/8291278",
     "duration": "4",
     "transcription": {
-      "en": "How will the challenger recover from this I wonder?"
-    }
+      "en": "How will the challenger recover from this I wonder?",
+      "fr": "Ouh là là là ! Il va falloir réagir !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjRivalVying",
@@ -1413,8 +1430,12 @@
     "soundPath": "sound/voice/vo_line/8291279",
     "duration": "4",
     "transcription": {
-      "en": "Whats this? A rival vying for victory?"
-    }
+      "en": "Whats this? A rival vying for victory?",
+      "fr": "Incroyable ! Les adversaires ne laissent aucun répit à notre challenger !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjHeatingUp",
@@ -1423,8 +1444,12 @@
     "soundPath": "sound/voice/vo_line/8291280",
     "duration": "5",
     "transcription": {
-      "en": "Things are really heating up. I can scarcely look away."
-    }
+      "en": "Things are really heating up. I can scarcely look away.",
+      "fr": "Quelle lutte acharnée ! Impossible d'en manquer une miette !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjHandDecided",
@@ -1433,8 +1458,12 @@
     "soundPath": "sound/voice/vo_line/8291281",
     "duration": "3",
     "transcription": {
-      "en": "There it is. The hand is decided."
-    }
+      "en": "There it is. The hand is decided.",
+      "fr": "Et voilà, ron ! Bravo !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjKissLadyLuck",
@@ -1443,8 +1472,12 @@
     "soundPath": "sound/voice/vo_line/8291282",
     "duration": "5",
     "transcription": {
-      "en": "And with a kiss from lady luck, we have our winner."
-    }
+      "en": "And with a kiss from lady luck, we have our winner.",
+      "fr": "Un magnifique tsumo ! Le challenger arrache la victoire !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjGoodnessGracious",
@@ -1453,8 +1486,12 @@
     "soundPath": "sound/voice/vo_line/8291283",
     "duration": "2",
     "transcription": {
-      "en": "Oh goodness gracious me."
-    }
+      "en": "Oh goodness gracious me.",
+      "fr": "Saperlipopette ! Quel coup dur..."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjOurTile",
@@ -1463,8 +1500,12 @@
     "soundPath": "sound/voice/vo_line/8291284",
     "duration": "4",
     "transcription": {
-      "en": "That should have been our tile, the scoundrel."
-    }
+      "en": "That should have been our tile, the scoundrel.",
+      "fr": "Voilà ce que j'appelle un coup bas ! Mais que fait l'arbitre ?"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjPainfulToWatch",
@@ -1473,8 +1514,12 @@
     "soundPath": "sound/voice/vo_line/8291285",
     "duration": "4",
     "transcription": {
-      "en": "Oh the horror! It was too painful to watch."
-    }
+      "en": "Oh the horror! It was too painful to watch.",
+      "fr": "Aïe, aïe, aïe, aïe, aïe, le challenger n'a rien vu venir ! Comme c'est dommage..."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjClobberedWithTable",
@@ -1483,8 +1528,12 @@
     "soundPath": "sound/voice/vo_line/8291286",
     "duration": "5",
     "transcription": {
-      "en": "Ha! You all but clobbered them with a table that round."
-    }
+      "en": "Ha! You all but clobbered them with a table that round.",
+      "fr": "Incroyable ! Le challenger envoie ses adversaires par dessus la troisième corde !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjBeautifullyPlayed",
@@ -1493,8 +1542,12 @@
     "soundPath": "sound/voice/vo_line/8291287",
     "duration": "4",
     "transcription": {
-      "en": "Beautifully played my friend, beautifully played."
-    }
+      "en": "Beautifully played my friend, beautifully played.",
+      "fr": "C'est tout bonnement ahurissant ! Quelle maîtrise sans pareille !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjMadeYourMark",
@@ -1503,8 +1556,12 @@
     "soundPath": "sound/voice/vo_line/8291288",
     "duration": "4",
     "transcription": {
-      "en": "You certainly made your mark this round. Keep it up!"
-    }
+      "en": "You certainly made your mark this round. Keep it up!",
+      "fr": "Voilà un round qui avait du punch !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjDontStandAChance",
@@ -1513,8 +1570,12 @@
     "soundPath": "sound/voice/vo_line/8291289",
     "duration": "5",
     "transcription": {
-      "en": "Mmm, letting them think they stand a chance. I like it."
-    }
+      "en": "Mmm, letting them think they stand a chance. I like it.",
+      "fr": "Le challenger s'en est sorti, non sans difficulté !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjChallengerDownHardGentle",
@@ -1523,8 +1584,12 @@
     "soundPath": "sound/voice/vo_line/8291290",
     "duration": "4",
     "transcription": {
-      "en": "Oh my, our challenger went down hard."
-    }
+      "en": "Oh my, our challenger went down hard.",
+      "fr": "Aïe, aïe, aïe, aïe, aïe, notre challenger est K.O. !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjStillInItGentle",
@@ -1533,8 +1598,12 @@
     "soundPath": "sound/voice/vo_line/8291291",
     "duration": "4",
     "transcription": {
-      "en": "Our challenger is still in it! But for how long?"
-    }
+      "en": "Our challenger is still in it! But for how long?",
+      "fr": "Catastrophe ! Le challenger accuse encore les coups de ses adversaires !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjStillStandingGentle",
@@ -1543,8 +1612,12 @@
     "soundPath": "sound/voice/vo_line/8291292",
     "duration": "5",
     "transcription": {
-      "en": "Ooh even I felt that one, but our challenger is still standing."
-    }
+      "en": "Ooh even I felt that one, but our challenger is still standing.",
+      "fr": "Sacré coup dur pour notre challenger !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjDownNotOut",
@@ -1553,8 +1626,12 @@
     "soundPath": "sound/voice/vo_line/8291293",
     "duration": "4",
     "transcription": {
-      "en": "Our challenger is down, but not out."
-    }
+      "en": "Our challenger is down, but not out.",
+      "fr": "Le challenger est encore debout ! Ce n'est pas le moment d'abandonner !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjTitanOfTable",
@@ -1563,8 +1640,12 @@
     "soundPath": "sound/voice/vo_line/8291294",
     "duration": "6",
     "transcription": {
-      "en": "The titan of the table, tactician of the tiles! Brilliantly Played."
-    }
+      "en": "The titan of the table, tactician of the tiles! Brilliantly Played.",
+      "fr": "Le challenger sans régulateur se trouve encore une fois à la hauteur, et remporte la victoire haut la main !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjCommendableEffort",
@@ -1573,8 +1654,12 @@
     "soundPath": "sound/voice/vo_line/8291295",
     "duration": "4",
     "transcription": {
-      "en": "A commendable effort! You should be proud."
-    }
+      "en": "A commendable effort! You should be proud.",
+      "fr": "C'était un bien bel affrontement !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjReportingLive",
@@ -1583,8 +1668,12 @@
     "soundPath": "sound/voice/vo_line/8291296",
     "duration": "6",
     "transcription": {
-      "en": "This was metem, reporting live from the Mahjong table. Thank you and good night."
-    }
+      "en": "This was metem, reporting live from the Mahjong table. Thank you and good night.",
+      "fr": "Cette partie de mahjong vous a été commentée par votre serviteur, Metem !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjCompetitionTooMuch",
@@ -1593,8 +1682,12 @@
     "soundPath": "sound/voice/vo_line/8291297",
     "duration": "5",
     "transcription": {
-      "en": "Was the competition simply too much for our challenger? I should hope not."
-    }
+      "en": "Was the competition simply too much for our challenger? I should hope not.",
+      "fr": "Notre challenger est à terre, mais pas question de jeter l'éponge !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MjUtterlyHumiliated",
@@ -1603,8 +1696,12 @@
     "soundPath": "sound/voice/vo_line/8291298",
     "duration": "6",
     "transcription": {
-      "en": "Oh dear our challenger has been utterly humiliated! I fear this will haunt them."
-    }
+      "en": "Oh dear our challenger has been utterly humiliated! I fear this will haunt them.",
+      "fr": "Quelle cuisante défaite ! Le challenger n'a plus qu'à se cacher sous la table..."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "LindwurmsHeart",
@@ -1613,7 +1710,8 @@
     "soundPath": "sound/voice/vo_line/8206130",
     "duration": "4",
     "transcription": {
-      "en": "Huh? Is it? The Lindwurm’s heart!?"
+      "en": "Huh? Is it? The Lindwurm's heart!?",
+      "fr": "Tiens, qu'est-ce que c'est...? Le cœur de la créature ?"
     }
   },
   {
@@ -1623,7 +1721,8 @@
     "soundPath": "sound/voice/vo_line/8206131",
     "duration": "4",
     "transcription": {
-      "en": "It’s pulsating… I’ve got a bad feeling about this!"
+      "en": "It's pulsating... I've got a bad feeling about this!",
+      "fr": "Oh là là là, j'entends encore un pouls... J'ai bien peur que le combat ne soit pas encore terminé !"
     }
   },
   {
@@ -1633,7 +1732,8 @@
     "soundPath": "sound/voice/vo_line/8206132",
     "duration": "3",
     "transcription": {
-      "en": "It’s contorted…transforming!"
+      "en": "It's contorted...transforming!",
+      "fr": "Les cellules du Lindwurm... On dirait qu'elles s'agitent..."
     }
   },
   {
@@ -1643,7 +1743,8 @@
     "soundPath": "sound/voice/vo_line/8206133",
     "duration": "4",
     "transcription": {
-      "en": "It’s alive! It’s the birth of a new Lindwurm!"
+      "en": "It's alive! It's the birth of a new Lindwurm!",
+      "fr": "Par tous les diables ! Le Lindwurm s'est régénéré !"
     }
   },
   {
@@ -1653,7 +1754,8 @@
     "soundPath": "sound/voice/vo_line/8206134",
     "duration": "5",
     "transcription": {
-      "en": "Alas, the battle isn’t over yet, but don’t despair Champion!"
+      "en": "Alas, the battle isn't over yet, but don't despair Champion!",
+      "fr": "Le duel n'est pas terminé ! Il ne faut pas abandonner maintenant !"
     }
   },
   {
@@ -1663,7 +1765,8 @@
     "soundPath": "sound/voice/vo_line/8206135",
     "duration": "3",
     "transcription": {
-      "en": "The Lindwurm is creating more of itself!"
+      "en": "The Lindwurm is creating more of itself!",
+      "fr": "J'en crois pas mes yeux ! Le serpent se démultiplie !"
     }
   },
   {
@@ -1673,7 +1776,8 @@
     "soundPath": "sound/voice/vo_line/8206136",
     "duration": "6",
     "transcription": {
-      "en": "The Lindwurm continues to multiply! We’ve gone well beyond mortal limits now!"
+      "en": "The Lindwurm continues to multiply! We've gone well beyond mortal limits now!",
+      "fr": "Aïe, aïe, aïe, aïe ! Le Lindwurm continue de se dédoubler ! Rien ne semble pouvoir l'arrêter !"
     }
   },
   {
@@ -1683,7 +1787,8 @@
     "soundPath": "sound/voice/vo_line/8206137",
     "duration": "5",
     "transcription": {
-      "en": "Some curious props have appeared… What would they possibly be?"
+      "en": "Some curious props have appeared... What would they possibly be?",
+      "fr": "D'étranges silhouettes viennent d'apparaître dans l'arène ! Que se passe-t-il !?"
     }
   },
   {
@@ -1693,7 +1798,8 @@
     "soundPath": "sound/voice/vo_line/8206138",
     "duration": "5",
     "transcription": {
-      "en": "Egads! They’ve taken on the Champion’s form! This bodes ill!"
+      "en": "Egads! They've taken on the Champion's form! This bodes ill!",
+      "fr": "Ces drôles de pantins ont pris l'apparence de notre challenger ! Que vont-ils faire à présent !?"
     }
   },
   {
@@ -1703,7 +1809,8 @@
     "soundPath": "sound/voice/vo_line/8206139",
     "duration": "4",
     "transcription": {
-      "en": "Ah-I’ve got a serious case of deja vu here."
+      "en": "Ah-I've got a serious case of deja vu here.",
+      "fr": "J'ai comme une sérieuse impression de déjà-vu, pas vous ?"
     }
   },
   {
@@ -1713,7 +1820,8 @@
     "soundPath": "sound/voice/vo_line/8206140",
     "duration": "4",
     "transcription": {
-      "en": "What destructiveness! The ring has been rend in two!"
+      "en": "What destructiveness! The ring has been rend in two!",
+      "fr": "Quel effroyable pouvoir destructeur ! Il a même fracturé le ring !"
     }
   },
   {
@@ -1723,7 +1831,8 @@
     "soundPath": "sound/voice/vo_line/8206141",
     "duration": "5",
     "transcription": {
-      "en": "The mutation is…corrupting the champion! Let’s hope they keep it together!"
+      "en": "The mutation is...corrupting the champion! Let's hope they keep it together!",
+      "fr": "Ces parasites s'attaquent à notre challenger ! Il faut garder la tête froide !"
     }
   },
   {
@@ -1733,7 +1842,8 @@
     "soundPath": "sound/voice/vo_line/8206142",
     "duration": "3",
     "transcription": {
-      "en": "Something’s coming! Stay on your toes!"
+      "en": "Something's coming! Stay on your toes!",
+      "fr": "Prudence ! Le Lindwurm semble préparer un autre coup fourré !"
     }
   },
   {
@@ -1746,7 +1856,8 @@
     ],
     "duration": "6",
     "transcription": {
-      "en": "Woah! What is this place? Did the Lindwurm warp the very fabric of space and time?"
+      "en": "Woah! What is this place? Did the Lindwurm warp the very fabric of space and time?",
+      "fr": "Mais... Mais où sommes-nous !? Le Lindwurm aurait-il déformé l'espace-temps !?"
     }
   },
   {
@@ -1756,7 +1867,8 @@
     "soundPath": "sound/voice/vo_line/8206144",
     "duration": "5",
     "transcription": {
-      "en": "Is this another dimension? I must confess, I am utterly bewildered!"
+      "en": "Is this another dimension? I must confess, I am utterly bewildered!",
+      "fr": "Quel est cet endroit ? Une nouvelle dimension ? Je n'y comprends plus rien !"
     }
   },
   {
@@ -1766,7 +1878,8 @@
     "soundPath": "sound/voice/vo_line/8206145",
     "duration": "4",
     "transcription": {
-      "en": "A relentless assault! The Champion is hard-pressed!"
+      "en": "A relentless assault! The Champion is hard-pressed!",
+      "fr": "Une tempête de coups s'abat sur notre challenger ! Arrivera-t-il à riposter ?"
     }
   },
   {
@@ -1776,7 +1889,8 @@
     "soundPath": "sound/voice/vo_line/8206146",
     "duration": "5",
     "transcription": {
-      "en": "The battle has reached a fever pitch, but the Champion still stands!"
+      "en": "The battle has reached a fever pitch, but the Champion still stands!",
+      "fr": "Ce combat acharné dépasse les limites de l'entendement ! Mais le challenger tient bon !"
     }
   },
   {
@@ -1786,7 +1900,8 @@
     "soundPath": "sound/voice/vo_line/8206147",
     "duration": "4",
     "transcription": {
-      "en": "There’s so many of them! Stay strong, I beg you!"
+      "en": "There's so many of them! Stay strong, I beg you!",
+      "fr": "Le challenge se retrouve en sous-nombre ! Mais rien n'est encore joué !"
     }
   },
   {
@@ -1796,7 +1911,8 @@
     "soundPath": "sound/voice/vo_line/8206148",
     "duration": "4",
     "transcription": {
-      "en": "I’m not sure I understand what’s going on anymore, folks!"
+      "en": "I'm not sure I understand what's going on anymore, folks!",
+      "fr": "Euh... Je ne suis pas certain de comprendre ce qui se passe ici..."
     }
   },
   {
@@ -1806,7 +1922,8 @@
     "soundPath": "sound/voice/vo_line/8206149",
     "duration": "4",
     "transcription": {
-      "en": "We appear to have completely left the realm of logic behind!"
+      "en": "We appear to have completely left the realm of logic behind!",
+      "fr": "Tout ce que nous voyons dépasse de loin les limites de l'imagination !"
     }
   },
   {
@@ -1816,7 +1933,8 @@
     "soundPath": "sound/voice/vo_line/8206150",
     "duration": "5",
     "transcription": {
-      "en": "Something that defies all comprehension is unfolding before our very eyes!"
+      "en": "Something that defies all comprehension is unfolding before our very eyes!",
+      "fr": "Le spectacle qui s'offre à nous est tout simplement in-des-crip-tible !"
     }
   },
   {
@@ -1824,7 +1942,10 @@
     "icon": "073002",
     "shoutcaster": "Zenos",
     "soundPath": "sound/voice/vo_line/8201124",
-    "npcYell": "3106"
+    "transcription": {
+      "en": "This ends here!"
+    },
+    "duration": "3"
   },
   {
     "id": "DontStopNow",
@@ -1845,7 +1966,11 @@
     "icon": "073002",
     "shoutcaster": "Zenos",
     "soundPath": "sound/voice/vo_line/8201345",
-    "npcYell": "16777"
+    "transcription": {
+      "en": "Dance for me!",
+      "fr": "Danse pour moi !"
+    },
+    "duration": "3"
   },
   {
     "id": "YesYesJustSo",
@@ -2093,8 +2218,12 @@
     "soundPath": "sound/voice/vo_line/8291000",
     "duration": "4",
     "transcription": {
-      "en": "Victory is within reach. Now to seize it!"
-    }
+      "en": "Victory is within reach. Now to seize it!",
+      "fr": "Riichi ! Nous sommes proches de remporter la victoire !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "ReleaseYourPotential",
@@ -2103,8 +2232,12 @@
     "soundPath": "sound/voice/vo_line/8291001",
     "duration": "4",
     "transcription": {
-      "en": "We won't be outdone! Focus, then release your potential."
-    }
+      "en": "We won't be outdone! Focus, then release your potential.",
+      "fr": "Riichi ! Rien n'est encore joué, nous ne sommes pas loin derrière !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "TreadWarily",
@@ -2113,7 +2246,8 @@
     "soundPath": "sound/voice/vo_line/8291002",
     "duration": "4",
     "transcription": {
-      "en": "They're poised to win this round. You must tread warily."
+      "en": "They're poised to win this round. You must tread warily.",
+      "fr": "Nous avons un train de retard...Restons très prudents, soyons méthodiques."
     }
   },
   {
@@ -2123,7 +2257,8 @@
     "soundPath": "sound/voice/vo_line/8291003",
     "duration": "4",
     "transcription": {
-      "en": "So they draw level. But do not lose heart!"
+      "en": "So they draw level. But do not lose heart!",
+      "fr": "Nos adversaires sont pugnaces...Mais ils ne savent pas à qui ils ont affaire ! "
     }
   },
   {
@@ -2133,7 +2268,8 @@
     "soundPath": "sound/voice/vo_line/8291004",
     "duration": "3",
     "transcription": {
-      "en": "Again! Thaliak protect us."
+      "en": "Again! Thaliak protect us.",
+      "fr": "Nous allons devoir nous défendre bec et ongle...Que Thaliak nous garde !"
     }
   },
   {
@@ -2143,8 +2279,12 @@
     "soundPath": "sound/voice/vo_line/8291005",
     "duration": "2",
     "transcription": {
-      "en": "You have them!"
-    }
+      "en": "You have them!",
+      "fr": "Ron ! Bien joué ! Toi et moi faisons une équipe du tonnerre !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "PraiseTheTwelve",
@@ -2153,8 +2293,12 @@
     "soundPath": "sound/voice/vo_line/8291006",
     "duration": "3",
     "transcription": {
-      "en": "Yes! Praise the Twelve."
-    }
+      "en": "Yes! Praise the Twelve.",
+      "fr": "Et voilà, tsumo ! C'est ce qu'on appelle un coup de maître !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "ConfoundIt",
@@ -2163,7 +2307,8 @@
     "soundPath": "sound/voice/vo_line/8291007",
     "duration": "4",
     "transcription": {
-      "en": "Confound it. I hadn't anticipated that."
+      "en": "Confound it. I hadn't anticipated that.",
+      "fr": "Non, c'est pas possible...Comment cela a-t-il pu échapper à ma vigilance ?"
     }
   },
   {
@@ -2173,7 +2318,8 @@
     "soundPath": "sound/voice/vo_line/8291008",
     "duration": "3",
     "transcription": {
-      "en": "If only we had one more turn."
+      "en": "If only we had one more turn.",
+      "fr": "Ah, si seulement nous avions été plus rapides, nous aurions pu tirer notre épingle du jeu..."
     }
   },
   {
@@ -2183,7 +2329,8 @@
     "soundPath": "sound/voice/vo_line/8291009",
     "duration": "3",
     "transcription": {
-      "en": "This hand wasn't to be. Do not dwell on it."
+      "en": "This hand wasn't to be. Do not dwell on it.",
+      "fr": "Je partage ton amertume, mais nous devons prendre notre mal en patience !"
     }
   },
   {
@@ -2193,8 +2340,12 @@
     "soundPath": "sound/voice/vo_line/8291010",
     "duration": "3",
     "transcription": {
-      "en": "You played your hand to perfection!"
-    }
+      "en": "You played your hand to perfection!",
+      "fr": "Nous avons remporté une bataille, mais pas la guerre ! Continuons d'aller de l'avant !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "TriumphWorthyOfCelebration",
@@ -2203,8 +2354,12 @@
     "soundPath": "sound/voice/vo_line/8291011",
     "duration": "4",
     "transcription": {
-      "en": "A triumph worthy of celebration, bravo!"
-    }
+      "en": "A triumph worthy of celebration, bravo!",
+      "fr": "Nous venons de signer une belle victoire !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "VictoryGivesGreaterHope",
@@ -2213,8 +2368,12 @@
     "soundPath": "sound/voice/vo_line/8291012",
     "duration": "4",
     "transcription": {
-      "en": "This victory gives us greater hope for the morrow."
-    }
+      "en": "This victory gives us greater hope for the morrow.",
+      "fr": "Si l'avenir semble si radieux aujourd'hui, c'est essentiellement grâce à toi !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "CommendableResult",
@@ -2223,7 +2382,8 @@
     "soundPath": "sound/voice/vo_line/8291013",
     "duration": "4",
     "transcription": {
-      "en": "A commendable result. Let us stay the course."
+      "en": "A commendable result. Let us stay the course.",
+      "fr": "C'est un résultat plutôt encourageant, ne nous arrêtons pas en si bon chemin !"
     }
   },
   {
@@ -2233,7 +2393,8 @@
     "soundPath": "sound/voice/vo_line/8291014",
     "duration": "4",
     "transcription": {
-      "en": "Good gods. Did we invite this outcome with our hubris?"
+      "en": "Good gods. Did we invite this outcome with our hubris?",
+      "fr": "Quelle catastrophe...Mon orgueil nous aurait-il encore conduit à notre perte...?"
     }
   },
   {
@@ -2243,7 +2404,8 @@
     "soundPath": "sound/voice/vo_line/8291015",
     "duration": "2",
     "transcription": {
-      "en": "A painful thrashing."
+      "en": "A painful thrashing.",
+      "fr": "C'est vraiment un coup dur...Sûrement un excès de zêle pour lequel nous payons le prix fort."
     }
   },
   {
@@ -2253,7 +2415,8 @@
     "soundPath": "sound/voice/vo_line/8291016",
     "duration": "3",
     "transcription": {
-      "en": "Let us learn from this and forge on."
+      "en": "Let us learn from this and forge on.",
+      "fr": "La situation est critique, mais pas désespérée ! Ce n'est pas le moment d'abandonner."
     }
   },
   {
@@ -2263,7 +2426,8 @@
     "soundPath": "sound/voice/vo_line/8291017",
     "duration": "3",
     "transcription": {
-      "en": "It isn't over yet. Keep your chin up."
+      "en": "It isn't over yet. Keep your chin up.",
+      "fr": "Ne t'en fais pas pour ce léger contre-temps, nous avons encore toutes nos chances !"
     }
   },
   {
@@ -2273,7 +2437,8 @@
     "soundPath": "sound/voice/vo_line/8291018",
     "duration": "5",
     "transcription": {
-      "en": "That was a performance for the ages! You truly are our champion!"
+      "en": "That was a performance for the ages! You truly are our champion!",
+      "fr": "Toutes mes félicitations ! Une victoire héroïque de plus à ton palmarès !"
     }
   },
   {
@@ -2283,7 +2448,8 @@
     "soundPath": "sound/voice/vo_line/8291019",
     "duration": "5",
     "transcription": {
-      "en": "You played well, my friend. You may hold your head high."
+      "en": "You played well, my friend. You may hold your head high.",
+      "fr": "Nous avons fait de notre mieux. Soyons fiers de ce que nous avons accompli ensemble, toi et moi !"
     }
   },
   {
@@ -2293,7 +2459,8 @@
     "soundPath": "sound/voice/vo_line/8291020",
     "duration": "5",
     "transcription": {
-      "en": "How proud we were, yet ignorant of our own shortcomings."
+      "en": "How proud we were, yet ignorant of our own shortcomings.",
+      "fr": "Je n'ai aucun regret, et je peux dire haut et fort que nous avons livré une magnfique partie !"
     }
   },
   {
@@ -2303,7 +2470,8 @@
     "soundPath": "sound/voice/vo_line/8291021",
     "duration": "7",
     "transcription": {
-      "en": "You must accept this defeat with grace, and endeavour to replace our ignorance with knowledge."
+      "en": "You must accept this defeat with grace, and endeavour to replace our ignorance with knowledge.",
+      "fr": "On apprend peu par la victoire, mais beaucoup par la défaite ! Nous ferons mieux la prochaine fois."
     }
   },
   {
@@ -2313,7 +2481,8 @@
     "soundPath": "sound/voice/vo_line/8291022",
     "duration": "7",
     "transcription": {
-      "en": "We were outplayed this time. Let us take a moment to clear our minds."
+      "en": "We were outplayed this time. Let us take a moment to clear our minds.",
+      "fr": "Nous avons essuyé une cuisante défaite, mais ne nous laissons pas abattre ! Ce n'est qu'un jeu après tout !"
     }
   },
   {
@@ -2350,7 +2519,11 @@
     "icon": "073008",
     "shoutcaster": "Alphinaud",
     "soundPath": "sound/voice/vo_line/8205000",
-    "npcYell": "17128"
+    "transcription": {
+      "en": "Stand fast!",
+      "fr": "Je ne vous laisserai pas faire !"
+    },
+    "duration": "4"
   },
   {
     "id": "WeveComeTooFar",
@@ -2415,8 +2588,12 @@
     "soundPath": "sound/voice/vo_line/8291023",
     "duration": "3",
     "transcription": {
-      "en": "Yes! Give it everything you've got."
-    }
+      "en": "Yes! Give it everything you've got.",
+      "fr": "Riichi ! C'est le moment de passer à l'offensive !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "ShowThemWhatYoureMadeOf",
@@ -2425,8 +2602,12 @@
     "soundPath": "sound/voice/vo_line/8291024",
     "duration": "3",
     "transcription": {
-      "en": "That's it. Show them what you're made of!"
-    }
+      "en": "That's it. Show them what you're made of!",
+      "fr": "C'est parti mon kiki ! On a pas dit notre dernier mot !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "WontLetThemGetAway",
@@ -2435,7 +2616,8 @@
     "soundPath": "sound/voice/vo_line/8291025",
     "duration": "3",
     "transcription": {
-      "en": "We won't let them get away with that, of course."
+      "en": "We won't let them get away with that, of course.",
+      "fr": "Quoi !? On doit se reprendre, et vite !"
     }
   },
   {
@@ -2445,7 +2627,8 @@
     "soundPath": "sound/voice/vo_line/8291026",
     "duration": "3",
     "transcription": {
-      "en": "What a nuisance. Finish them off!"
+      "en": "What a nuisance. Finish them off!",
+      "fr": "Allez ! Il est temps de leur faire mordre la poussière !"
     }
   },
   {
@@ -2455,7 +2638,8 @@
     "soundPath": "sound/voice/vo_line/8291027",
     "duration": "4",
     "transcription": {
-      "en": "It's getting crowded, but we'll win this yet."
+      "en": "It's getting crowded, but we'll win this yet.",
+      "fr": "Encore ?! Mais c'est nous qui allons gagner, j'en suis certaine !"
     }
   },
   {
@@ -2465,8 +2649,12 @@
     "soundPath": "sound/voice/vo_line/8291028",
     "duration": "3",
     "transcription": {
-      "en": "Ah! Just what we needed!"
-    }
+      "en": "Ah! Just what we needed!",
+      "fr": "Ron ! Bien vu ! "
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "WontSoonForget",
@@ -2475,7 +2663,8 @@
     "soundPath": "sound/voice/vo_line/8291030",
     "duration": "3",
     "transcription": {
-      "en": "What?! Oh we won't soon forget that."
+      "en": "What?! Oh we won't soon forget that.",
+      "fr": "Oh toi...Tu perds rien pour attendre !"
     }
   },
   {
@@ -2485,7 +2674,8 @@
     "soundPath": "sound/voice/vo_line/8291031",
     "duration": "2",
     "transcription": {
-      "en": "Beaten to the punch."
+      "en": "Beaten to the punch.",
+      "fr": "Oh non ! C'était aussi notre plan !"
     }
   },
   {
@@ -2495,7 +2685,8 @@
     "soundPath": "sound/voice/vo_line/8291033",
     "duration": "4",
     "transcription": {
-      "en": "Amazing! A performance worthy of Grandfather in his prime!"
+      "en": "Amazing! A performance worthy of Grandfather in his prime!",
+      "fr": "Wow ! J'crois que même grand-père Louisoix n'a jamais fait mieux !"
     }
   },
   {
@@ -2505,7 +2696,8 @@
     "soundPath": "sound/voice/vo_line/8291034",
     "duration": "4",
     "transcription": {
-      "en": "Only to be expected when you get serious."
+      "en": "Only to be expected when you get serious.",
+      "fr": "Alors là, bravo ! Comme toujours, ton mordant m'impressionne !"
     }
   },
   {
@@ -2515,7 +2707,8 @@
     "soundPath": "sound/voice/vo_line/8291035",
     "duration": "3",
     "transcription": {
-      "en": "Great work. let's keep up the offensive."
+      "en": "Great work. let's keep up the offensive.",
+      "fr": "Parfait ! Y'a pas à dire, la meilleure défense c'est l'attaque !"
     }
   },
   {
@@ -2525,7 +2718,8 @@
     "soundPath": "sound/voice/vo_line/8291036",
     "duration": "3",
     "transcription": {
-      "en": "We can work with this. Onwards and upwards."
+      "en": "We can work with this. Onwards and upwards.",
+      "fr": "C'est prometteur ! On continue comme ça, la victoire est proche !"
     }
   },
   {
@@ -2535,7 +2729,8 @@
     "soundPath": "sound/voice/vo_line/8291037",
     "duration": "3",
     "transcription": {
-      "en": "Twelve give me strength."
+      "en": "Twelve give me strength.",
+      "fr": "Hein !? Comment on va se sortir de ce pétrin maintenant !?"
     }
   },
   {
@@ -2545,7 +2740,8 @@
     "soundPath": "sound/voice/vo_line/8291038",
     "duration": "3",
     "transcription": {
-      "en": "We're just getting started."
+      "en": "We're just getting started.",
+      "fr": "C'est pas le moment d'abandonner, on a pas dit notre dernier mot !"
     }
   },
   {
@@ -2555,7 +2751,8 @@
     "soundPath": "sound/voice/vo_line/8291039",
     "duration": "3",
     "transcription": {
-      "en": "Nothing we can't recover from."
+      "en": "Nothing we can't recover from.",
+      "fr": "Ça va aller ! Battons nous avec encore plus d'ardeur que d'habitude !"
     }
   },
   {
@@ -2565,7 +2762,8 @@
     "soundPath": "sound/voice/vo_line/8291040",
     "duration": "3",
     "transcription": {
-      "en": "Don't worry. It's just a little setback."
+      "en": "Don't worry. It's just a little setback.",
+      "fr": "Te laisse pas abattre ! C'est pas grave, on va se refaire !"
     }
   },
   {
@@ -2575,7 +2773,8 @@
     "soundPath": "sound/voice/vo_line/8291041",
     "duration": "5",
     "transcription": {
-      "en": "I knew you'd win! When I'm with you it's the only possible outcome."
+      "en": "I knew you'd win! When I'm with you it's the only possible outcome.",
+      "fr": "C'était presque trop facile ! Ensemble, toi et moi, on est imbattables !"
     }
   },
   {
@@ -2585,7 +2784,8 @@
     "soundPath": "sound/voice/vo_line/8291042",
     "duration": "4",
     "transcription": {
-      "en": "So close. Next time we'll take first place for sure."
+      "en": "So close. Next time we'll take first place for sure.",
+      "fr": "Ça s'est joué à pas grand chose...La prochaine sera la bonne, j'en suis sûre !"
     }
   },
   {
@@ -2595,7 +2795,8 @@
     "soundPath": "sound/voice/vo_line/8291043",
     "duration": "4",
     "transcription": {
-      "en": "I must say I'm not used to seeing you scrambling to keep up."
+      "en": "I must say I'm not used to seeing you scrambling to keep up.",
+      "fr": "Pas à pas, on doit aller de l'avant et leur montrer de quoi on est capables !"
     }
   },
   {
@@ -2605,7 +2806,8 @@
     "soundPath": "sound/voice/vo_line/8291044",
     "duration": "5",
     "transcription": {
-      "en": "We won't lose next time! Keep at it and we'll be the ones laughing in the end."
+      "en": "We won't lose next time! Keep at it and we'll be the ones laughing in the end.",
+      "fr": "À force de perséverer, on finira bien par gagner ! Et c'est tout ce qui importe !"
     }
   },
   {
@@ -2643,7 +2845,8 @@
     "soundPath": "sound/voice/vo_line/8202528",
     "duration": "4",
     "transcription": {
-      "en": "Defeat is not an option."
+      "en": "Defeat is not an option.",
+      "fr": "Je ne m'avouerai pas vaincue..."
     }
   },
   {
@@ -2667,7 +2870,11 @@
     "icon": "073036",
     "shoutcaster": "Alisaie",
     "soundPath": "sound/voice/vo_line/8201636",
-    "npcYell": "11424"
+    "transcription": {
+      "en": "Are you ready?",
+      "fr": "C'est parti !"
+    },
+    "duration": "2"
   },
   {
     "id": "ToTheBoldGoTheSpoils",
@@ -2676,7 +2883,8 @@
     "soundPath": "sound/voice/vo_line/8291046",
     "duration": "3",
     "transcription": {
-      "en": "To the bold go the spoils."
+      "en": "To the bold go the spoils.",
+      "fr": "Eh bien ! C'est ce qui s'appelle prendre l'initiative."
     }
   },
   {
@@ -2686,7 +2894,8 @@
     "soundPath": "sound/voice/vo_line/8291047",
     "duration": "3",
     "transcription": {
-      "en": "My turn! I mean, our turn."
+      "en": "My turn! I mean, our turn.",
+      "fr": "C'est le moment de leur montrer ce qu'on sait faire."
     }
   },
   {
@@ -2696,8 +2905,12 @@
     "soundPath": "sound/voice/vo_line/8291048",
     "duration": "3",
     "transcription": {
-      "en": "Worry not. Your chance will come."
-    }
+      "en": "Worry not. Your chance will come.",
+      "fr": "Riichi... Pas d'impatience, restons à l'affût d'une occasion favorable !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "GainedOnUsWinInEnd",
@@ -2706,7 +2919,8 @@
     "soundPath": "sound/voice/vo_line/8291049",
     "duration": "4",
     "transcription": {
-      "en": "They've gained on us, but we'll win in the end."
+      "en": "They've gained on us, but we'll win in the end.",
+      "fr": "Tu peux nous poursuivre mais tu ne nous rattraperas pas !"
     }
   },
   {
@@ -2716,7 +2930,8 @@
     "soundPath": "sound/voice/vo_line/8291050",
     "duration": "2",
     "transcription": {
-      "en": "Hmm, we've got some competition now."
+      "en": "Hmm, we've got some competition now.",
+      "fr": "C'est ça, venez donc. Plus on est de fous, plus on rit !"
     }
   },
   {
@@ -2726,8 +2941,12 @@
     "soundPath": "sound/voice/vo_line/8291051",
     "duration": "2",
     "transcription": {
-      "en": "All according to plan."
-    }
+      "en": "All according to plan.",
+      "fr": "Tout s'est déroulé comme prévu ! Ron !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "VictoryIsOursThancred",
@@ -2736,7 +2955,8 @@
     "soundPath": "sound/voice/vo_line/8291052",
     "duration": "3",
     "transcription": {
-      "en": "And there it is. Victory is ours!"
+      "en": "And there it is. Victory is ours!",
+      "fr": "Parfait ! L'affaire est dans le sac !"
     }
   },
   {
@@ -2746,7 +2966,8 @@
     "soundPath": "sound/voice/vo_line/8291053",
     "duration": "3",
     "transcription": {
-      "en": "That isn't good."
+      "en": "That isn't good.",
+      "fr": "On peut dire que l'adversaire est à notre hauteur..."
     }
   },
   {
@@ -2756,7 +2977,8 @@
     "soundPath": "sound/voice/vo_line/8291054",
     "duration": "4",
     "transcription": {
-      "en": "Not the most disastrous outcome, to be fair."
+      "en": "Not the most disastrous outcome, to be fair.",
+      "fr": "Il s'en est fallu de peu."
     }
   },
   {
@@ -2766,7 +2988,8 @@
     "soundPath": "sound/voice/vo_line/8291055",
     "duration": "3",
     "transcription": {
-      "en": "Too bad; Lady Luck had other ideas,"
+      "en": "Too bad; Lady Luck had other ideas,",
+      "fr": "Que veux-tu que je te dise ? La chance n'était pas de notre côté."
     }
   },
   {
@@ -2776,7 +2999,8 @@
     "soundPath": "sound/voice/vo_line/8291056",
     "duration": "4",
     "transcription": {
-      "en": "I hardly know whether to praise you or pity your opponents."
+      "en": "I hardly know whether to praise you or pity your opponents.",
+      "fr": "Je ne sais pas si je dois te féliciter, ou plutôt réconforter tes adversaires !"
     }
   },
   {
@@ -2786,7 +3010,8 @@
     "soundPath": "sound/voice/vo_line/8291057",
     "duration": "4",
     "transcription": {
-      "en": "A decisive victory from a decisive strategist."
+      "en": "A decisive victory from a decisive strategist.",
+      "fr": "Je reconnais bien là ta légendaire combativité !"
     }
   },
   {
@@ -2796,7 +3021,8 @@
     "soundPath": "sound/voice/vo_line/8291058",
     "duration": "4",
     "transcription": {
-      "en": "That's the way! Keep them on their heels,"
+      "en": "That's the way! Keep them on their heels,",
+      "fr": "Continuons comme ça, c'est pas le moment de relâcher la pression !"
     }
   },
   {
@@ -2806,7 +3032,8 @@
     "soundPath": "sound/voice/vo_line/8291059",
     "duration": "4",
     "transcription": {
-      "en": "Slow and steady wins the game, is it?"
+      "en": "Slow and steady wins the game, is it?",
+      "fr": "Doucement mais sûrement, hein ? Compte sur moi pour la suite !"
     }
   },
   {
@@ -2816,7 +3043,8 @@
     "soundPath": "sound/voice/vo_line/8291060",
     "duration": "4",
     "transcription": {
-      "en": "It won't be easy recovering from that."
+      "en": "It won't be easy recovering from that.",
+      "fr": "Ça fait un sacré bail que j'ai pas pris une correction pareille."
     }
   },
   {
@@ -2826,7 +3054,8 @@
     "soundPath": "sound/voice/vo_line/8291061",
     "duration": "3",
     "transcription": {
-      "en": "Credit where credit's due, I suppose."
+      "en": "Credit where credit's due, I suppose.",
+      "fr": "J'ai presque envie de félicier nos adversaires...Presque !"
     }
   },
   {
@@ -2836,7 +3065,8 @@
     "soundPath": "sound/voice/vo_line/8291062",
     "duration": "4",
     "transcription": {
-      "en": "You can still do this. Don't give up."
+      "en": "You can still do this. Don't give up.",
+      "fr": "Il ne faut pas abandonner maintenant, pas tant qu'il reste un espoir."
     }
   },
   {
@@ -2846,7 +3076,8 @@
     "soundPath": "sound/voice/vo_line/8291063",
     "duration": "4",
     "transcription": {
-      "en": "We can't always win. What's important is how we strike back."
+      "en": "We can't always win. What's important is how we strike back.",
+      "fr": "Pas moyen de tricher, mais hors de question qu'on se défile pour autant."
     }
   },
   {
@@ -2856,7 +3087,8 @@
     "soundPath": "sound/voice/vo_line/8291064",
     "duration": "3",
     "transcription": {
-      "en": "Tonight we raise a glass to your victory!"
+      "en": "Tonight we raise a glass to your victory!",
+      "fr": "Quelle victoire écrasante ! J'crois que c'est le moment de trinquer !"
     }
   },
   {
@@ -2866,7 +3098,8 @@
     "soundPath": "sound/voice/vo_line/8291065",
     "duration": "5",
     "transcription": {
-      "en": "Alas, we fell just short. So it goes sometimes."
+      "en": "Alas, we fell just short. So it goes sometimes.",
+      "fr": "C'était serré ! On s'est battus jusqu'au bout, c'est tout ce qui compte !"
     }
   },
   {
@@ -2876,7 +3109,8 @@
     "soundPath": "sound/voice/vo_line/8291066",
     "duration": "4",
     "transcription": {
-      "en": "Could have been worse, but it also could have been better."
+      "en": "Could have been worse, but it also could have been better.",
+      "fr": "Ça aurait pu être pire, mais l'écart est conséquent."
     }
   },
   {
@@ -2886,7 +3120,8 @@
     "soundPath": "sound/voice/vo_line/8291067",
     "duration": "5",
     "transcription": {
-      "en": "It happens to the best of us. Drink?"
+      "en": "It happens to the best of us. Drink?",
+      "fr": "La prochaine fois, t'as intérêt à gagner. Il en va de ta réputation !"
     }
   },
   {
@@ -2896,7 +3131,8 @@
     "soundPath": "sound/voice/vo_line/8291068",
     "duration": "6",
     "transcription": {
-      "en": "I won't lie, that wasn't pretty in the least. Try to keep your chin up!"
+      "en": "I won't lie, that wasn't pretty in the least. Try to keep your chin up!",
+      "fr": "C'est une cuisante défaite... Tu devrais aller te changer les idées."
     }
   },
   {
@@ -2946,7 +3182,8 @@
     "soundPath": "sound/voice/vo_line/8202055",
     "duration": "2",
     "transcription": {
-      "en": "Come on!"
+      "en": "Come on!",
+      "fr": "Allez, on fonce !"
     }
   },
   {
@@ -2964,7 +3201,8 @@
     "soundPath": "sound/voice/vo_line/8203021",
     "duration": "4",
     "transcription": {
-      "en": "This is Thancred. The explosives are in place."
+      "en": "This is Thancred. The explosives are in place.",
+      "fr": "Ici Thancred. J'ai fini de poser les explosifs."
     }
   },
   {
@@ -2982,7 +3220,8 @@
     "soundPath": "sound/voice/vo_line/8201649",
     "duration": "2",
     "transcription": {
-      "en": "That was unbecoming."
+      "en": "That was unbecoming.",
+      "fr": "Tu vas voir de quel bois je me chauffe."
     }
   },
   {
@@ -2992,7 +3231,8 @@
     "soundPath": "sound/voice/vo_line/8201660",
     "duration": "3",
     "transcription": {
-      "en": "You have to hit them where it hurts!"
+      "en": "You have to hit them where it hurts!",
+      "fr": "Je connais ton point faible ! Tu ne résisteras pas à ça !"
     }
   },
   {
@@ -3018,7 +3258,8 @@
     "soundPath": "sound/voice/vo_line/8201656",
     "duration": "2",
     "transcription": {
-      "en": "Make this count!"
+      "en": "Make this count!",
+      "fr": "Rien de cassé !?"
     }
   },
   {
@@ -3028,7 +3269,8 @@
     "soundPath": "sound/voice/vo_line/8291069",
     "duration": "4",
     "transcription": {
-      "en": "Together, we shall overcome the odds"
+      "en": "Together, we shall overcome the odds",
+      "fr": "Il a fallu ruser, mais tout s'est déroulé selon notre plan."
     }
   },
   {
@@ -3038,7 +3280,8 @@
     "soundPath": "sound/voice/vo_line/8291070",
     "duration": "3",
     "transcription": {
-      "en": "A sound decision."
+      "en": "A sound decision.",
+      "fr": "Un coup de maître, à n'en pas douter !"
     }
   },
   {
@@ -3048,7 +3291,8 @@
     "soundPath": "sound/voice/vo_line/8291071",
     "duration": "3",
     "transcription": {
-      "en": "How best to contend with this threat?"
+      "en": "How best to contend with this threat?",
+      "fr": "Hum ? Nous devons revoir notre stratégie..."
     }
   },
   {
@@ -3058,7 +3302,8 @@
     "soundPath": "sound/voice/vo_line/8291072",
     "duration": "4",
     "transcription": {
-      "en": "Attune thyself to the dance of the stars."
+      "en": "Attune thyself to the dance of the stars.",
+      "fr": "Laissons la voûte céleste nous guider."
     }
   },
   {
@@ -3068,7 +3313,8 @@
     "soundPath": "sound/voice/vo_line/8291073",
     "duration": "4",
     "transcription": {
-      "en": "Amidst great chaos, victory may yet be grasped."
+      "en": "Amidst great chaos, victory may yet be grasped.",
+      "fr": "C'est avant de s'éteindre que la flamme est la plus vive..."
     }
   },
   {
@@ -3078,8 +3324,12 @@
     "soundPath": "sound/voice/vo_line/8291074",
     "duration": "3",
     "transcription": {
-      "en": "Look, the stars favor us!"
-    }
+      "en": "Look, the stars favor us!",
+      "fr": "Ron ! Mes prédictions étaient exactes !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "TheHandIsOurs",
@@ -3088,8 +3338,12 @@
     "soundPath": "sound/voice/vo_line/8291075",
     "duration": "4",
     "transcription": {
-      "en": "The hand is ours! Strike with all thy might!"
-    }
+      "en": "The hand is ours! Strike with all thy might!",
+      "fr": "Tsumo ! Il est temps de mettre un terme à cette partie !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "SuchShouldBeFate",
@@ -3098,7 +3352,8 @@
     "soundPath": "sound/voice/vo_line/8291076",
     "duration": "4",
     "transcription": {
-      "en": "That such should be our fate."
+      "en": "That such should be our fate.",
+      "fr": "Tel était notre destin..."
     }
   },
   {
@@ -3108,7 +3363,8 @@
     "soundPath": "sound/voice/vo_line/8291078",
     "duration": "4",
     "transcription": {
-      "en": "Let us accept the vicissitudes of fortune."
+      "en": "Let us accept the vicissitudes of fortune.",
+      "fr": "La chance sourit aux audacieux, acceptons ce fait."
     }
   },
   {
@@ -3118,7 +3374,8 @@
     "soundPath": "sound/voice/vo_line/8291079",
     "duration": "4",
     "transcription": {
-      "en": "Favored our we by the Spinner to triumph so handily!"
+      "en": "Favored our we by the Spinner to triumph so handily!",
+      "fr": "Il semblerait que Nymeia nous ait accordé sa bénédiction !"
     }
   },
   {
@@ -3128,7 +3385,8 @@
     "soundPath": "sound/voice/vo_line/8291080",
     "duration": "4",
     "transcription": {
-      "en": "A masterful strategy masterfully executed."
+      "en": "A masterful strategy masterfully executed.",
+      "fr": "Je suis époustouflé par la maestria incomparable dont vous avez fait preuve !"
     }
   },
   {
@@ -3138,7 +3396,8 @@
     "soundPath": "sound/voice/vo_line/8291081",
     "duration": "4",
     "transcription": {
-      "en": "By this triumph we take a sure step forward."
+      "en": "By this triumph we take a sure step forward.",
+      "fr": "Ne nous arrêtons pas en si bon chemin, d'accord ?"
     }
   },
   {
@@ -3148,7 +3407,8 @@
     "soundPath": "sound/voice/vo_line/8291082",
     "duration": "4",
     "transcription": {
-      "en": "Great or small, our victories pave the way to renown."
+      "en": "Great or small, our victories pave the way to renown.",
+      "fr": "Savourons cette victoire, mais restons vigilants."
     }
   },
   {
@@ -3158,7 +3418,8 @@
     "soundPath": "sound/voice/vo_line/8291083",
     "duration": "5",
     "transcription": {
-      "en": "'Tis as though the destroyer himself hath dealt us a mighty blow."
+      "en": "'Tis as though the destroyer himself hath dealt us a mighty blow.",
+      "fr": "Même le poing de Rhalgr n'est pas aussi destructeur..."
     }
   },
   {
@@ -3168,7 +3429,8 @@
     "soundPath": "sound/voice/vo_line/8291084",
     "duration": "5",
     "transcription": {
-      "en": "This bodeth ill. We must need turn the tide."
+      "en": "This bodeth ill. We must need turn the tide.",
+      "fr": "Nous avons connu des jours meilleurs...mais il ne faut pas abandonner."
     }
   },
   {
@@ -3178,7 +3440,8 @@
     "soundPath": "sound/voice/vo_line/8291085",
     "duration": "4",
     "transcription": {
-      "en": "We would do well to review our strategy."
+      "en": "We would do well to review our strategy.",
+      "fr": "Essayons de faire pencher la balance en notre faveur."
     }
   },
   {
@@ -3188,7 +3451,8 @@
     "soundPath": "sound/voice/vo_line/8291086",
     "duration": "4",
     "transcription": {
-      "en": "Mayhap the stars will favour our next hand."
+      "en": "Mayhap the stars will favour our next hand.",
+      "fr": "J'espère que mon prochain tirage indiquera notre victoire."
     }
   },
   {
@@ -3198,7 +3462,8 @@
     "soundPath": "sound/voice/vo_line/8291087",
     "duration": "6",
     "transcription": {
-      "en": "An unequivocal victory! Thou leavest me in awe, my friend."
+      "en": "An unequivocal victory! Thou leavest me in awe, my friend.",
+      "fr": "C'est une victoire sans appel ! Vos facultés de déduction m'impressionneront toujours."
     }
   },
   {
@@ -3208,7 +3473,8 @@
     "soundPath": "sound/voice/vo_line/8291088",
     "duration": "4",
     "transcription": {
-      "en": "The narrowest of defeats. Take pride in thine efforts."
+      "en": "The narrowest of defeats. Take pride in thine efforts.",
+      "fr": "Gardez la tête haute, voulez-vous ? C'est un résultat plus qu'admirable."
     }
   },
   {
@@ -3218,7 +3484,8 @@
     "soundPath": "sound/voice/vo_line/8291089",
     "duration": "4",
     "transcription": {
-      "en": "Thine opponents were formidable indeed."
+      "en": "Thine opponents were formidable indeed.",
+      "fr": "Il faut le reconnaître, nos adversaires étaient eux aussi particulièrement talentueux."
     }
   },
   {
@@ -3228,7 +3495,8 @@
     "soundPath": "sound/voice/vo_line/8291090",
     "duration": "4",
     "transcription": {
-      "en": "That which a man think is trifling, he mourneth unto losing."
+      "en": "That which a man think is trifling, he mourneth unto losing.",
+      "fr": "On ne se rend vraiment compte de ce qu'on avait qu'après l'avoir perdu... C'est la dure vérité."
     }
   },
   {
@@ -3238,7 +3506,8 @@
     "soundPath": "sound/voice/vo_line/8291091",
     "duration": "5",
     "transcription": {
-      "en": "I offer no excuses, only a shoulder to lean upon shouldst thou require it."
+      "en": "I offer no excuses, only a shoulder to lean upon shouldst thou require it.",
+      "fr": "Lorsque nous jouons ensemble, la noirceur de mes craintes s'estompe et finit par se muer en espoir."
     }
   },
   {
@@ -3296,7 +3565,8 @@
     "soundPath": "sound/voice/vo_line/8291092",
     "duration": "3",
     "transcription": {
-      "en": "Well, this looks promising."
+      "en": "Well, this looks promising.",
+      "fr": "Tiens donc, on a de la chance à ce que je vois !"
     }
   },
   {
@@ -3306,7 +3576,8 @@
     "soundPath": "sound/voice/vo_line/8291093",
     "duration": "4",
     "transcription": {
-      "en": "Nothing worthwhile was ever achieved without risk."
+      "en": "Nothing worthwhile was ever achieved without risk.",
+      "fr": "J'approuve ! C'est le moment de passer à l'attaque."
     }
   },
   {
@@ -3316,7 +3587,8 @@
     "soundPath": "sound/voice/vo_line/8291094",
     "duration": "3",
     "transcription": {
-      "en": "Tread cautiously now."
+      "en": "Tread cautiously now.",
+      "fr": "Une chose est sûre, ce n'est pas le moment de rêvasser."
     }
   },
   {
@@ -3326,7 +3598,8 @@
     "soundPath": "sound/voice/vo_line/8291095",
     "duration": "4",
     "transcription": {
-      "en": "So it goes, but we may yet have better hand."
+      "en": "So it goes, but we may yet have better hand.",
+      "fr": "Hmm... J'espère que tout se déroule selon tes prévisions."
     }
   },
   {
@@ -3336,7 +3609,8 @@
     "soundPath": "sound/voice/vo_line/8291096",
     "duration": "4",
     "transcription": {
-      "en": "A dangerous moment indeed."
+      "en": "A dangerous moment indeed.",
+      "fr": "La méfiance est de mise... Surtout face à de tels adversaires !"
     }
   },
   {
@@ -3346,8 +3620,12 @@
     "soundPath": "sound/voice/vo_line/8291097",
     "duration": "3",
     "transcription": {
-      "en": "Victory is at hand is it not?"
-    }
+      "en": "Victory is at hand is it not?",
+      "fr": "Ron ! C'est un jeu d'enfant dis donc !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "PreciselyWhatNeeded",
@@ -3356,7 +3634,8 @@
     "soundPath": "sound/voice/vo_line/8291098",
     "duration": "3",
     "transcription": {
-      "en": "Precisely what we needed!"
+      "en": "Precisely what we needed!",
+      "fr": "Bravo ! Excellente pioche !"
     }
   },
   {
@@ -3366,7 +3645,8 @@
     "soundPath": "sound/voice/vo_line/8291099",
     "duration": "3",
     "transcription": {
-      "en": "Sometimes there is simply no knowing."
+      "en": "Sometimes there is simply no knowing.",
+      "fr": "Mmh... Si seulement on avait pu l'éviter..."
     }
   },
   {
@@ -3376,7 +3656,8 @@
     "soundPath": "sound/voice/vo_line/8291100",
     "duration": "3",
     "transcription": {
-      "en": "Small mercies I suppose."
+      "en": "Small mercies I suppose.",
+      "fr": "Il s'en est fallu d'un cheveu on dirait."
     }
   },
   {
@@ -3386,7 +3667,8 @@
     "soundPath": "sound/voice/vo_line/8291101",
     "duration": "3",
     "transcription": {
-      "en": "Unfortunate, but such is life."
+      "en": "Unfortunate, but such is life.",
+      "fr": "C'est dommage... Mais nous devons accepter le verdict."
     }
   },
   {
@@ -3396,7 +3678,8 @@
     "soundPath": "sound/voice/vo_line/8291102",
     "duration": "4",
     "transcription": {
-      "en": "An impeccable performance! I couldn't be more satisfied."
+      "en": "An impeccable performance! I couldn't be more satisfied.",
+      "fr": "C'était une partie de plaisir ! Je ne regrette pas d'avoir été à tes côtés !"
     }
   },
   {
@@ -3406,7 +3689,8 @@
     "soundPath": "sound/voice/vo_line/8291103",
     "duration": "4",
     "transcription": {
-      "en": "An excellent round. I'm impressed."
+      "en": "An excellent round. I'm impressed.",
+      "fr": "Malgré les circonstances, je trouve que nous avons brillé toi et moi !"
     }
   },
   {
@@ -3416,7 +3700,8 @@
     "soundPath": "sound/voice/vo_line/8291104",
     "duration": "3",
     "transcription": {
-      "en": "You won't rest on these laurels of course."
+      "en": "You won't rest on these laurels of course.",
+      "fr": "C'est un score plus qu'admirable, mais je sais que tu peux encore faire mieux !"
     }
   },
   {
@@ -3426,7 +3711,8 @@
     "soundPath": "sound/voice/vo_line/8291105",
     "duration": "3",
     "transcription": {
-      "en": "You put forth your best effort, well done."
+      "en": "You put forth your best effort, well done.",
+      "fr": "C'est encourageant, continue comme ça !"
     }
   },
   {
@@ -3436,7 +3722,8 @@
     "soundPath": "sound/voice/vo_line/8291106",
     "duration": "4",
     "transcription": {
-      "en": "Keep that up and I'll send you to bed without supper!"
+      "en": "Keep that up and I'll send you to bed without supper!",
+      "fr": "Oh non... Dis moi que c'est encore une de tes facéties..."
     }
   },
   {
@@ -3446,7 +3733,8 @@
     "soundPath": "sound/voice/vo_line/8291107",
     "duration": "4",
     "transcription": {
-      "en": "Do not be disheartened, it's not over yet"
+      "en": "Do not be disheartened, it's not over yet",
+      "fr": "Ne te laisse pas abattre, il est encore trop tôt pour abandonner !"
     }
   },
   {
@@ -3456,7 +3744,8 @@
     "soundPath": "sound/voice/vo_line/8291108",
     "duration": "3",
     "transcription": {
-      "en": "We must redouble our efforts!"
+      "en": "We must redouble our efforts!",
+      "fr": "Il est temps de passer aux choses sérieuses, tu ne crois pas ?"
     }
   },
   {
@@ -3466,7 +3755,8 @@
     "soundPath": "sound/voice/vo_line/8291109",
     "duration": "3",
     "transcription": {
-      "en": "We shall make up for the ground we lost, yes?"
+      "en": "We shall make up for the ground we lost, yes?",
+      "fr": "Mon petit doigt me dit que tu sais déjà comment reprendre l'avantage."
     }
   },
   {
@@ -3476,7 +3766,8 @@
     "soundPath": "sound/voice/vo_line/8291110",
     "duration": "4",
     "transcription": {
-      "en": "A refreshing diversion, made all the more enjoyable by your victory!"
+      "en": "A refreshing diversion, made all the more enjoyable by your victory!",
+      "fr": "Époustouflant ! Je crois que nous avons une victoire à fêter toi et moi !"
     }
   },
   {
@@ -3486,7 +3777,8 @@
     "soundPath": "sound/voice/vo_line/8291111",
     "duration": "4",
     "transcription": {
-      "en": "We can do better, do you not agree?"
+      "en": "We can do better, do you not agree?",
+      "fr": "Excellent ! Mais quel genre de mage serais-je si je me contentais de ce résultat ?"
     }
   },
   {
@@ -3496,7 +3788,8 @@
     "soundPath": "sound/voice/vo_line/8291112",
     "duration": "4",
     "transcription": {
-      "en": "We shall need to hone our wits if we are to triumph."
+      "en": "We shall need to hone our wits if we are to triumph.",
+      "fr": "Afin de tirer notre épingle du jeu, nous aurons besoin d'accumuler plus de savoir et d'expérience."
     }
   },
   {
@@ -3506,7 +3799,8 @@
     "soundPath": "sound/voice/vo_line/8291113",
     "duration": "4",
     "transcription": {
-      "en": "Disappointing defeat, but you'll grow stronger for it won't you?"
+      "en": "Disappointing defeat, but you'll grow stronger for it won't you?",
+      "fr": "Je ne doute pas une seconde que tu sauras tirer des enseignements de cette défaite."
     }
   },
   {
@@ -3516,7 +3810,8 @@
     "soundPath": "sound/voice/vo_line/8291114",
     "duration": "5",
     "transcription": {
-      "en": "Some sleep will do you a world of good. Go on now off with you."
+      "en": "Some sleep will do you a world of good. Go on now off with you.",
+      "fr": "Il est grand temps que tu ailles dormir. On se reverra quand tu seras dans ton état normal !"
     }
   },
   {
@@ -3525,7 +3820,10 @@
     "shoutcaster": "Y'shtola",
     "soundPath": "sound/voice/vo_line/8201108",
     "duration": "2",
-    "npcYell": "9585"
+    "transcription": {
+      "en": "There is no escape!",
+      "fr": "Tu ne t'échapperas pas"
+    }
   },
   {
     "id": "AndNowToReturnTheFavor",
@@ -3534,7 +3832,8 @@
     "soundPath": "sound/voice/vo_line/8201639",
     "duration": "3",
     "transcription": {
-      "en": "And now to return the favor."
+      "en": "And now to return the favor.",
+      "fr": "À mon tour maintenant !"
     }
   },
   {
@@ -3544,7 +3843,8 @@
     "soundPath": "sound/voice/vo_line/8201640",
     "duration": "2",
     "transcription": {
-      "en": "Make Ready!"
+      "en": "Make Ready!",
+      "fr": "C'est parti !"
     }
   },
   {
@@ -3553,7 +3853,10 @@
     "shoutcaster": "Y'shtola",
     "soundPath": "sound/voice/vo_line/8201642",
     "duration": "2",
-    "npcYell": "4196"
+    "transcription": {
+      "en": "We're counting on you!",
+      "fr": "Je compte sur vous"
+    }
   },
   {
     "id": "BeVigilant",
@@ -3562,7 +3865,8 @@
     "soundPath": "sound/voice/vo_line/8201644",
     "duration": "2",
     "transcription": {
-      "en": "Be Vigilant."
+      "en": "Be Vigilant.",
+      "fr": "On se concentre !"
     }
   },
   {
@@ -3571,7 +3875,9 @@
     "shoutcaster": "Y'shtola",
     "soundPath": "sound/voice/vo_line/8201645",
     "duration": "2",
-    "npcYell": "15920"
+    "transcription": {
+      "en": "Be strong."
+    }
   },
   {
     "id": "LeaveAMark",
@@ -3603,7 +3909,9 @@
     "shoutcaster": "Y'shtola",
     "soundPath": "sound/voice/vo_line/8202110",
     "duration": "2",
-    "npcYell": "7841"
+    "transcription": {
+      "en": "Hold nothing back!"
+    }
   },
   {
     "id": "MayTheTwelveGuideYou",
@@ -3620,7 +3928,8 @@
     "soundPath": "sound/voice/vo_line/8201098",
     "duration": "2",
     "transcription": {
-      "en": "Fall!"
+      "en": "Fall!",
+      "fr": "Tu vas périr !"
     }
   },
   {
@@ -3645,7 +3954,13 @@
     "shoutcaster": "Estinien",
     "soundPath": "sound/voice/vo_line/8291115",
     "duration": "3",
-    "npcYell": "13184"
+    "transcription": {
+      "en": "We have them now!",
+      "fr": "Riichi ! On va les réduire en poussière."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "UseConfidenceAgainstThem",
@@ -3654,7 +3969,8 @@
     "soundPath": "sound/voice/vo_line/8291116",
     "duration": "4",
     "transcription": {
-      "en": "Good, use their confidence against them."
+      "en": "Good, use their confidence against them.",
+      "fr": "Pas question de rester sur la touche. On fonce !"
     }
   },
   {
@@ -3664,7 +3980,8 @@
     "soundPath": "sound/voice/vo_line/8291117",
     "duration": "3",
     "transcription": {
-      "en": "They have the upper hand."
+      "en": "They have the upper hand.",
+      "fr": "On s'est fait devancer..."
     }
   },
   {
@@ -3674,7 +3991,8 @@
     "soundPath": "sound/voice/vo_line/8291118",
     "duration": "3",
     "transcription": {
-      "en": "They've gained on us, we must settle this quickly."
+      "en": "They've gained on us, we must settle this quickly.",
+      "fr": "On dirait qu'on a de la compagnie."
     }
   },
   {
@@ -3684,7 +4002,8 @@
     "soundPath": "sound/voice/vo_line/8291119",
     "duration": "3",
     "transcription": {
-      "en": "Have faith, my friend!"
+      "en": "Have faith, my friend!",
+      "fr": "Ah, ignore les, camarade."
     }
   },
   {
@@ -3694,8 +4013,12 @@
     "soundPath": "sound/voice/vo_line/8291120",
     "duration": "4",
     "transcription": {
-      "en": "Let us end their struggles!"
-    }
+      "en": "Let us end their struggles!",
+      "fr": "Ron ! Un coup décisif comme on les aime !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "LuckOfTheDrawEstinien",
@@ -3704,8 +4027,12 @@
     "soundPath": "sound/voice/vo_line/8291121",
     "duration": "4",
     "transcription": {
-      "en": "Luck of the draw, eh? I'll not complain."
-    }
+      "en": "Luck of the draw, eh? I'll not complain.",
+      "fr": "Tsumo ! Tu ne leur as laissé aucune chance !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "LeftOurselvesOpen",
@@ -3714,7 +4041,8 @@
     "soundPath": "sound/voice/vo_line/8291122",
     "duration": "4",
     "transcription": {
-      "en": "We left ourselves open and paid for it."
+      "en": "We left ourselves open and paid for it.",
+      "fr": "On lui fera regretter de s'être attaqué à nous."
     }
   },
   {
@@ -3724,7 +4052,8 @@
     "soundPath": "sound/voice/vo_line/8291123",
     "duration": "3",
     "transcription": {
-      "en": "At least we didn't bear the brunt of it."
+      "en": "At least we didn't bear the brunt of it.",
+      "fr": "Bah, ça s'est joué à pas grand chose."
     }
   },
   {
@@ -3734,8 +4063,12 @@
     "soundPath": "sound/voice/vo_line/8291124",
     "duration": "3",
     "transcription": {
-      "en": "That should have been us."
-    }
+      "en": "That should have been us.",
+      "fr": "En voilà un qui a plus d'un tour dans son sac !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "DragoonImpressed",
@@ -3744,8 +4077,12 @@
     "soundPath": "sound/voice/vo_line/8291125",
     "duration": "5",
     "transcription": {
-      "en": "A mightier blow I've seldom seen! Consider this dragoon impressed."
-    }
+      "en": "A mightier blow I've seldom seen! Consider this dragoon impressed.",
+      "fr": "Tout simplement dévastateur ! Tu as bien mérité le titre de Tuile d'Azur."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "NoLessExpectedEstinien",
@@ -3754,7 +4091,8 @@
     "soundPath": "sound/voice/vo_line/8291126",
     "duration": "4",
     "transcription": {
-      "en": "No less than I expected of you, my friend."
+      "en": "No less than I expected of you, my friend.",
+      "fr": "Tout s'est passé comme sur des roulettes, camarade."
     }
   },
   {
@@ -3764,7 +4102,8 @@
     "soundPath": "sound/voice/vo_line/8291127",
     "duration": "4",
     "transcription": {
-      "en": "A solid outing! Next we aim for the kill."
+      "en": "A solid outing! Next we aim for the kill.",
+      "fr": "On s'est bien battus, mais le plus dur reste encore à faire."
     }
   },
   {
@@ -3774,8 +4113,12 @@
     "soundPath": "sound/voice/vo_line/8291128",
     "duration": "3",
     "transcription": {
-      "en": "You've defeated far greater foes."
-    }
+      "en": "You've defeated far greater foes.",
+      "fr": "Même les tuiles se plient à ta volonté, camarade."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "TumultuousDespair",
@@ -3784,7 +4127,8 @@
     "soundPath": "sound/voice/vo_line/8291129",
     "duration": "4",
     "transcription": {
-      "en": "This tumultuous despair, I know it well."
+      "en": "This tumultuous despair, I know it well.",
+      "fr": "Je reconnais cette rancœur infinie, avide de sang."
     }
   },
   {
@@ -3794,7 +4138,8 @@
     "soundPath": "sound/voice/vo_line/8291130",
     "duration": "4",
     "transcription": {
-      "en": "Let this pain be your strength and your passion!"
+      "en": "Let this pain be your strength and your passion!",
+      "fr": "Acceptons cette souffrance. Elle nous donnera la force d'obtenir notre revanche."
     }
   },
   {
@@ -3804,7 +4149,8 @@
     "soundPath": "sound/voice/vo_line/8291131",
     "duration": "4",
     "transcription": {
-      "en": "You haven't lost your edge I hope."
+      "en": "You haven't lost your edge I hope.",
+      "fr": "Ce n'est pas reluisant... Tu crois qu'on a perdu la main ?"
     }
   },
   {
@@ -3814,7 +4160,8 @@
     "soundPath": "sound/voice/vo_line/8291132",
     "duration": "4",
     "transcription": {
-      "en": "We'll repay this debt, my friend."
+      "en": "We'll repay this debt, my friend.",
+      "fr": "Il va être temps de leur montrer de quel bois on se chauffe, camarade."
     }
   },
   {
@@ -3824,7 +4171,8 @@
     "soundPath": "sound/voice/vo_line/8291133",
     "duration": "6",
     "transcription": {
-      "en": "Impressive as ever, my friend! It was an honor to fight by your side."
+      "en": "Impressive as ever, my friend! It was an honor to fight by your side.",
+      "fr": "Bien joué, camarade ! C'est toujours un honneur de combattre à tes côtés !"
     }
   },
   {
@@ -3834,7 +4182,8 @@
     "soundPath": "sound/voice/vo_line/8291134",
     "duration": "4",
     "transcription": {
-      "en": "So near yet so far. Next time we must claim victory."
+      "en": "So near yet so far. Next time we must claim victory.",
+      "fr": "Mon cœur ne connaîtra pas la paix tant qu'on ne se sera pas emparés de la première place."
     }
   },
   {
@@ -3844,7 +4193,8 @@
     "soundPath": "sound/voice/vo_line/8291135",
     "duration": "5",
     "transcription": {
-      "en": "You're capable of more than this, much more."
+      "en": "You're capable of more than this, much more.",
+      "fr": "Qu'est-ce qui t'arrive, camarade ? Je n'ai pas senti ton mordant habituel."
     }
   },
   {
@@ -3854,7 +4204,8 @@
     "soundPath": "sound/voice/vo_line/8291136",
     "duration": "5",
     "transcription": {
-      "en": "No matter how deep our grief, together we will rise again."
+      "en": "No matter how deep our grief, together we will rise again.",
+      "fr": "Ne laisse pas la peine et le désespoir se transformer en haine ! Ça va aller, camarade !"
     }
   },
   {
@@ -3864,7 +4215,8 @@
     "soundPath": "sound/voice/vo_line/8291137",
     "duration": "6",
     "transcription": {
-      "en": "I for one could do with a drink, and some dried squid. Care to join?"
+      "en": "I for one could do with a drink, and some dried squid. Care to join?",
+      "fr": "Allez, on va boire un coup et manger quelques brochettes, c'est moi qui régale !"
     }
   },
   {
@@ -3874,7 +4226,8 @@
     "soundPath": "sound/voice/vo_line/8202497",
     "duration": "2",
     "transcription": {
-      "en": "Watch yourself!"
+      "en": "Watch yourself!",
+      "fr": "C'était moins une !"
     }
   },
   {
@@ -3883,7 +4236,10 @@
     "shoutcaster": "Estinien",
     "soundPath": "sound/voice/vo_line/8202503",
     "duration": "2",
-    "npcYell": "4967"
+    "transcription": {
+      "en": "There's...no end to them...",
+      "fr": "Tu comptes vraiment les affronter ? Y'en a un paquet !"
+    }
   },
   {
     "id": "TheyllPayForThatEstinien",
@@ -3924,7 +4280,8 @@
     "soundPath": "sound/voice/vo_line/8203061",
     "duration": "2",
     "transcription": {
-      "en": "Courage!"
+      "en": "Courage!",
+      "fr": "Laissez moi faire !"
     }
   },
   {
@@ -3950,7 +4307,8 @@
     "soundPath": "sound/voice/vo_line/8203066",
     "duration": "3",
     "transcription": {
-      "en": "They fight hard, but not hard enough!"
+      "en": "They fight hard, but not hard enough!",
+      "fr": "Ils rigolent pas, mais la victoire m'appartient !"
     }
   },
   {
@@ -3968,7 +4326,8 @@
     "soundPath": "sound/voice/vo_line/8291138",
     "duration": "4",
     "transcription": {
-      "en": "Stay with me. Focus on victory."
+      "en": "Stay with me. Focus on victory.",
+      "fr": "Ça va marcher, ça doit marcher !"
     }
   },
   {
@@ -3978,7 +4337,8 @@
     "soundPath": "sound/voice/vo_line/8291139",
     "duration": "6",
     "transcription": {
-      "en": "The time has come to declare our intentions as well."
+      "en": "The time has come to declare our intentions as well.",
+      "fr": "Je vois que, toi aussi, tu garrrdes un atout dans ta manche !"
     }
   },
   {
@@ -3988,7 +4348,8 @@
     "soundPath": "sound/voice/vo_line/8291140",
     "duration": "5",
     "transcription": {
-      "en": "What say you? Shall we make a stand ourselves?"
+      "en": "What say you? Shall we make a stand ourselves?",
+      "fr": "On a un trrrain de retard. Il va falloir s'activer !"
     }
   },
   {
@@ -3998,7 +4359,8 @@
     "soundPath": "sound/voice/vo_line/8291141",
     "duration": "5",
     "transcription": {
-      "en": "They're not going down without a fight, are they?"
+      "en": "They're not going down without a fight, are they?",
+      "fr": "Décidément, nos adversaires ne nous accordent aucun répit !"
     }
   },
   {
@@ -4008,7 +4370,8 @@
     "soundPath": "sound/voice/vo_line/8291142",
     "duration": "4",
     "transcription": {
-      "en": "They may test us, but we shall prevail."
+      "en": "They may test us, but we shall prevail.",
+      "fr": "Ils ne font pas mine d'abandonner... La victoirrre nous appartient !"
     }
   },
   {
@@ -4018,8 +4381,12 @@
     "soundPath": "sound/voice/vo_line/8291143",
     "duration": "5",
     "transcription": {
-      "en": "Finish them! Oh, erm... too much?"
-    }
+      "en": "Finish them! Oh, erm... too much?",
+      "fr": "Ron ! Désolé si je t'ai grrrillé la politesse !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "PointsAndAll",
@@ -4028,7 +4395,8 @@
     "soundPath": "sound/voice/vo_line/8291144",
     "duration": "5",
     "transcription": {
-      "en": "We shall have victory. Points and all!"
+      "en": "We shall have victory. Points and all!",
+      "fr": "Laissez-nous vous soulager de ce trrrop-plein de points !"
     }
   },
   {
@@ -4038,7 +4406,8 @@
     "soundPath": "sound/voice/vo_line/8291145",
     "duration": "5",
     "transcription": {
-      "en": "Oh dear, are you alright?"
+      "en": "Oh dear, are you alright?",
+      "fr": "C'est un coup dur... Tout va bien ?"
     }
   },
   {
@@ -4048,7 +4417,8 @@
     "soundPath": "sound/voice/vo_line/8291146",
     "duration": "5",
     "transcription": {
-      "en": "We avoided the worst, but it's not what I'd hoped for."
+      "en": "We avoided the worst, but it's not what I'd hoped for.",
+      "fr": "Nous l'avons échappé belle, mais la situation est prrréocuppante !"
     }
   },
   {
@@ -4058,7 +4428,8 @@
     "soundPath": "sound/voice/vo_line/8291147",
     "duration": "4",
     "transcription": {
-      "en": "They beat us to it. The next time will be different."
+      "en": "They beat us to it. The next time will be different.",
+      "fr": "On nous a prrris de vitesse... Veillons à ce que ça ne se reproduise pas."
     }
   },
   {
@@ -4068,7 +4439,8 @@
     "soundPath": "sound/voice/vo_line/8291148",
     "duration": "4",
     "transcription": {
-      "en": "Tremendous. The stuff of living legends!"
+      "en": "Tremendous. The stuff of living legends!",
+      "fr": "Quel exploit mémorrrable ! J'en frémis d'excitation !"
     }
   },
   {
@@ -4078,7 +4450,8 @@
     "soundPath": "sound/voice/vo_line/8291149",
     "duration": "5",
     "transcription": {
-      "en": "A splendid result! Keep up the good work, my friend."
+      "en": "A splendid result! Keep up the good work, my friend.",
+      "fr": "Nous avons prrris une sacré longueur d'avance ! Continuons sur cette lancée !"
     }
   },
   {
@@ -4088,7 +4461,8 @@
     "soundPath": "sound/voice/vo_line/8291150",
     "duration": "4",
     "transcription": {
-      "en": "Focus on the task at hand and victory shall be ours."
+      "en": "Focus on the task at hand and victory shall be ours.",
+      "fr": "Trrrès bien ! Mais ne baissons pas notre garde !"
     }
   },
   {
@@ -4098,7 +4472,8 @@
     "soundPath": "sound/voice/vo_line/8291151",
     "duration": "4",
     "transcription": {
-      "en": "We can and we will do even better."
+      "en": "We can and we will do even better.",
+      "fr": "C'est pas le moment de se reposer sur ses lauriers !"
     }
   },
   {
@@ -4108,7 +4483,8 @@
     "soundPath": "sound/voice/vo_line/8291152",
     "duration": "4",
     "transcription": {
-      "en": "Oh, how embarassing."
+      "en": "Oh, how embarassing.",
+      "fr": "Woah... La honte !"
     }
   },
   {
@@ -4118,7 +4494,8 @@
     "soundPath": "sound/voice/vo_line/8291153",
     "duration": "4",
     "transcription": {
-      "en": "We cannot leave matters half finished."
+      "en": "We cannot leave matters half finished.",
+      "fr": "La mort m'a accordé un sursis, pour que je puisse te venir en aide."
     }
   },
   {
@@ -4128,7 +4505,8 @@
     "soundPath": "sound/voice/vo_line/8291154",
     "duration": "3",
     "transcription": {
-      "en": "Do you require healing?"
+      "en": "Do you require healing?",
+      "fr": "Attends ! Je connais un sort de soin pour ce genre de situation."
     }
   },
   {
@@ -4138,7 +4516,8 @@
     "soundPath": "sound/voice/vo_line/8291155",
     "duration": "4",
     "transcription": {
-      "en": "Well, that would scarcely cause my cowl to stir."
+      "en": "Well, that would scarcely cause my cowl to stir.",
+      "fr": "Ça me rrrappelle quand on a essayé de m'ôter ma capuche..."
     }
   },
   {
@@ -4148,7 +4527,8 @@
     "soundPath": "sound/voice/vo_line/8291156",
     "duration": "4",
     "transcription": {
-      "en": "A performance befitting of my inspiration!"
+      "en": "A performance befitting of my inspiration!",
+      "fr": "Je ne rrregrette pas d'avoir joué avec toi !"
     }
   },
   {
@@ -4158,7 +4538,8 @@
     "soundPath": "sound/voice/vo_line/8291157",
     "duration": "4",
     "transcription": {
-      "en": "Continue with the same courage and zeal, and victory will be yours!"
+      "en": "Continue with the same courage and zeal, and victory will be yours!",
+      "fr": "Je souhaite que tu continues ton périple avec autant de zêle et de courage !"
     }
   },
   {
@@ -4168,8 +4549,12 @@
     "soundPath": "sound/voice/vo_line/8291158",
     "duration": "4",
     "transcription": {
-      "en": "Were it an allagan game perhaps I might have been more useful to you?"
-    }
+      "en": "Were it an allagan game perhaps I might have been more useful to you?",
+      "fr": "La prrrochaine fois, on jouera plutôt au mahjong allagois."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "SomethingToTeachDefeat",
@@ -4178,7 +4563,8 @@
     "soundPath": "sound/voice/vo_line/8291159",
     "duration": "6",
     "transcription": {
-      "en": "While I'd rather you have triumphed, even in defeat you have something to teach us."
+      "en": "While I'd rather you have triumphed, even in defeat you have something to teach us.",
+      "fr": "C'est rrrare de te voir perdre... J'espère que tu remporteras la prochaine partie !"
     }
   },
   {
@@ -4188,7 +4574,8 @@
     "soundPath": "sound/voice/vo_line/8291160",
     "duration": "4",
     "transcription": {
-      "en": "Your tale will not end here. Is that not so, my friend?"
+      "en": "Your tale will not end here. Is that not so, my friend?",
+      "fr": "Tu n'as pas intérrrêt à abandonner là dessus, tu m'entends ?"
     }
   },
   {
@@ -4221,7 +4608,9 @@
     "shoutcaster": "G'raha Tia",
     "soundPath": "sound/voice/vo_line/8202341",
     "duration": "2",
-    "npcYell": "10302"
+    "transcription": {
+      "en": "Show me what you can do!"
+    }
   },
   {
     "id": "AreYouAlright",
@@ -4229,7 +4618,10 @@
     "shoutcaster": "G'raha Tia",
     "soundPath": "sound/voice/vo_line/8202337",
     "duration": "2",
-    "npcYell": "18236"
+    "transcription": {
+      "en": "Are you alright!?",
+      "fr": "Ça va aller ?"
+    }
   },
   {
     "id": "FindCoverEnergy",
@@ -4238,7 +4630,8 @@
     "soundPath": "sound/voice/vo_line/8203042",
     "duration": "3",
     "transcription": {
-      "en": "The air crackles with energy. Find cover!"
+      "en": "The air crackles with energy. Find cover!",
+      "fr": "L'air est trrrès instable ! Vite, à l'abri !"
     }
   },
   {
@@ -4248,7 +4641,8 @@
     "soundPath": "sound/voice/vo_line/8291161",
     "duration": "4",
     "transcription": {
-      "en": "We draw upon the canvas of victory."
+      "en": "We draw upon the canvas of victory.",
+      "fr": "L'avenir nous appartient !"
     }
   },
   {
@@ -4258,7 +4652,8 @@
     "soundPath": "sound/voice/vo_line/8291162",
     "duration": "4",
     "transcription": {
-      "en": "Time to put your skills to the proof!"
+      "en": "Time to put your skills to the proof!",
+      "fr": "On va leur montrer le fruit de notre entraînement !"
     }
   },
   {
@@ -4268,7 +4663,8 @@
     "soundPath": "sound/voice/vo_line/8291163",
     "duration": "3",
     "transcription": {
-      "en": "We won't fall here!"
+      "en": "We won't fall here!",
+      "fr": "Fais attention, et tout ira bien."
     }
   },
   {
@@ -4278,8 +4674,12 @@
     "soundPath": "sound/voice/vo_line/8291164",
     "duration": "3",
     "transcription": {
-      "en": "Have faith and all shall be well."
-    }
+      "en": "Have faith and all shall be well.",
+      "fr": "Pas d'inquiétude, on est sûrement prochse du tsumo."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "MustStandStrongKrile",
@@ -4288,7 +4688,8 @@
     "soundPath": "sound/voice/vo_line/8291165",
     "duration": "3",
     "transcription": {
-      "en": "We must stand strong."
+      "en": "We must stand strong.",
+      "fr": "Notre patience est mise à rude épreuve..."
     }
   },
   {
@@ -4298,8 +4699,12 @@
     "soundPath": "sound/voice/vo_line/8291166",
     "duration": "3",
     "transcription": {
-      "en": "And now for the finishing touch!"
-    }
+      "en": "And now for the finishing touch!",
+      "fr": "C'est parti ! Ron !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "GoodThingsWait",
@@ -4308,7 +4713,8 @@
     "soundPath": "sound/voice/vo_line/8291167",
     "duration": "4",
     "transcription": {
-      "en": "Good things do come to those who wait!"
+      "en": "Good things do come to those who wait!",
+      "fr": "La persévérance finit toujours par payer !"
     }
   },
   {
@@ -4318,7 +4724,8 @@
     "soundPath": "sound/voice/vo_line/8291168",
     "duration": "3",
     "transcription": {
-      "en": "What? That can't be right!"
+      "en": "What? That can't be right!",
+      "fr": "Non, je ne veux pas y croire..."
     }
   },
   {
@@ -4328,7 +4735,8 @@
     "soundPath": "sound/voice/vo_line/8291169",
     "duration": "3",
     "transcription": {
-      "en": "At least we didn't hand it to them."
+      "en": "At least we didn't hand it to them.",
+      "fr": "Pfiou, je craignais le pire !"
     }
   },
   {
@@ -4338,7 +4746,8 @@
     "soundPath": "sound/voice/vo_line/8291170",
     "duration": "3",
     "transcription": {
-      "en": "That's too bad!"
+      "en": "That's too bad!",
+      "fr": "Oh, c'est bien dommage..."
     }
   },
   {
@@ -4348,8 +4757,12 @@
     "soundPath": "sound/voice/vo_line/8291171",
     "duration": "5",
     "transcription": {
-      "en": "I should expect nothing less from an adventurer of your talents!"
-    }
+      "en": "I should expect nothing less from an adventurer of your talents!",
+      "fr": "Il n'y a pas à dire, tu excelles dans tout ce que tu entreprends !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "QuiteTheStatement",
@@ -4358,7 +4771,8 @@
     "soundPath": "sound/voice/vo_line/8291172",
     "duration": "4",
     "transcription": {
-      "en": "You made quite this statement!"
+      "en": "You made quite this statement!",
+      "fr": "Quel talent ! Je ne m'en remets toujours pas !"
     }
   },
   {
@@ -4368,7 +4782,8 @@
     "soundPath": "sound/voice/vo_line/8291173",
     "duration": "4",
     "transcription": {
-      "en": "Good progress! Let us maintain our efforts."
+      "en": "Good progress! Let us maintain our efforts.",
+      "fr": "Voilà qui est de bonne augure pour la suite !"
     }
   },
   {
@@ -4378,7 +4793,8 @@
     "soundPath": "sound/voice/vo_line/8291174",
     "duration": "3",
     "transcription": {
-      "en": "My heart was positively racing!"
+      "en": "My heart was positively racing!",
+      "fr": "Pfiou, mon petit cœur commençait à battre de plus en plus fort !"
     }
   },
   {
@@ -4388,7 +4804,8 @@
     "soundPath": "sound/voice/vo_line/8291175",
     "duration": "5",
     "transcription": {
-      "en": "Goodness me, How did we manage to do so poorly?"
+      "en": "Goodness me, How did we manage to do so poorly?",
+      "fr": "Mais pourquoi !? A-t-on commis une erreur de jugement ?"
     }
   },
   {
@@ -4398,7 +4815,8 @@
     "soundPath": "sound/voice/vo_line/8291176",
     "duration": "5",
     "transcription": {
-      "en": "You're alright yes? Don't lose heart now!"
+      "en": "You're alright yes? Don't lose heart now!",
+      "fr": "Ça va, on tient le coup ? Reste avec moi !"
     }
   },
   {
@@ -4408,7 +4826,8 @@
     "soundPath": "sound/voice/vo_line/8291177",
     "duration": "3",
     "transcription": {
-      "en": "We won't give up! Onto the next."
+      "en": "We won't give up! Onto the next.",
+      "fr": "Hors de question d'abandonner ! Ce n'est pas notre genre !"
     }
   },
   {
@@ -4418,7 +4837,8 @@
     "soundPath": "sound/voice/vo_line/8291178",
     "duration": "4",
     "transcription": {
-      "en": "No need to fret. We can reclaim what we've lost."
+      "en": "No need to fret. We can reclaim what we've lost.",
+      "fr": "Il est temps de changer de stratégie, la situation s'y prête plus que jamais !"
     }
   },
   {
@@ -4428,7 +4848,8 @@
     "soundPath": "sound/voice/vo_line/8291179",
     "duration": "4",
     "transcription": {
-      "en": "Well done my friend! It was a delight to be part of your victory!"
+      "en": "Well done my friend! It was a delight to be part of your victory!",
+      "fr": "Félicitations ! J'ai savouré chaque instant en ta compagnie !"
     }
   },
   {
@@ -4438,7 +4859,8 @@
     "soundPath": "sound/voice/vo_line/8291180",
     "duration": "5",
     "transcription": {
-      "en": "What a thrilling game! You'll win next time I'm sure of it."
+      "en": "What a thrilling game! You'll win next time I'm sure of it.",
+      "fr": "Je me suis quand même bien amusée, j'espère qu'on gagnera la prochaine fois !"
     }
   },
   {
@@ -4448,8 +4870,12 @@
     "soundPath": "sound/voice/vo_line/8291181",
     "duration": "5",
     "transcription": {
-      "en": "A complicated game to be sure. I hope to keep exploring its intricacies with you."
-    }
+      "en": "A complicated game to be sure. I hope to keep exploring its intricacies with you.",
+      "fr": "C'est un jeu plus complexe qu'il n'y paraît, nous avons encore tant à apprendre..."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "PlayAgainWinOrLose",
@@ -4458,7 +4884,8 @@
     "soundPath": "sound/voice/vo_line/8291182",
     "duration": "5",
     "transcription": {
-      "en": "it wasn't to be this time. But win or lose let's play again."
+      "en": "it wasn't to be this time. But win or lose let's play again.",
+      "fr": "L'important c'est de participer ! On rejoue ensemble quand tu veux !"
     }
   },
   {
@@ -4468,7 +4895,8 @@
     "soundPath": "sound/voice/vo_line/8291183",
     "duration": "6",
     "transcription": {
-      "en": "That was a tough loss, but we can learn from it and strive for greater heights!"
+      "en": "That was a tough loss, but we can learn from it and strive for greater heights!",
+      "fr": "Le résultat est sans équivoque... Nous devons poursuivre notre apprentissage !"
     }
   },
   {
@@ -4477,7 +4905,10 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8291184",
     "duration": "3",
-    "npcYell": "5582"
+    "transcription": {
+      "en": "We've got them now!",
+      "fr": "Ils vont voir de quel bois on se chauffe !"
+    }
   },
   {
     "id": "CantPassChanceWuk",
@@ -4486,8 +4917,12 @@
     "soundPath": "sound/voice/vo_line/8291185",
     "duration": "4",
     "transcription": {
-      "en": "Can't pass up a chance like this!"
-    }
+      "en": "Can't pass up a chance like this!",
+      "fr": "Riichi ! La victoire est à nous !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "DontLoseNerveWuk",
@@ -4496,7 +4931,8 @@
     "soundPath": "sound/voice/vo_line/8291186",
     "duration": "4",
     "transcription": {
-      "en": "They're close, but we can't lose our nerve!"
+      "en": "They're close, but we can't lose our nerve!",
+      "fr": "Bon sang ! Pas grave, on se rebiffe !"
     }
   },
   {
@@ -4506,7 +4942,8 @@
     "soundPath": "sound/voice/vo_line/8291187",
     "duration": "4",
     "transcription": {
-      "en": "Now things are getting interesting!"
+      "en": "Now things are getting interesting!",
+      "fr": "Héhé, ça devient intéressant !"
     }
   },
   {
@@ -4516,7 +4953,8 @@
     "soundPath": "sound/voice/vo_line/8291188",
     "duration": "5",
     "transcription": {
-      "en": "Doesn't matter if it's one or all of them, we can still win!"
+      "en": "Doesn't matter if it's one or all of them, we can still win!",
+      "fr": "On vous prend tous autant que vous êtes."
     }
   },
   {
@@ -4526,8 +4964,12 @@
     "soundPath": "sound/voice/vo_line/8291189",
     "duration": "5",
     "transcription": {
-      "en": "It's over! We will stop them!"
-    }
+      "en": "It's over! We will stop them!",
+      "fr": "La route est toute tracée pour nous ! Ron !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "HowDidThatHappenWuk",
@@ -4536,7 +4978,8 @@
     "soundPath": "sound/voice/vo_line/8291191",
     "duration": "4",
     "transcription": {
-      "en": "What? How did that happen?"
+      "en": "What? How did that happen?",
+      "fr": "Hein !? Faut qu'on se reprenne !"
     }
   },
   {
@@ -4546,7 +4989,8 @@
     "soundPath": "sound/voice/vo_line/8291192",
     "duration": "4",
     "transcription": {
-      "en": "Whew! That was a close one."
+      "en": "Whew! That was a close one.",
+      "fr": "Pfiou ! Maintenant, on a plus le droit à l'erreur !"
     }
   },
   {
@@ -4556,7 +5000,8 @@
     "soundPath": "sound/voice/vo_line/8291193",
     "duration": "4",
     "transcription": {
-      "en": "They beat us to it!"
+      "en": "They beat us to it!",
+      "fr": "Le destin finira bien par nous sourire !"
     }
   },
   {
@@ -4566,8 +5011,12 @@
     "soundPath": "sound/voice/vo_line/8291194",
     "duration": "5",
     "transcription": {
-      "en": "A feat even my old man couldn't have managed."
-    }
+      "en": "A feat even my old man couldn't have managed.",
+      "fr": "Wow, on leur a fichu une de ces raclées !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "SmilingBecauseSmiling",
@@ -4576,8 +5025,12 @@
     "soundPath": "sound/voice/vo_line/8291195",
     "duration": "4",
     "transcription": {
-      "en": "Are you smiling because I'm smiling!"
-    }
+      "en": "Are you smiling because I'm smiling!",
+      "fr": "Ensemble, on s'en sortira toujours !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "AllRightYouDidGreat",
@@ -4586,8 +5039,12 @@
     "soundPath": "sound/voice/vo_line/8291196",
     "duration": "5",
     "transcription": {
-      "en": "All right! You did great!"
-    }
+      "en": "All right! You did great!",
+      "fr": "Le genre de résultat qui donne le sourire !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "DoingFineKeepItUpWuk",
@@ -4596,7 +5053,8 @@
     "soundPath": "sound/voice/vo_line/8291197",
     "duration": "4",
     "transcription": {
-      "en": "You're doing fine, keep it up!"
+      "en": "You're doing fine, keep it up!",
+      "fr": "Hm, pas mal. Mais on fera encore mieux la prochaine fois !"
     }
   },
   {
@@ -4606,7 +5064,8 @@
     "soundPath": "sound/voice/vo_line/8291198",
     "duration": "5",
     "transcription": {
-      "en": "Gods! I think I'm gonna be sick."
+      "en": "Gods! I think I'm gonna be sick.",
+      "fr": "Urgh, je crois que je vais..."
     }
   },
   {
@@ -4616,7 +5075,8 @@
     "soundPath": "sound/voice/vo_line/8291199",
     "duration": "4",
     "transcription": {
-      "en": "I feel your pain as if it were my own."
+      "en": "I feel your pain as if it were my own.",
+      "fr": "J'comprends ta douleur, je la ressens comme si c'était la mienne."
     }
   },
   {
@@ -4626,7 +5086,8 @@
     "soundPath": "sound/voice/vo_line/8291200",
     "duration": "4",
     "transcription": {
-      "en": "They didn't hold back did they?"
+      "en": "They didn't hold back did they?",
+      "fr": "Personne nous fait de cadeau ici..."
     }
   },
   {
@@ -4636,7 +5097,8 @@
     "soundPath": "sound/voice/vo_line/8291201",
     "duration": "4",
     "transcription": {
-      "en": "Nothing to worry about."
+      "en": "Nothing to worry about.",
+      "fr": "Pfft ! Même pas mal !"
     }
   },
   {
@@ -4646,7 +5108,8 @@
     "soundPath": "sound/voice/vo_line/8291202",
     "duration": "6",
     "transcription": {
-      "en": "That was incredible! Makes me want to try my own hand at this game."
+      "en": "That was incredible! Makes me want to try my own hand at this game.",
+      "fr": "Balèze ! On s'fera une partie entre nous un de ces jours !"
     }
   },
   {
@@ -4656,7 +5119,8 @@
     "soundPath": "sound/voice/vo_line/8291203",
     "duration": "5",
     "transcription": {
-      "en": "If papa were here, he'd challenge you to a match I just know it."
+      "en": "If papa were here, he'd challenge you to a match I just know it.",
+      "fr": "Si le paternel était là, il adorerait t'affronter !"
     }
   },
   {
@@ -4666,7 +5130,8 @@
     "soundPath": "sound/voice/vo_line/8291204",
     "duration": "5",
     "transcription": {
-      "en": "Come on! I know you can do better than that."
+      "en": "Come on! I know you can do better than that.",
+      "fr": "M'enfin, je sais que tu vaux mieux que ça !"
     }
   },
   {
@@ -4676,7 +5141,8 @@
     "soundPath": "sound/voice/vo_line/8291205",
     "duration": "5",
     "transcription": {
-      "en": "You win some you'll lose some. Next time the game will be yours."
+      "en": "You win some you'll lose some. Next time the game will be yours.",
+      "fr": "Ça arrive à tout le monde... Tu feras mieux le prochain coup !"
     }
   },
   {
@@ -4686,7 +5152,8 @@
     "soundPath": "sound/voice/vo_line/8291206",
     "duration": "6",
     "transcription": {
-      "en": "On the bright side it can't get any worse. Consider it a learning experience!"
+      "en": "On the bright side it can't get any worse. Consider it a learning experience!",
+      "fr": "Bon, au moins, tu pourras pas tomber plus bas !"
     }
   },
   {
@@ -4696,7 +5163,8 @@
     "soundPath": "sound/voice/vo_line/8204261",
     "duration": "2",
     "transcription": {
-      "en": "You really are famous!"
+      "en": "You really are famous!",
+      "fr": "Ma parole, mais t'es une vraie célébrité !"
     }
   },
   {
@@ -4706,7 +5174,8 @@
     "soundPath": "sound/voice/vo_line/8204280",
     "duration": "2",
     "transcription": {
-      "en": "Impressive!"
+      "en": "Impressive!",
+      "fr": "Y'a pas à dire, vous savez vous battre !"
     }
   },
   {
@@ -4715,7 +5184,10 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8205035",
     "duration": "2",
-    "npcYell": "13484"
+    "transcription": {
+      "en": "They'll pay for that.",
+      "fr": "On m'y reprendra plus !"
+    }
   },
   {
     "id": "RightBackToItWuk",
@@ -4723,7 +5195,10 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8205036",
     "duration": "2",
-    "npcYell": "7773"
+    "transcription": {
+      "en": "Right, back to it!",
+      "fr": "C'est reparti pour un tour !"
+    }
   },
   {
     "id": "NoHoldingBackWuk",
@@ -4740,7 +5215,8 @@
     "soundPath": "sound/voice/vo_line/8205043",
     "duration": "2",
     "transcription": {
-      "en": "Keep it up!"
+      "en": "Keep it up!",
+      "fr": "Tiens !"
     }
   },
   {
@@ -4750,7 +5226,8 @@
     "soundPath": "sound/voice/vo_line/8205048",
     "duration": "2",
     "transcription": {
-      "en": "Let's get to it!"
+      "en": "Let's get to it!",
+      "fr": "T'inquiète ! Je vais tout donner !"
     }
   },
   {
@@ -4759,7 +5236,10 @@
     "shoutcaster": "Wuk Lamat",
     "soundPath": "sound/voice/vo_line/8205068",
     "duration": "2",
-    "npcYell": "10595"
+    "transcription": {
+      "en": "Damn it all!",
+      "fr": "Oh nan ! Y'a plus personne en vie !"
+    }
   },
   {
     "id": "KeepYourGuardUpWuk",
@@ -4768,7 +5248,8 @@
     "soundPath": "sound/voice/vo_line/8205071",
     "duration": "4",
     "transcription": {
-      "en": "Don't like the looks of this. Everyone, keep your guard up!"
+      "en": "Don't like the looks of this. Everyone, keep your guard up!",
+      "fr": "Ça sent le roussi ! Préparez vous à encaisser le choc !"
     }
   },
   {
@@ -4778,7 +5259,8 @@
     "soundPath": "sound/voice/vo_line/8205073",
     "duration": "3",
     "transcription": {
-      "en": "Not holding anything back are we?"
+      "en": "Not holding anything back are we?",
+      "fr": "Faites gaffe ! Ça risque de faire très mal !"
     }
   },
   {
@@ -4788,8 +5270,12 @@
     "soundPath": "sound/voice/vo_line/8291207",
     "duration": "4",
     "transcription": {
-      "en": "Let us make our intentions known."
-    }
+      "en": "Let us make our intentions known.",
+      "fr": "Le hasard n'existe pas ! Tout est question de maîtrise."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "EvenTheOdds",
@@ -4798,8 +5284,12 @@
     "soundPath": "sound/voice/vo_line/8291208",
     "duration": "4",
     "transcription": {
-      "en": "Perhaps this will even the odds."
-    }
+      "en": "Perhaps this will even the odds.",
+      "fr": "Conformément à notre plan ! Riichi !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "NothingToFearYet",
@@ -4808,7 +5298,8 @@
     "soundPath": "sound/voice/vo_line/8291209",
     "duration": "4",
     "transcription": {
-      "en": "We have nothing to fear, yet."
+      "en": "We have nothing to fear, yet.",
+      "fr": "Il est encore trop tôt pour céder à la panique."
     }
   },
   {
@@ -4818,7 +5309,8 @@
     "soundPath": "sound/voice/vo_line/8291210",
     "duration": "4",
     "transcription": {
-      "en": "This much is to be expected."
+      "en": "This much is to be expected.",
+      "fr": "Tout se déroule exactement comme prévu."
     }
   },
   {
@@ -4828,7 +5320,8 @@
     "soundPath": "sound/voice/vo_line/8291211",
     "duration": "3",
     "transcription": {
-      "en": "Stay alert."
+      "en": "Stay alert.",
+      "fr": "Il est grand temps de renverser la situation."
     }
   },
   {
@@ -4838,8 +5331,12 @@
     "soundPath": "sound/voice/vo_line/8291212",
     "duration": "3",
     "transcription": {
-      "en": "We have them! Strike!"
-    }
+      "en": "We have them! Strike!",
+      "fr": "Ron ! Je n'en ai jamais douté."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "StrategyKeyToVictory",
@@ -4848,7 +5345,8 @@
     "soundPath": "sound/voice/vo_line/8291213",
     "duration": "4",
     "transcription": {
-      "en": "Strategy is the key to victory."
+      "en": "Strategy is the key to victory.",
+      "fr": "La victoire de l'intelligence, pas vrai ?"
     }
   },
   {
@@ -4858,7 +5356,8 @@
     "soundPath": "sound/voice/vo_line/8291214",
     "duration": "4",
     "transcription": {
-      "en": "No, it can't be!"
+      "en": "No, it can't be!",
+      "fr": "Non ! Je refuse de le croire !"
     }
   },
   {
@@ -4867,7 +5366,10 @@
     "shoutcaster": "Koana",
     "soundPath": "sound/voice/vo_line/8291215",
     "duration": "3",
-    "npcYell": "10595"
+    "transcription": {
+      "en": "Damn it all!",
+      "fr": "Prenons ceci comme un avertissement sans frais"
+    }
   },
   {
     "id": "StepBehind",
@@ -4876,8 +5378,12 @@
     "soundPath": "sound/voice/vo_line/8291216",
     "duration": "3",
     "transcription": {
-      "en": "We were a step behind."
-    }
+      "en": "We were a step behind.",
+      "fr": "Même la meilleure des stratégies peut parfois échouer !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "GloryUponTuliyollal",
@@ -4886,8 +5392,12 @@
     "soundPath": "sound/voice/vo_line/8291217",
     "duration": "4",
     "transcription": {
-      "en": "Our triumph brings glory upon Tuliyollal!"
-    }
+      "en": "Our triumph brings glory upon Tuliyollal!",
+      "fr": "Voilà qui présage du meilleur pour l'avenir du Tuliyollal !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "VowOfReasonGuide",
@@ -4896,8 +5406,12 @@
     "soundPath": "sound/voice/vo_line/8291218",
     "duration": "5",
     "transcription": {
-      "en": "As vow of reason, it is my duty to guide you to victory."
-    }
+      "en": "As vow of reason, it is my duty to guide you to victory.",
+      "fr": "Avec les félicitations de l'Aurarque de la Raison !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "DoneWell",
@@ -4906,8 +5420,12 @@
     "soundPath": "sound/voice/vo_line/8291219",
     "duration": "4",
     "transcription": {
-      "en": "I would say we have done well."
-    }
+      "en": "I would say we have done well.",
+      "fr": "Nous devons nous satisfaire de ce résultat."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "FairPerformanceBetter",
@@ -4916,7 +5434,8 @@
     "soundPath": "sound/voice/vo_line/8291220",
     "duration": "5",
     "transcription": {
-      "en": "A fair performance, but we can do better."
+      "en": "A fair performance, but we can do better.",
+      "fr": "Il y a plusieurs façons de vaincre."
     }
   },
   {
@@ -4926,7 +5445,8 @@
     "soundPath": "sound/voice/vo_line/8291221",
     "duration": "4",
     "transcription": {
-      "en": "Disgraceful, how can I ever face Lamaty'i after this."
+      "en": "Disgraceful, how can I ever face Lamaty'i after this.",
+      "fr": "Non, c'est impossible ! Quel affront !"
     }
   },
   {
@@ -4936,7 +5456,8 @@
     "soundPath": "sound/voice/vo_line/8291222",
     "duration": "4",
     "transcription": {
-      "en": "Hmm, a change of strategy may be in order."
+      "en": "Hmm, a change of strategy may be in order.",
+      "fr": "Nous avons eu faux sur toute la ligne."
     }
   },
   {
@@ -4946,7 +5467,8 @@
     "soundPath": "sound/voice/vo_line/8291223",
     "duration": "4",
     "transcription": {
-      "en": "Did we make an error in our calculations?"
+      "en": "Did we make an error in our calculations?",
+      "fr": "Notre stratégie aurait-elle failli ?"
     }
   },
   {
@@ -4956,7 +5478,8 @@
     "soundPath": "sound/voice/vo_line/8291224",
     "duration": "3",
     "transcription": {
-      "en": "The occasional loss is inevitable."
+      "en": "The occasional loss is inevitable.",
+      "fr": "Cela arrive à tout le monde, même aux meilleurs."
     }
   },
   {
@@ -4966,8 +5489,12 @@
     "soundPath": "sound/voice/vo_line/8291225",
     "duration": "5",
     "transcription": {
-      "en": "You are more than worthy of your reputation. That much is plain!"
-    }
+      "en": "You are more than worthy of your reputation. That much is plain!",
+      "fr": "Cette partie m'a montré qui était le plus à même d'atteindre le niveau de mon père !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "ProudOfYou",
@@ -4976,7 +5503,8 @@
     "soundPath": "sound/voice/vo_line/8291226",
     "duration": "9",
     "transcription": {
-      "en": "Unpracticed as I am, this may sound hackneyed but. I'm proud of you."
+      "en": "Unpracticed as I am, this may sound hackneyed but. I'm proud of you.",
+      "fr": "Je n'ai pas l'habitude de ces effusions de joie, mais... Bien joué !"
     }
   },
   {
@@ -4986,7 +5514,8 @@
     "soundPath": "sound/voice/vo_line/8291227",
     "duration": "6",
     "transcription": {
-      "en": "Perhaps a more analytical, Sharlayan approach would achieve better results."
+      "en": "Perhaps a more analytical, Sharlayan approach would achieve better results.",
+      "fr": "Le savoir de Sharlayan nous mènera à la victoire la prochaine fois."
     }
   },
   {
@@ -4996,7 +5525,8 @@
     "soundPath": "sound/voice/vo_line/8291228",
     "duration": "5",
     "transcription": {
-      "en": "Even should it cost me my life, I will protect you from future defeat!"
+      "en": "Even should it cost me my life, I will protect you from future defeat!",
+      "fr": "L'Aurarque de la Raison ne permettra plus un tel dénouement."
     }
   },
   {
@@ -5006,7 +5536,8 @@
     "soundPath": "sound/voice/vo_line/8291229",
     "duration": "4",
     "transcription": {
-      "en": "I feel as though, I am unworthy to serve as vow of reason."
+      "en": "I feel as though, I am unworthy to serve as vow of reason.",
+      "fr": "Quel camouflet, malgré ma présence. Je suis bien indigne de t'encourager."
     }
   },
   {
@@ -5016,7 +5547,8 @@
     "soundPath": "sound/voice/vo_line/8291230",
     "duration": "4",
     "transcription": {
-      "en": "Victory will be ours."
+      "en": "Victory will be ours.",
+      "fr": "La victoire est à nous ! Hahaha !"
     }
   },
   {
@@ -5026,8 +5558,12 @@
     "soundPath": "sound/voice/vo_line/8291231",
     "duration": "4",
     "transcription": {
-      "en": "We won't go down without a fight!"
-    }
+      "en": "We won't go down without a fight!",
+      "fr": "Riichi ! On va leur laisser aucune chance !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "FallingBehind",
@@ -5036,7 +5572,8 @@
     "soundPath": "sound/voice/vo_line/8291232",
     "duration": "3",
     "transcription": {
-      "en": "We're falling behind!"
+      "en": "We're falling behind!",
+      "fr": "Nous avons été devancés, ja !"
     }
   },
   {
@@ -5046,7 +5583,8 @@
     "soundPath": "sound/voice/vo_line/8291233",
     "duration": "3",
     "transcription": {
-      "en": "They think they can challenge me?"
+      "en": "They think they can challenge me?",
+      "fr": "Hein !? Tu veux que je te fasse la tête au carré !?"
     }
   },
   {
@@ -5056,7 +5594,8 @@
     "soundPath": "sound/voice/vo_line/8291234",
     "duration": "3",
     "transcription": {
-      "en": "Gods help us."
+      "en": "Gods help us.",
+      "fr": "Il nous faut maintenant prier pour un miracle, frangin !"
     }
   },
   {
@@ -5066,8 +5605,12 @@
     "soundPath": "sound/voice/vo_line/8291235",
     "duration": "4",
     "transcription": {
-      "en": "Hahaha! Show them their place."
-    }
+      "en": "Hahaha! Show them their place.",
+      "fr": "Bwahahaha ! On va vous écrabouiller les microbes !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "HahaAllowMe",
@@ -5076,8 +5619,12 @@
     "soundPath": "sound/voice/vo_line/8291236",
     "duration": "4",
     "transcription": {
-      "en": "Haha, allow me."
-    }
+      "en": "Haha, allow me.",
+      "fr": "Tsumo ! À notre tour d'empocher les points, héhé !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "LuckWontLast",
@@ -5086,7 +5633,8 @@
     "soundPath": "sound/voice/vo_line/8291237",
     "duration": "3",
     "transcription": {
-      "en": "That luck won't last forever."
+      "en": "That luck won't last forever.",
+      "fr": "Rah, combien de temps on va tenir comme ça, ja !?"
     }
   },
   {
@@ -5096,7 +5644,8 @@
     "soundPath": "sound/voice/vo_line/8291238",
     "duration": "4",
     "transcription": {
-      "en": "Let them tear each other apart."
+      "en": "Let them tear each other apart.",
+      "fr": "Ils se détruisent mutuellement, c'est tout bon pour nous, ja !"
     }
   },
   {
@@ -5106,7 +5655,8 @@
     "soundPath": "sound/voice/vo_line/8291239",
     "duration": "3",
     "transcription": {
-      "en": "We were too late!"
+      "en": "We were too late!",
+      "fr": "Merde ! On est complètement à la ramasse..."
     }
   },
   {
@@ -5116,7 +5666,8 @@
     "soundPath": "sound/voice/vo_line/8291240",
     "duration": "3",
     "transcription": {
-      "en": "Ohoh! You never fail to impress me!"
+      "en": "Ohoh! You never fail to impress me!",
+      "fr": "Hahaha ! Une victoire sur toute la ligne !"
     }
   },
   {
@@ -5126,8 +5677,12 @@
     "soundPath": "sound/voice/vo_line/8291241",
     "duration": "4",
     "transcription": {
-      "en": "So, who wants a piece of me next?"
-    }
+      "en": "So, who wants a piece of me next?",
+      "fr": "Allez d'abord apprendre à jouer, uhahahaha !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "NotBadAtAll",
@@ -5136,7 +5691,8 @@
     "soundPath": "sound/voice/vo_line/8291242",
     "duration": "4",
     "transcription": {
-      "en": "Not bad, not bad at all!"
+      "en": "Not bad, not bad at all!",
+      "fr": "Ramessez vos dents, les nullos !"
     }
   },
   {
@@ -5146,8 +5702,12 @@
     "soundPath": "sound/voice/vo_line/8291243",
     "duration": "3",
     "transcription": {
-      "en": "You played your hand well."
-    }
+      "en": "You played your hand well.",
+      "fr": "Tous les points sont bons à prendre, ja !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "HowCanThisBe",
@@ -5156,7 +5716,8 @@
     "soundPath": "sound/voice/vo_line/8291244",
     "duration": "3",
     "transcription": {
-      "en": "No! How can this be?"
+      "en": "No! How can this be?",
+      "fr": "Impossible, ja ! Comment on a pu perdre face à des inférieurs !?"
     }
   },
   {
@@ -5166,7 +5727,8 @@
     "soundPath": "sound/voice/vo_line/8291245",
     "duration": "3",
     "transcription": {
-      "en": "No! No!"
+      "en": "No! No!",
+      "fr": "Non, non, nooon !"
     }
   },
   {
@@ -5176,7 +5738,8 @@
     "soundPath": "sound/voice/vo_line/8291246",
     "duration": "4",
     "transcription": {
-      "en": "I know that score isn't right."
+      "en": "I know that score isn't right.",
+      "fr": "Qui vous traitez de pétochard, sales morveux !?"
     }
   },
   {
@@ -5186,7 +5749,8 @@
     "soundPath": "sound/voice/vo_line/8291247",
     "duration": "4",
     "transcription": {
-      "en": "Ha! A pittance."
+      "en": "Ha! A pittance.",
+      "fr": "Tsk... Inutile de frimer avec ce score minable, ja."
     }
   },
   {
@@ -5196,7 +5760,8 @@
     "soundPath": "sound/voice/vo_line/8291248",
     "duration": "4",
     "transcription": {
-      "en": "Tahaha! Victory befitting our stature."
+      "en": "Tahaha! Victory befitting our stature.",
+      "fr": "Bwahahaha ! On a gagné les doigts dans le nez !"
     }
   },
   {
@@ -5206,7 +5771,8 @@
     "soundPath": "sound/voice/vo_line/8291249",
     "duration": "4",
     "transcription": {
-      "en": "Well, good enough I guess."
+      "en": "Well, good enough I guess.",
+      "fr": "Faut bien laisser les autres gagner de temps en temps, ja !"
     }
   },
   {
@@ -5216,7 +5782,8 @@
     "soundPath": "sound/voice/vo_line/8291250",
     "duration": "4",
     "transcription": {
-      "en": "I thought you could do better than that."
+      "en": "I thought you could do better than that.",
+      "fr": "Argh... Nous nous attentions à un meilleur résultat, ja."
     }
   },
   {
@@ -5226,7 +5793,8 @@
     "soundPath": "sound/voice/vo_line/8291251",
     "duration": "6",
     "transcription": {
-      "en": "Thats the best that three heads could manage? Tch. This was stupid anyways."
+      "en": "Thats the best that three heads could manage? Tch. This was stupid anyways.",
+      "fr": "Nous sortirons les têtes de l'eau à la prochaine partie, ja !"
     }
   },
   {
@@ -5236,8 +5804,12 @@
     "soundPath": "sound/voice/vo_line/8291252",
     "duration": "5",
     "transcription": {
-      "en": "I'm gonna smash this table to bits! And don't you dare stop me brother."
-    }
+      "en": "I'm gonna smash this table to bits! And don't you dare stop me brother.",
+      "fr": "La tuile... T'inquiète, avec le frangin, on va pas te laisser tomber."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "CouldBeChance",
@@ -5246,8 +5818,12 @@
     "soundPath": "sound/voice/vo_line/8291253",
     "duration": "3",
     "transcription": {
-      "en": "This could be your chance!"
-    }
+      "en": "This could be your chance!",
+      "fr": "Riichi ! La victoire n'est plus très loin !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "EnjoyingYourself",
@@ -5256,7 +5832,8 @@
     "soundPath": "sound/voice/vo_line/8291254",
     "duration": "4",
     "transcription": {
-      "en": "Enjoying yourself, I see."
+      "en": "Enjoying yourself, I see.",
+      "fr": "Hm, tu m'as l'air de bien t'amuser."
     }
   },
   {
@@ -5266,7 +5843,8 @@
     "soundPath": "sound/voice/vo_line/8291255",
     "duration": "4",
     "transcription": {
-      "en": "You can still come out on top!"
+      "en": "You can still come out on top!",
+      "fr": "Tu devrais pouvoir t'en sortir quand même..."
     }
   },
   {
@@ -5276,7 +5854,8 @@
     "soundPath": "sound/voice/vo_line/8291256",
     "duration": "4",
     "transcription": {
-      "en": "You have competition."
+      "en": "You have competition.",
+      "fr": "Tes adversaires te rattrapent. Que veux-tu faire ?"
     }
   },
   {
@@ -5286,7 +5865,8 @@
     "soundPath": "sound/voice/vo_line/8291257",
     "duration": "4",
     "transcription": {
-      "en": "Careful, they're planning something."
+      "en": "Careful, they're planning something.",
+      "fr": "Ne te relâche surtout pas !"
     }
   },
   {
@@ -5296,8 +5876,12 @@
     "soundPath": "sound/voice/vo_line/8291258",
     "duration": "4",
     "transcription": {
-      "en": "There! You have them!"
-    }
+      "en": "There! You have them!",
+      "fr": "Ron ! Ton rêve est entre de bonnes mains !"
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "LuckyYou",
@@ -5305,7 +5889,10 @@
     "shoutcaster": "Erenville",
     "soundPath": "sound/voice/vo_line/8291259",
     "duration": "3",
-    "npcYell": "16269"
+    "transcription": {
+      "en": "Heh, lucky you.",
+      "fr": "Bien joué, l'ami !"
+    }
   },
   {
     "id": "Unfortunate",
@@ -5314,7 +5901,8 @@
     "soundPath": "sound/voice/vo_line/8291260",
     "duration": "3",
     "transcription": {
-      "en": "That was unfortunate."
+      "en": "That was unfortunate.",
+      "fr": "Ah mince alors !"
     }
   },
   {
@@ -5324,7 +5912,8 @@
     "soundPath": "sound/voice/vo_line/8291261",
     "duration": "4",
     "transcription": {
-      "en": "A loss, but it could have been worse!"
+      "en": "A loss, but it could have been worse!",
+      "fr": "Dommage ! Ça s'est joué à un cheveu !"
     }
   },
   {
@@ -5334,7 +5923,8 @@
     "soundPath": "sound/voice/vo_line/8291262",
     "duration": "4",
     "transcription": {
-      "en": "Sometimes life doesn't go your way."
+      "en": "Sometimes life doesn't go your way.",
+      "fr": "Aah, on ne peut pas gagner à tous les coups..."
     }
   },
   {
@@ -5344,8 +5934,12 @@
     "soundPath": "sound/voice/vo_line/8291263",
     "duration": "4",
     "transcription": {
-      "en": "Impressive! Clearly this is another of your many talents."
-    }
+      "en": "Impressive! Clearly this is another of your many talents.",
+      "fr": "Ça alors ! Je ne te savais pas si doué à ce jeu ! "
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "EnjoyingThisArentYou",
@@ -5354,7 +5948,8 @@
     "soundPath": "sound/voice/vo_line/8291264",
     "duration": "4",
     "transcription": {
-      "en": "You're enjoying this, aren't you?"
+      "en": "You're enjoying this, aren't you?",
+      "fr": "Je m'amuse comme un fou, pas toi ?"
     }
   },
   {
@@ -5364,7 +5959,8 @@
     "soundPath": "sound/voice/vo_line/8291265",
     "duration": "3",
     "transcription": {
-      "en": "You made a fair go of it."
+      "en": "You made a fair go of it.",
+      "fr": "Tu te débrouilles, dis donc !"
     }
   },
   {
@@ -5373,7 +5969,10 @@
     "shoutcaster": "Erenville",
     "soundPath": "sound/voice/vo_line/8291266",
     "duration": "3",
-    "npcYell": "10814"
+    "transcription": {
+      "en": "That's the way!",
+      "fr": "Pas mal, continue comme ça."
+    }
   },
   {
     "id": "DontPlayGames",
@@ -5382,7 +5981,8 @@
     "soundPath": "sound/voice/vo_line/8291267",
     "duration": "4",
     "transcription": {
-      "en": "There's a reason I don't play games like this."
+      "en": "There's a reason I don't play games like this.",
+      "fr": "Tu ne devrais vraiment pas te contenter de si peu..."
     }
   },
   {
@@ -5392,7 +5992,8 @@
     "soundPath": "sound/voice/vo_line/8291268",
     "duration": "4",
     "transcription": {
-      "en": "I can leave if my presence is a distraction."
+      "en": "I can leave if my presence is a distraction.",
+      "fr": "Bon, je vais tailler la route si tu continues comme ça..."
     }
   },
   {
@@ -5402,7 +6003,8 @@
     "soundPath": "sound/voice/vo_line/8291269",
     "duration": "5",
     "transcription": {
-      "en": "That was merely a bad hand. You'll do better next time!"
+      "en": "That was merely a bad hand. You'll do better next time!",
+      "fr": "Ah là là... La chance n'était pas avec toi..."
     }
   },
   {
@@ -5412,7 +6014,8 @@
     "soundPath": "sound/voice/vo_line/8291270",
     "duration": "5",
     "transcription": {
-      "en": "A minor setback. All is not yet lost!"
+      "en": "A minor setback. All is not yet lost!",
+      "fr": "T'en fais pas. Tu t'en remettras !"
     }
   },
   {
@@ -5422,7 +6025,8 @@
     "soundPath": "sound/voice/vo_line/8291271",
     "duration": "4",
     "transcription": {
-      "en": "Somehow I'm not surprised!"
+      "en": "Somehow I'm not surprised!",
+      "fr": "T'es vraiment imbattable dans tous les domaines !"
     }
   },
   {
@@ -5432,7 +6036,8 @@
     "soundPath": "sound/voice/vo_line/8291272",
     "duration": "4",
     "transcription": {
-      "en": "This game is more fun than I expected."
+      "en": "This game is more fun than I expected.",
+      "fr": "Eh bien, ce n'est peut-être pas si mal, finalement !"
     }
   },
   {
@@ -5442,8 +6047,12 @@
     "soundPath": "sound/voice/vo_line/8291273",
     "duration": "4",
     "transcription": {
-      "en": "You're not going to walk away now, are you?"
-    }
+      "en": "You're not going to walk away now, are you?",
+      "fr": "Tu devrais étudier le mahjong d'un peu plus près, ça pourrait te servir à l'occasion..."
+    },
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "StudyExperiencedPlayers",
@@ -5452,7 +6061,8 @@
     "soundPath": "sound/voice/vo_line/8291274",
     "duration": "4",
     "transcription": {
-      "en": "If you want to be competitive, maybe you should try studying experienced players."
+      "en": "If you want to be competitive, maybe you should try studying experienced players.",
+      "fr": "J'te connais bien, tu ne vas pas en rester là, n'est-ce pas ?"
     }
   },
   {
@@ -5462,7 +6072,8 @@
     "soundPath": "sound/voice/vo_line/8291275",
     "duration": "8",
     "transcription": {
-      "en": "Take a ride on a rroneek. Clear your head and put this performance behind you."
+      "en": "Take a ride on a rroneek. Clear your head and put this performance behind you.",
+      "fr": "Bon ! Et si on allait se faire une petite balade en rroneek pour oublier ça ?"
     }
   },
   {
@@ -5864,7 +6475,9 @@
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203202",
     "contentDirectorBattleTalkVo": "8203202",
-    "npcYell": "13523"
+    "transcription": {
+      "en": "I do have an image to uphold."
+    }
   },
   {
     "id": "RepayDebt",
@@ -6077,7 +6690,8 @@
     "style": "6",
     "soundPath": "sound/voice/vo_line/8202542",
     "transcription": {
-      "en": "Down with you!"
+      "en": "Down with you!",
+      "fr": "La victoire m'appartient !"
     }
   },
   {
@@ -6314,7 +6928,8 @@
     "duration": "3",
     "style": "6",
     "transcription": {
-      "en": "Tougher than I thought..."
+      "en": "Tougher than I thought...",
+      "fr": "Je vais pas faire long feu..."
     },
     "soundPath": "sound/voice/vo_line/8203448"
   },
@@ -6325,7 +6940,8 @@
     "duration": "3",
     "style": "6",
     "transcription": {
-      "en": "Get it together..."
+      "en": "Get it together...",
+      "fr": "Il faut trouver un moyen de riposter !"
     },
     "soundPath": "sound/voice/vo_line/8203449"
   },
@@ -6347,7 +6963,10 @@
     "duration": "5",
     "style": "6",
     "soundPath": "sound/voice/vo_line/8203453",
-    "npcYell": "13961"
+    "transcription": {
+      "en": "Back to it!",
+      "fr": "C'est reparti."
+    }
   },
   {
     "id": "WillHurt",
@@ -6478,7 +7097,10 @@
     "transcription": {
       "en": "Ah, a bold gambit. Let's hope it pays off..."
     },
-    "soundPath": "sound/voice/vo_line/8291299"
+    "soundPath": "sound/voice/vo_line/8291299",
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "VictoryIsYours",
@@ -6489,7 +7111,10 @@
     "transcription": {
       "en": "Victory is yours. You need but seize it."
     },
-    "soundPath": "sound/voice/vo_line/8291300"
+    "soundPath": "sound/voice/vo_line/8291300",
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "WhatNow",
@@ -6533,7 +7158,10 @@
     "transcription": {
       "en": "Time for the killing blow."
     },
-    "soundPath": "sound/voice/vo_line/8291304"
+    "soundPath": "sound/voice/vo_line/8291304",
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "WaitingFor",
@@ -6544,7 +7172,10 @@
     "transcription": {
       "en": "This is what we've been waiting for."
     },
-    "soundPath": "sound/voice/vo_line/8291305"
+    "soundPath": "sound/voice/vo_line/8291305",
+    "attributes": [
+      "Contains Mahjong Reference (Non-English)"
+    ]
   },
   {
     "id": "Careless",
@@ -6707,7 +7338,8 @@
     "duration": "5",
     "style": "6",
     "transcription": {
-      "en": "Pick yourself up and try again. We'll get through this together."
+      "en": "Pick yourself up and try again. We'll get through this together.",
+      "fr": "N'abandonne pas. Souviens toi qu'ensemble, rien n'est impossible."
     },
     "soundPath": "sound/voice/vo_line/8291320"
   }
