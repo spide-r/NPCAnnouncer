@@ -79,7 +79,16 @@
       "MoreOfThem",
       "StillMore",
       "TroublingDevelopment",
-      "Careless"
+      "Careless",
+      "LetUsBeAboutIt",
+      "EnoughHien",
+      "ConcentrateHien",
+      "HmHien",
+      "WithMe",
+      "UhHumorMe",
+      "UmOfCourse",
+      "Flee",
+      "StrengthToStand"
     ]
   },
   {
@@ -179,7 +188,15 @@
       "Careless",
       "WorseOutcomes",
       "PlentyToConsider",
-      "NotWorthy"
+      "NotWorthy",
+      "DidItWork",
+      "AreYouAllRight",
+      "OfAllThePeople",
+      "HappenedHere",
+      "DontTellMe",
+      "UhHumorMe",
+      "ConcentrateHien",
+      "ActRemarkablePerformance"
     ]
   },
   {
@@ -240,7 +257,14 @@
       "HaveCareZero",
       "TroublingDevelopment",
       "Careless",
-      "DaresayRecover"
+      "DaresayRecover",
+      "AreYouAllRight",
+      "OfAllThePeople",
+      "HappenedHere",
+      "DontTellMe",
+      "UhHumorMe",
+      "Flee",
+      "StrengthToStand"
     ]
   },
   {
@@ -293,7 +317,14 @@
       "GotYou",
       "DarknessTakeYou",
       "KillingBlow",
-      "WaitingFor"
+      "WaitingFor",
+      "LetUsBeAboutIt",
+      "MarkWellAndLearn",
+      "ForwardForward",
+      "EnoughHien",
+      "ConcentrateHien",
+      "HearHear",
+      "WithMe"
     ]
   },
   {
@@ -342,7 +373,12 @@
       "HaveCareZero",
       "AreYouAlrightZero",
       "TroublingDevelopment",
-      "PlanningToLetThemWin"
+      "PlanningToLetThemWin",
+      "ConcentrateHien",
+      "LetUsBeAboutIt",
+      "MarkWellAndLearn",
+      "Flee",
+      "DidItWork"
     ]
   },
   {
@@ -371,7 +407,14 @@
       "DarknessTakeYou",
       "HowAboutThis",
       "BoldGambit",
-      "WaitingFor"
+      "WaitingFor",
+      "HearHear",
+      "DidItWork",
+      "ForwardForward",
+      "LetUsBeAboutIt",
+      "MarkWellAndLearn",
+      "ConcentrateHien",
+      "EnoughHien"
     ]
   },
   {
@@ -404,7 +447,15 @@
       "HowWellHolds",
       "Tougher",
       "StaySharp",
-      "HowAboutThis"
+      "HowAboutThis",
+      "EnoughHien",
+      "ConcentrateHien",
+      "SafeJourney",
+      "MarkWellAndLearn",
+      "HearHear",
+      "DidItWork",
+      "CallUpon",
+      "StrengthToStand"
     ]
   },
   {
@@ -432,7 +483,11 @@
       "GetItTogether",
       "StaySharp",
       "AreYouAlrightZero",
-      "HaveCareZero"
+      "HaveCareZero",
+      "Flee",
+      "EnoughHien",
+      "MarkWellAndLearn",
+      "ConcentrateHien"
     ]
   },
   {
@@ -561,7 +616,17 @@
       "NotFinishedYet",
       "StrangelyFamiliar",
       "EarnedNewBeginning",
-      "GetUpDamnYou"
+      "GetUpDamnYou",
+      "MarkWellAndLearn",
+      "ForwardForward",
+      "FullKnowledge",
+      "StrengthToStand",
+      "RiseTellMe",
+      "UmOfCourse",
+      "AccompanyToHall",
+      "BeProud",
+      "DidItWork",
+      "HearHear"
     ]
   },
   {
@@ -598,7 +663,12 @@
       "StrangelyFamiliar",
       "Tougher",
       "GetItTogether",
-      "AreYouAlrightZero"
+      "AreYouAlrightZero",
+      "ActRemarkablePerformance",
+      "AllagansMakeHabitLaunch",
+      "HappenedHere",
+      "UhHumorMe",
+      "UmOfCourse"
     ]
   },
   {
@@ -635,7 +705,13 @@
       "StaySharp",
       "BoldGambit",
       "Careless",
-      "PerfectlyRespectable"
+      "PerfectlyRespectable",
+      "ConcentrateHien",
+      "EnoughHien",
+      "ForwardForward",
+      "LetUsBeAboutIt",
+      "MarkWellAndLearn",
+      "Flee"
     ]
   },
   {
@@ -755,7 +831,15 @@
       "Outmatched",
       "PickYourselfUp",
       "Diversion",
-      "Replenish"
+      "Replenish",
+      "OfAllThePeople",
+      "HappenedHere",
+      "DontTellMe",
+      "UhHumorMe",
+      "BeProud",
+      "AccompanyToHall",
+      "UmOfCourse",
+      "MarkWellAndLearn"
     ]
   },
   {
@@ -834,7 +918,14 @@
       "EarnedNewBeginning",
       "StrangelyFamiliar",
       "Back to it.",
-      "VictoryIsYours"
+      "VictoryIsYours",
+      "LowerBarrier",
+      "CallUpon",
+      "AhComeSooner",
+      "MustTakeCastle",
+      "SafeJourney",
+      "SpareMyPrideFieldYours",
+      "BeenAWhileReady"
     ]
   },
   {
@@ -945,7 +1036,13 @@
       "DefeatedZenos",
       "PerfectlyRespectable",
       "FaithNotMisplaced",
-      "Replenish"
+      "Replenish",
+      "HearHear",
+      "YetWeWon",
+      "HavePrevailed",
+      "AccompanyToHall",
+      "BeProud",
+      "ThousandTimes"
     ]
   },
   {
@@ -1018,7 +1115,11 @@
       "PerfectlyRespectable",
       "Outstanding",
       "KillingBlow",
-      "DefeatedZenos"
+      "DefeatedZenos",
+      "ForwardForward",
+      "MarkWellAndLearn",
+      "ThousandTimes",
+      "HavePrevailed"
     ]
   },
   {
@@ -1117,7 +1218,12 @@
       "Careless",
       "WorseOutcomes",
       "PlentyToConsider",
-      "Despair"
+      "Despair",
+      "ConcentrateHien",
+      "MarkWellAndLearn",
+      "StrengthToStand",
+      "UmOfCourse",
+      "UhHumorMe"
     ]
   },
   {
@@ -1191,7 +1297,13 @@
       "Tougher",
       "GetItTogether",
       "NotFinishedYet",
-      "Careless"
+      "Careless",
+      "WithMe",
+      "AreYouAllRight",
+      "HappenedHere",
+      "OfAllThePeople",
+      "ConcentrateHien",
+      "EnoughHien"
     ]
   },
   {
@@ -1297,7 +1409,18 @@
       "AreYouAlrightZero",
       "PlanningToLetThemWin",
       "TroublingDevelopment",
-      "Outmatched"
+      "Outmatched",
+      "SpareMyPrideFieldYours",
+      "SafeJourney",
+      "ConcentrateHien",
+      "EnoughHien",
+      "ForwardForward",
+      "WhollyLossForWords",
+      "ActRemarkablePerformance",
+      "StrengthToStand",
+      "LowerBarrier",
+      "AreYouAllRight",
+      "HappenedHere"
     ]
   }
 ]

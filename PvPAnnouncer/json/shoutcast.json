@@ -7342,5 +7342,322 @@
       "fr": "N'abandonne pas. Souviens toi qu'ensemble, rien n'est impossible."
     },
     "soundPath": "sound/voice/vo_line/8291320"
+  },
+  {
+    "id": "HmHien",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04200/vo_voiceman_04200_001570_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_001570_HIEN"
+  },
+  {
+    "id": "WithMe",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_000791_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_000791_HIEN"
+  },
+  {
+    "id": "HearHear",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "2",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04500/vo_voiceman_04500_003040_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04500_003040_HIEN"
+  },
+  {
+    "id": "DidItWork",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04400/vo_voiceman_04400_001720_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04400_001720_HIEN"
+  },
+  {
+    "id": "YetWeWon",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_001400_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_001400_HIEN"
+  },
+  {
+    "id": "LowerBarrier",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04500/vo_voiceman_04500_001070_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04500_001070_HIEN"
+  },
+  {
+    "id": "AreYouAllRight",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04500/vo_voiceman_04500_003310_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04500_003310_HIEN"
+  },
+  {
+    "id": "OfAllThePeople",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04300/vo_voiceman_04300_000550_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04300_000550_HIEN"
+  },
+  {
+    "id": "HappenedHere",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04300/vo_voiceman_04300_001130_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04300_001130_HIEN"
+  },
+  {
+    "id": "DontTellMe",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04500/vo_voiceman_04500_003300_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04500_003300_HIEN"
+  },
+  {
+    "id": "HavePrevailed",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04300/vo_voiceman_04300_001920_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04300_001920_HIEN"
+  },
+  {
+    "id": "UhHumorMe",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "5",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_000190_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_000190_HIEN"
+  },
+  {
+    "id": "BeProud",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_001180_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_001180_HIEN"
+  },
+  {
+    "id": "AccompanyToHall",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04200/vo_voiceman_04200_001350_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_001350_HIEN"
+  },
+  {
+    "id": "CallUpon",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04300/vo_voiceman_04300_000821_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04300_000821_HIEN"
+  },
+  {
+    "id": "UmOfCourse",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_001350_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_001350_HIEN"
+  },
+  {
+    "id": "RiseTellMe",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "5",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04200/vo_voiceman_04200_000820_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_000820_HIEN"
+  },
+  {
+    "id": "AhComeSooner",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "5",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04003/vo_voiceman_04003_000280_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04003_000280_HIEN"
+  },
+  {
+    "id": "ThousandTimes",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "5",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04300/vo_voiceman_04300_002350_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04300_002350_HIEN"
+  },
+  {
+    "id": "Flee",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_001050_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_001050_HIEN"
+  },
+  {
+    "id": "StrengthToStand",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "5",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_001430_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_001430_HIEN"
+  },
+  {
+    "id": "ActRemarkablePerformance",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04200/vo_voiceman_04200_000961_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_000961_HIEN"
+  },
+  {
+    "id": "TroubledSomethingHeSaid",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04200/vo_voiceman_04200_002560_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_002560_HIEN"
+  },
+  {
+    "id": "WhollyLossForWords",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04200/vo_voiceman_04200_000801_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_000801_HIEN"
+  },
+  {
+    "id": "MustTakeCastle",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "5",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04004/vo_voiceman_04004_000790_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_000790_HIEN"
+  },
+  {
+    "id": "FullKnowledge",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "5",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04300/vo_voiceman_04300_002170_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04300_002170_HIEN"
+  },
+  {
+    "id": "BeenAWhileReady",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "7",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04003/vo_voiceman_04003_001720_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04003_001720_HIEN"
+  },
+  {
+    "id": "AllagansMakeHabitLaunch",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "6",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04400/vo_voiceman_04400_001030_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04400_001030_HIEN"
+  },
+  {
+    "id": "SpareMyPrideFieldYours",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "7",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04300/vo_voiceman_04300_001410_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04300_001410_HIEN"
+  },
+  {
+    "id": "SafeJourney",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "cut/ex2/sound/voicem/voiceman_04200/vo_voiceman_04200_002300_m",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_002300_HIEN"
+  },
+  {
+    "id": "ConcentrateHien",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "sound/voice/vo_line/8201330",
+    "npcYell": "13081"
+  },
+  {
+    "id": "EnoughHien",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "sound/voice/vo_line/8201331",
+    "npcYell": "15837"
+  },
+  {
+    "id": "ForwardForward",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "transcription": {
+      "en": "Forward! Forward!"
+    },
+    "soundPath": "sound/voice/vo_line/8201333"
+  },
+  {
+    "id": "LetUsBeAboutIt",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "3",
+    "style": "6",
+    "soundPath": "sound/voice/vo_line/8201334",
+    "npcYell": "15840"
+  },
+  {
+    "id": "MarkWellAndLearn",
+    "icon": "73032",
+    "shoutcaster": "Hien",
+    "duration": "4",
+    "style": "6",
+    "soundPath": "sound/voice/vo_line/8201335",
+    "npcYell": "4617"
   }
 ]

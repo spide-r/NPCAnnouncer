@@ -168,7 +168,9 @@
       43247
     ],
     "shouts": [
-      "SuchSpeedMasc"
+      "SuchSpeedMasc",
+      "Flee",
+      "ForwardForward"
     ]
   },
   {
@@ -270,7 +272,9 @@
       "DontLookAtMeSo",
       "Finished",
       "WillHurt",
-      "KillingBlow"
+      "KillingBlow",
+      "HmHien",
+      "DidItWork"
     ]
   },
   {
