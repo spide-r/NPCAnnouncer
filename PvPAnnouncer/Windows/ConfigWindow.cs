@@ -73,6 +73,7 @@ public class ConfigWindow : Window, IDisposable
         var wolvesDen = _configuration.WolvesDen;
         var pvp = _configuration.PvP;
         var pve = _configuration.PvE;
+        var fieldOps = _configuration.FieldOps;
         var pveCrits = _configuration.PvECrits;
         var overworld = _configuration.Overworld;
 
@@ -150,6 +151,12 @@ public class ConfigWindow : Window, IDisposable
         if (ImGui.Checkbox("Use Voice Lines in PvE Instances", ref pve))
         {
             _configuration.PvE = pve;
+            _configuration.Save();
+        }
+
+        if (ImGui.Checkbox("Use Voice Lines in Field Operations", ref fieldOps))
+        {
+            _configuration.FieldOps = fieldOps;
             _configuration.Save();
         }
 

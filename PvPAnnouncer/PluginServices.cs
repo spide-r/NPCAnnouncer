@@ -95,7 +95,7 @@ internal class PluginServices
         ConfigManager = new ConfigManager(Config, JsonLoader);
         ConfigManager.ApplyCustomValues();
         Announcer = new Announcer(EventShoutcastMapping, ShoutcastRepository);
-        LoadedVoicelineWindow = new LoadedVoicelineWindow(ShoutcastRepository);
+        LoadedVoicelineWindow = new LoadedVoicelineWindow();
         VoicelineCreationWindow = new VoicelineCreationWindow();
         VoicelineMappingWindow = new VoicelineMappingWindow();
         CustomizationWindow = new CustomizationWindow(Config);

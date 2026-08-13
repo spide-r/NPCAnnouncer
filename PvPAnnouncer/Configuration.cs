@@ -48,6 +48,7 @@ namespace PvPAnnouncer
         public bool ExportSingleCharacter { get; set; } = false;
 
         public bool Overworld { get; set; } = false;
+        public bool FieldOps { get; set; }
         public bool PvE { get; set; } = true;
         public bool PvECrits { get; set; } = false;
         public bool PvP { get; set; } = true;
@@ -68,7 +69,7 @@ namespace PvPAnnouncer
 
         public string Language { get; set; } = "en";
         public string TextLanguage { get; set; } = "en";
-        public int Version { get; set; } = 8;
+        public int Version { get; set; } = 9;
 
         public void AddCustomShoutCast(string shoutcastId, string shoutcastJson)
         {
@@ -339,6 +340,13 @@ namespace PvPAnnouncer
             if (Version == 9)
             {
                 ShowNotification = true;
+                Version++;
+            }
+
+            if (Version == 10)
+            {
+                if (PvE) FieldOps = true;
+
                 Version++;
             }
 

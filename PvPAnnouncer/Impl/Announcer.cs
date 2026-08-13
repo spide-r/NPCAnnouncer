@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Timers;
 using Dalamud.Game.ClientState.Conditions;
+using FFXIVClientStructs.FFXIV.Client.Enums;
+using FFXIVClientStructs.FFXIV.Client.Game;
 using FFXIVClientStructs.FFXIV.Client.UI;
 using PvPAnnouncer.Data;
 using PvPAnnouncer.Interfaces;
@@ -84,6 +86,7 @@ public class Announcer : IAnnouncer, IDisposable
         var pvp = PluginServices.Config.PvP;
         var pve = PluginServices.Config.PvE;
         var wd = PluginServices.Config.WolvesDen;
+        var fo = PluginServices.Config.FieldOps;
         if (PluginServices.ClientState.IsPvP)
         {
             if (PluginServices.ClientState.IsPvPExcludingDen)
@@ -94,6 +97,8 @@ public class Announcer : IAnnouncer, IDisposable
             return wd;
         }
 
+        if (IsPlayerInFieldOp()) return fo;
+
         if (PluginServices.DutyState.IsDutyStarted || PluginServices.Condition.Any(ConditionFlag.BoundByDuty,
                 ConditionFlag.BoundByDuty56, ConditionFlag.BoundByDuty95))
             //in duty
@@ -101,6 +106,20 @@ public class Announcer : IAnnouncer, IDisposable
 
         //not started and/or in overworld
         return overworld;
+    }
+
+    private bool IsPlayerInFieldOp()
+    {
+        unsafe
+        {
+            var fieldOp = GameMain.Instance()->CurrentTerritoryIntendedUseId is TerritoryIntendedUse.Bozja
+                or TerritoryIntendedUse.DelubrumReginae or TerritoryIntendedUse.DelubrumReginaeSavage
+                or TerritoryIntendedUse.CosmicExploration or TerritoryIntendedUse.Eureka
+                or TerritoryIntendedUse.ExploratoryMissions
+                or TerritoryIntendedUse.OccultCrescent; /*probably forked tower: or TerritoryIntendedUse.Unknown62*/
+            //PluginServices.PluginLog.Information($"IntendedUse.Unknown62: {GameMain.Instance()->CurrentTerritoryIntendedUseId is TerritoryIntendedUse.Unknown62}");
+            return fieldOp;
+        }
     }
 
     public void PlayAndSendBattleTalkForTesting(Shoutcast shoutcast)

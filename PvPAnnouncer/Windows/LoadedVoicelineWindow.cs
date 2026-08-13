@@ -1,31 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Numerics;
 using Dalamud.Bindings.ImGui;
 using Dalamud.Interface.Windowing;
 using PvPAnnouncer.Data;
-using PvPAnnouncer.Interfaces;
 
 namespace PvPAnnouncer.Windows;
 
 public class LoadedVoicelineWindow : Window, IDisposable
 {
-    private readonly List<Shoutcast> _allBattleTalks;
+    private List<Shoutcast> _allBattleTalks;
     private List<string> toFilter = ["All"];
     private string _textFilter = "";
     private int _filterIndex;
 
-    public LoadedVoicelineWindow(IShoutcastRepository shoutcastRepository) : base(
+    public LoadedVoicelineWindow() : base(
         "Loaded Voice Lines", ImGuiWindowFlags.AlwaysVerticalScrollbar)
     {
         this.SizeConstraints = new WindowSizeConstraints
         {
             MinimumSize = new Vector2(450, 225),
         };
-        foreach (var s in PluginServices.ShoutcastRepository.GetShoutcasters()) toFilter.Add(s);
-
-
-        _allBattleTalks = new List<Shoutcast>(shoutcastRepository.GetShoutcasts());
     }
 
     public void Dispose()
@@ -35,6 +31,15 @@ public class LoadedVoicelineWindow : Window, IDisposable
 
     public override void Draw()
     {
+        _allBattleTalks = new List<Shoutcast>(PluginServices.ShoutcastRepository.GetShoutcasts());
+        toFilter.Clear();
+        toFilter.Add("All");
+        foreach (var s in _allBattleTalks.Where(s => !toFilter.Contains(s.Shoutcaster))) toFilter.Add(s.Shoutcaster);
+
+        if (_filterIndex > toFilter.Count - 1) _filterIndex = 0;
+
+        //above code is... inefficient, but idc since the list will be computationally small
+
         ImGui.Text("Announcer Filter");
         if (ImGui.BeginCombo("###Announcer Filter", toFilter[_filterIndex]))
         {
