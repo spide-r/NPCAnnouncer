@@ -115,7 +115,7 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
                 var audio = $"cut/{ex}/sound/voicem/voiceman_{number}/vo_voiceman_{number}_{secondNumber}_m";
                 result.SoundPath = audio;
                 var d = GetCutsceneLineAllLang(result.CutsceneLine);
-                result.IsGendered = dataManager.FileExists(result.GetFemSoundPath());
+                result.IsGendered = dataManager.FileExists(result.GetFemSoundPathJa());
                 result.Transcription = d;
             }
         }

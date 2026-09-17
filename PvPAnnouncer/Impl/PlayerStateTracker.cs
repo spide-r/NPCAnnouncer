@@ -42,7 +42,8 @@ public class PlayerStateTracker : IPlayerStateTracker
         if (flag == ConditionFlag.Transformed && value)
         {
             PluginServices.PluginLog.Verbose("Transformed");
-            EmitToBroker(new UserEnteredMechMessage());
+            EmitToBroker(
+                new UserEnteredMechMessage()); //todo this works for all transformations not just pvp - fix/extend!
         }
     }
 

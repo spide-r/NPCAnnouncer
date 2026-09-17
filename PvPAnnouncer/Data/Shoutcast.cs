@@ -94,16 +94,19 @@ public partial class Shoutcast(
 
     public string GetShoutcastSoundPathWithGenderAndLang(string lang, bool fem)
     {
-        if (fem && IsGendered) // if this is a gendered voiceline and the user wants the fem version
+        var potentialSoundPath = SoundPath.Replace("_m", "_f") + "_" + lang + ".scd";
+        if (fem && IsGendered &&
+            PluginServices.DataManager
+                .FileExists(potentialSoundPath)) // if this is a gendered voiceline and the user wants the fem version
         {
-            return SoundPath.Replace("_m", "_f") + "_" + lang + ".scd";
+            return potentialSoundPath;
         }
 
         // masc default
         return GetShoutcastSoundPathWithLang(lang);
     }
 
-    public string GetFemSoundPath()
+    public string GetFemSoundPathJa()
     {
         return SoundPath.Replace("_m", "_f") + "_ja.scd";
     }

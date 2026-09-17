@@ -56,21 +56,48 @@ namespace PvPAnnouncer
             PluginServices.ChatGui.Print(
                 "PVPAnnouncer is now NPCAnnouncer! Your existing config has been preserved. (You are also able to toggle this new behavior off in the plugin config.)\nYour favorite NPC can now comment on ALL. CONTENT. Dungeons, Alliance Raids, Fates, Ultimate raids, you name it." +
                 "\nPlease use /npcannouncer, the old command /pvpannouncer will be removed soon.",
-                "NPCAnnouncer", 15);
+                InternalConstants.MessageTag, 15);
             ToggleConfigWindow();
         }
 
 //
         private void OnToggleMuteCommand(string command, string args)
         {
-            PluginServices.SoundManager.ToggleMute();
-            string un = "";
-            if (!PluginServices.Config.Muted)
+            if (string.IsNullOrEmpty(args))
             {
-                un = "un-";
+                PluginServices.SoundManager.ToggleMute();
+                var un = "";
+                if (!PluginServices.Config.Muted) un = "un-";
+
+                PluginServices.ChatGui.Print("All NPC Announcers have been " + un + "muted!",
+                    InternalConstants.MessageTag);
+            }
+            else
+            {
+                args = args.Trim();
+                if (PluginServices.ShoutcastRepository.GetShoutcasters()
+                    .Contains(args))
+                {
+                    // valid shoutcaster
+                    if (PluginServices.Config.DesiredAttributes.Contains(args))
+                    {
+                        PluginServices.ChatGui.Print($"{args} has been disabled.", InternalConstants.MessageTag);
+                        PluginServices.Config.DesiredAttributes.Remove(args);
+                    }
+                    else
+                    {
+                        PluginServices.ChatGui.Print($"{args} has been enabled.", InternalConstants.MessageTag);
+                        PluginServices.Config.DesiredAttributes.Add(args);
+                    }
+                }
+                else
+                {
+                    PluginServices.ChatGui.Print(
+                        $"{args} does not seem to be a valid announcer. Please double check you have proper spelling and casing.");
+                }
             }
 
-            PluginServices.ChatGui.Print("Announcer Has been " + un + "muted!", InternalConstants.MessageTag);
+            PluginServices.Config.Save();
         }
 
         private void ToggleConfigWindow()
@@ -100,7 +127,7 @@ namespace PvPAnnouncer
             });
             PluginServices.CommandManager.AddHandler("/muteannouncer", new CommandInfo(OnToggleMuteCommand)
             {
-                HelpMessage = "Toggle Mute Announcer"
+                HelpMessage = "Toggle Mute Announcer - Supply a name to this command to toggle a specified announcer!"
             });
         }
 
