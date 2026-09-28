@@ -102,16 +102,13 @@ namespace PvPAnnouncer
 
         private void ToggleConfigWindow()
         {
-#if DEBUG
-            PluginServices.DevWindow.Toggle();
-#endif
             PluginServices.ConfigWindow.Toggle();
         }
 
         private void ToggleMainUI()
         {
             PluginUpdateMessage();
-            PluginServices.MainWindow.Toggle();
+            PluginServices.ConfigWindow.Toggle();
         }
 
         private void LoadCommands()

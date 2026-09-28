@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PvPAnnouncer", "PvPAnnouncer\PvPAnnouncer.csproj", "{1C2496FA-7647-45A9-89FA-114A6DE99DE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtterGui", "OtterGui\OtterGui.csproj", "{5C3821FB-AECB-4487-93CC-DB12CC2326BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,5 +13,9 @@ Global
 		{1C2496FA-7647-45A9-89FA-114A6DE99DE4}.Debug|Any CPU.ActiveCfg = Debug|x64
 		{1C2496FA-7647-45A9-89FA-114A6DE99DE4}.Debug|Any CPU.Build.0 = Debug|x64
 		{1C2496FA-7647-45A9-89FA-114A6DE99DE4}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{5C3821FB-AECB-4487-93CC-DB12CC2326BB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5C3821FB-AECB-4487-93CC-DB12CC2326BB}.Debug|Any CPU.Build.0 = Debug|x64
+		{5C3821FB-AECB-4487-93CC-DB12CC2326BB}.Release|Any CPU.ActiveCfg = Release|x64
+		{5C3821FB-AECB-4487-93CC-DB12CC2326BB}.Release|Any CPU.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal

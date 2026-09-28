@@ -1,181 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using Dalamud.Bindings.ImGui;
 using Dalamud.Interface.Components;
 using Dalamud.Interface.ImGuiNotification;
-using Dalamud.Interface.Windowing;
 using Dalamud.Utility;
-using PvPAnnouncer.Data;
+using OtterGui.Widgets;
 
-namespace PvPAnnouncer.Windows;
+namespace PvPAnnouncer.Windows.Tabs;
 
-public class CustomizationWindow : Window, IDisposable
+public class ShareTab : ITab
 {
-    private readonly Configuration _configuration;
-
-    public CustomizationWindow(Configuration pluginConfiguration) : base(
-        "Character, Event, and Voiceline Management")
-    {
-        this.SizeConstraints = new WindowSizeConstraints
-        {
-            MinimumSize = new Vector2(450, 225),
-        };
-        _configuration = pluginConfiguration;
-    }
-
-    private int _activeEventsSelectedItem;
-    private int _disabledEventsSelectedItem;
-    private string[] _activeEventsArr = [];
-    private string[] _activeEventsArrInternal = [];
-    private string[] _disabledEventsArr = [];
-    private string[] _disabledEventsArrInternal = [];
+    private readonly Configuration _configuration = PluginServices.Config;
     private int _selection;
     private string _shoutcaster = "";
 
-    public override void Draw()
+    public ReadOnlySpan<byte> Label => "Share"u8;
+
+    public void DrawContent()
     {
-        var blEvents = _configuration.BlacklistedEvents;
-
-        ImGui.TextWrapped(
-            "If you need to edit or delete a custom shoutcast, or ensure that a pre-made shoutcast is never shown to you, you can do so here:");
-
-        if (ImGui.Button("Mute, Delete & Edit Shoutcast")) PluginServices.VoicelineManagementWindow.Toggle();
-
-        ImGui.TextWrapped("If you wish to browse existing shoutcasts, you can do so here:");
-        if (ImGui.Button("Open Full Shoutcast List")) PluginServices.LoadedVoicelineWindow.Toggle();
-
-        if (ImGui.CollapsingHeader("Voiceline Creation & Event Editing"))
-        {
-            ImGui.TextWrapped(
-                "- In order for the plugin to play a voiceline, it needs an audio file and a text transcription.");
-            ImGui.TextWrapped(
-                "- While some voice line audio is transcribed neatly, most audio is independent from its transcription.");
-            ImGui.TextWrapped(
-                "- We must connect the dots ourselves in order to create a full shoutcast that the plugin can use.");
-
-
-            ImGui.TextWrapped("Shoutcast creation can be done here:");
-            if (ImGui.Button("Create Shoutcasts")) PluginServices.VoicelineCreationWindow.Toggle();
-
-            ImGui.TextWrapped(
-                "Once we have created a few shoutcasts, we must \"map\" the shoutcast to an associated event. This allows the plugin to select it when an event is triggered.\nThis can be done here:");
-
-            if (ImGui.Button("Add & Remove Shoutcasts for Events")) PluginServices.VoicelineMappingWindow.Toggle();
-            ImGui.Spacing();
-            ImGui.TextWrapped("Do you speak more than one language? Translate voicelines here!");
-            if (ImGui.Button("Translate Voicelines")) PluginServices.TranslateWindow.Toggle();
-        }
-
-        ImGui.Separator();
-        ImGui.TextWrapped(
-            "Please feel free to share these presets anywhere! I'd love to see what you end up creating! " +
-            "Who knows, your work may end up finding its way into the plugin. ;D");
-        ImGui.TextWrapped("I can be contacted in the Dalamud discord in the \"PvPAnnouncer\" help forum ");
-
-        ImGui.Separator();
-        if (ImGui.CollapsingHeader("Import & Export"))
-        {
-            ShowImportExport();
-        }
-
-        if (ImGui.CollapsingHeader("Enable & Disable Events"))
-        {
-            var activeEvents = new List<string>();
-            var activeEventsInternal = new List<string>();
-            foreach (var e in PluginServices.PvPEventBroker.GetPvPEvents())
-            {
-                var eventId = e.Id;
-                if (!blEvents.Contains(eventId))
-                {
-                    activeEvents.Add(e.Name);
-                    activeEventsInternal.Add(eventId);
-                }
-            }
-
-
-            List<string> listDisabledInternal = [];
-            List<string> listDisabledPublic = [];
-            foreach (var internalName in blEvents)
-            {
-                var e = PluginServices.PvPEventBroker.GetEvent(internalName);
-                if (e == null) continue;
-
-                listDisabledInternal.Add(internalName);
-                listDisabledPublic.Add(e.Name);
-            }
-
-            _activeEventsArr = activeEvents.ToArray();
-            _activeEventsArrInternal = activeEventsInternal.ToArray();
-            ImGui.Text("Enabled Events:");
-            ImGui.ListBox("###EnabledEvents", ref _activeEventsSelectedItem, _activeEventsArr);
-            if (ImGui.Button("Disable"))
-                if (_activeEventsSelectedItem < _activeEventsArrInternal.Length)
-                {
-                    _configuration.BlacklistedEvents.Add(_activeEventsArrInternal[_activeEventsSelectedItem]);
-                    _configuration.Save();
-                }
-
-            _disabledEventsArrInternal = listDisabledInternal.ToArray();
-            _disabledEventsArr = listDisabledPublic.ToArray();
-            ImGui.Text("Disabled Events:");
-            ImGui.ListBox("###DisabledEvents", ref _disabledEventsSelectedItem, _disabledEventsArr);
-            if (ImGui.Button("Enable"))
-                if (_disabledEventsSelectedItem < _disabledEventsArrInternal.Length)
-                {
-                    _configuration.BlacklistedEvents.Remove(_disabledEventsArrInternal[_disabledEventsSelectedItem]);
-                    _configuration.Save();
-                }
-        }
-
-        if (ImGui.CollapsingHeader("Event Tester###Testerheader")) EventTester();
-
-
-        if (ImGui.CollapsingHeader("Event Queue###QueueHeader")) EventQueue();
-
-        ImGui.NewLine();
-
-        if (ImGui.CollapsingHeader("Config Reset"))
-        {
-            if (ImguiTools.CtrlShiftButton("Reset Custom Voicelines"))
-            {
-                PluginServices.Config.CustomShoutcasts.Clear();
-                PluginServices.Config.Save();
-                PluginServices.ConfigManager.ReloadConfig();
-                PluginServices.ChatGui.Print("Reset Custom Voicelines!");
-            }
-
-            ImGui.SameLine();
-            if (ImguiTools.CtrlShiftButton("Reset Custom Mapping"))
-            {
-                PluginServices.Config.MappingOverride.Clear();
-                PluginServices.Config.Save();
-                PluginServices.ConfigManager.ReloadConfig();
-                PluginServices.ChatGui.Print("Reset Custom Mapping!");
-            }
-        }
+        ShowImportExport();
     }
 
-    private void CopyValues(Dictionary<string, string> customVoicelines,
-        Dictionary<string, string> customMappings,
-        Dictionary<string, string> customEvents)
-    {
-        var customStuff = new Dictionary<string, Dictionary<string, string>>
-        {
-            {"shoutcasts", customVoicelines},
-            {"mapping", customMappings},
-            {"events", customEvents}
-        };
-        var text = PluginServices.JsonLoader.ProcessObjectForExport(customStuff);
-        PluginServices.PluginLog.Verbose($"Output: {text}");
-        ImGui.SetClipboardText(text);
-        PluginServices.NotificationManager.AddNotification(new Notification()
-        {
-            Title = "Copied!",
-            Content = "Successfully copied to the clipboard!"
-        });
-    }
 
     private void ShowImportExport()
     {
@@ -239,7 +85,6 @@ public class CustomizationWindow : Window, IDisposable
                 var dict = PluginServices.JsonLoader
                     .ProcessStringForImport<Dictionary<string, Dictionary<string, string>>>(b64Clip);
                 if (dict.TryGetValue("shoutcasts", out var deserializedSc))
-                {
                     foreach (var keyValuePair in deserializedSc)
                     {
                         if (_configuration.DupeVoicelineChoice == 1 &&
@@ -249,10 +94,8 @@ public class CustomizationWindow : Window, IDisposable
                         PluginServices.Config.CustomShoutcasts[keyValuePair.Key] = keyValuePair.Value;
                         impVl++;
                     }
-                }
 
                 if (dict.TryGetValue("mapping", out var deserializedMapping))
-                {
                     //todo - silent error where shoutcasts that dont exist are either ignored or added - potential room for improvement?
                     foreach (var keyValuePair in deserializedMapping)
                         switch (_configuration.DupeMappingChoice)
@@ -296,7 +139,6 @@ public class CustomizationWindow : Window, IDisposable
                                 break;
                             }
                         }
-                }
 
 
                 PluginServices.Config.Save();
@@ -358,7 +200,6 @@ public class CustomizationWindow : Window, IDisposable
         }
     }
 
-
     private Dictionary<string, string> GetShoutsForShoutcaster(string caster)
     {
         var customShouts = PluginServices.Config.CustomShoutcasts.Where(sh =>
@@ -401,44 +242,23 @@ public class CustomizationWindow : Window, IDisposable
         return dict;
     }
 
-
-    private void EventTester()
+    private void CopyValues(Dictionary<string, string> customVoicelines,
+        Dictionary<string, string> customMappings,
+        Dictionary<string, string> customEvents)
     {
-        ImGui.Text("Event Tester");
-        ImGui.TextWrapped(
-            "This Simulates these events happening in real pvp, using your configuration settings (except for cooldown between announcements.");
-        var i = 1;
-        foreach (var ev in PluginServices.PvPEventBroker.GetPvPEvents())
+        var customStuff = new Dictionary<string, Dictionary<string, string>>
         {
-            if (ImGui.Button(ev.Name))
-            {
-                try
-                {
-                    PluginServices.Announcer.ReceiveEvent(true, ev);
-                    PluginServices.Announcer.ClearQueue();
-                }
-                catch (Exception e)
-                {
-                    PluginServices.PluginLog.Error(e, "Issue sending custom event!!!");
-                }
-            }
-
-            if (i % 4 != 0)
-            {
-                ImGui.SameLine();
-            }
-
-            i++;
-        }
-    }
-
-    private void EventQueue()
-    {
-        ImGui.TextWrapped("Here are the last 10 triggered events and their voicelines:");
-        foreach (var lastTrigger in PluginServices.Announcer.GetLastTriggers()) ImGui.TextWrapped(lastTrigger);
-    }
-
-    public void Dispose()
-    {
+            {"shoutcasts", customVoicelines},
+            {"mapping", customMappings},
+            {"events", customEvents}
+        };
+        var text = PluginServices.JsonLoader.ProcessObjectForExport(customStuff);
+        PluginServices.PluginLog.Verbose($"Output: {text}");
+        ImGui.SetClipboardText(text);
+        PluginServices.NotificationManager.AddNotification(new Notification
+        {
+            Title = "Copied!",
+            Content = "Successfully copied to the clipboard!"
+        });
     }
 }

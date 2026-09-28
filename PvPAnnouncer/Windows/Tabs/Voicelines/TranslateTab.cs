@@ -1,32 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using Dalamud.Bindings.ImGui;
-using Dalamud.Interface.Windowing;
+using OtterGui.Widgets;
 using PvPAnnouncer.Data;
 
-namespace PvPAnnouncer.Windows;
+namespace PvPAnnouncer.Windows.Tabs.Voicelines;
 
-public class TranslateWindow : Window, IDisposable
+public class TranslateTab : ITab
 {
-    public TranslateWindow() : base(
-        "NPC Announcer Translation")
-    {
-        SizeConstraints = new WindowSizeConstraints
-        {
-            MinimumSize = new Vector2(450, 225)
-        };
-        foreach (var s in PluginServices.ShoutcastRepository.GetShoutcasters()) _toFilter.Add(s);
-    }
-
     private readonly List<string> _toFilter = ["All"];
     private int _filterIndex;
     private int _shoutcastSelection;
     private string _translationBuffer = "";
 
+    public TranslateTab()
+    {
+        foreach (var s in PluginServices.ShoutcastRepository.GetShoutcasters()) _toFilter.Add(s);
+    }
 
-    public override void Draw()
+    public ReadOnlySpan<byte> Label => "Translate"u8;
+
+    public void DrawContent()
     {
         var lang = PluginServices.Config.Language;
 
@@ -127,10 +122,5 @@ public class TranslateWindow : Window, IDisposable
             PluginServices.Config.Translations.Clear();
             PluginServices.Config.Save();
         }
-    }
-
-
-    public void Dispose()
-    {
     }
 }

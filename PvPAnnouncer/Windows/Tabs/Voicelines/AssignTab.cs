@@ -1,29 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using Dalamud.Bindings.ImGui;
-using Dalamud.Interface.Windowing;
+using OtterGui.Widgets;
+using PvPAnnouncer.Data;
 
-namespace PvPAnnouncer.Windows;
+namespace PvPAnnouncer.Windows.Tabs.Events;
 
-public class VoicelineMappingWindow : Window, IDisposable
+public class AssignTab : ITab
 {
-    public VoicelineMappingWindow() : base(
-        "NPCAnnouncer Mapping Window")
-    {
-        this.SizeConstraints = new WindowSizeConstraints
-        {
-            MinimumSize = new Vector2(450, 225),
-        };
-    }
+    private readonly Configuration _configuration = PluginServices.Config;
+    private int _pvpEventSelection;
+    private int _currentEventShoutSelection;
+    private int _otherShouts;
+    private int _shoutcasterSelection;
+    public ReadOnlySpan<byte> Label => "Assign"u8;
 
-    private int _pvpEventSelection = 0;
-    private int _currentEventShoutSelection = 0;
-    private int _otherShouts = 0;
-    private int _shoutcasterSelection = 0;
-
-    public override void Draw()
+    public void DrawContent()
     {
         var eventsUserFacingName = new List<string>();
         var eventsInternal = new List<string>();
@@ -60,9 +53,7 @@ public class VoicelineMappingWindow : Window, IDisposable
         var pvpEventSelection = _pvpEventSelection;
 
         if (ImGui.Combo("###PvPEvents", ref pvpEventSelection, eventsUserFacingName))
-        {
             _pvpEventSelection = pvpEventSelection;
-        }
 
 
         var currentShoutMapping =
@@ -79,12 +70,9 @@ public class VoicelineMappingWindow : Window, IDisposable
 
         var currentShoutSelection = _currentEventShoutSelection;
         if (ImGui.ListBox("###CurrentShouts", ref currentShoutSelection, currentShoutsForEvent))
-        {
             _currentEventShoutSelection = currentShoutSelection;
-        }
 
         if (ImGui.Button("Test Selected Shout###CurrentShoutTest"))
-        {
             try
             {
                 var sc = PluginServices.ShoutcastRepository.GetShoutcast(currentShoutsForEvent[currentShoutSelection]);
@@ -99,11 +87,9 @@ public class VoicelineMappingWindow : Window, IDisposable
             catch (ArgumentOutOfRangeException)
             {
             }
-        }
 
         ImGui.SameLine();
         if (ImGui.Button("Remove Voiceline"))
-        {
             try
             {
                 var shoutToRemove = currentShoutsForEvent[currentShoutSelection];
@@ -114,7 +100,6 @@ public class VoicelineMappingWindow : Window, IDisposable
             catch (ArgumentOutOfRangeException)
             {
             }
-        }
 
         ImGui.Text("Available Voicelines:");
 
@@ -124,12 +109,9 @@ public class VoicelineMappingWindow : Window, IDisposable
         var otherShoutsSelection = _otherShouts;
 
         if (ImGui.ListBox("###OtherShouts", ref otherShoutsSelection, otherShoutsList))
-        {
             _otherShouts = otherShoutsSelection;
-        }
 
         if (ImGui.Button("Test Selected Shout###OtherShoutTest"))
-        {
             try
             {
                 var sc = PluginServices.ShoutcastRepository.GetShoutcast(otherShoutsList[otherShoutsSelection]);
@@ -144,11 +126,9 @@ public class VoicelineMappingWindow : Window, IDisposable
             catch (ArgumentOutOfRangeException)
             {
             }
-        }
 
         ImGui.SameLine();
         if (ImGui.Button("Add Voiceline"))
-        {
             try
             {
                 var shoutToAdd = otherShoutsList[otherShoutsSelection];
@@ -160,9 +140,16 @@ public class VoicelineMappingWindow : Window, IDisposable
             catch (ArgumentOutOfRangeException)
             {
             }
+
+        ImGui.Separator();
+        if (ImguiTools.CtrlShiftButton("Reset Custom Mapping"))
+        {
+            PluginServices.Config.MappingOverride.Clear();
+            PluginServices.Config.Save();
+            PluginServices.ConfigManager.ReloadConfig();
+            PluginServices.ChatGui.Print("Reset Custom Mapping!");
         }
     }
-
 
     private void SaveAndAdd(string eventT, string shout)
     {
@@ -190,10 +177,5 @@ public class VoicelineMappingWindow : Window, IDisposable
         PluginServices.Config.MappingOverride[eventT] = j.ToJsonString();
         PluginServices.Config.Save();
         PluginServices.PluginLog.Verbose("Saved: " + j);
-    }
-
-
-    public void Dispose()
-    {
     }
 }

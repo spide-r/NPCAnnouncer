@@ -1,35 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using Dalamud.Bindings.ImGui;
-using Dalamud.Interface.Windowing;
+using OtterGui.Widgets;
 using PvPAnnouncer.Data;
 
-namespace PvPAnnouncer.Windows;
+namespace PvPAnnouncer.Windows.Tabs.Voicelines;
 
-public class LoadedVoicelineWindow : Window, IDisposable
+public class LibraryTab : ITab
 {
+    public ReadOnlySpan<byte> Label => "Library"u8;
+
     private List<Shoutcast> _allBattleTalks;
-    private List<string> toFilter = ["All"];
+    private readonly List<string> toFilter = ["All"];
     private string _textFilter = "";
     private int _filterIndex;
 
-    public LoadedVoicelineWindow() : base(
-        "Loaded Voice Lines", ImGuiWindowFlags.AlwaysVerticalScrollbar)
-    {
-        this.SizeConstraints = new WindowSizeConstraints
-        {
-            MinimumSize = new Vector2(450, 225),
-        };
-    }
-
-    public void Dispose()
-    {
-    }
-
-
-    public override void Draw()
+    public void DrawContent()
     {
         _allBattleTalks = new List<Shoutcast>(PluginServices.ShoutcastRepository.GetShoutcasts());
         toFilter.Clear();
@@ -45,11 +32,8 @@ public class LoadedVoicelineWindow : Window, IDisposable
         {
             for (var i = 0; i < toFilter.Count; i++)
             {
-                bool selected = (_filterIndex == i);
-                if (ImGui.Selectable(toFilter[i], selected))
-                {
-                    _filterIndex = i;
-                }
+                var selected = _filterIndex == i;
+                if (ImGui.Selectable(toFilter[i], selected)) _filterIndex = i;
             }
 
             ImGui.EndCombo();
@@ -72,12 +56,8 @@ public class LoadedVoicelineWindow : Window, IDisposable
             foreach (var bt in _allBattleTalks)
             {
                 if (_filterIndex != 0)
-                {
                     if (!bt.Shoutcaster.Equals(toFilter[_filterIndex]))
-                    {
                         continue;
-                    }
-                }
 
                 var text = bt.GetTranscriptionWithGender(PluginServices.Config.Language,
                     PluginServices.Config.WantsAttribute("Feminine Pronouns"), PluginServices.SeStringEvaluator);
@@ -99,11 +79,44 @@ public class LoadedVoicelineWindow : Window, IDisposable
                 ImGui.Text(text);
                 ImGui.TableNextColumn();
 
-                if (ImGui.Button("Play###" + bt.SoundPath))
+                if (ImGui.Button("Play###Play" + bt.SoundPath))
                 {
                     PluginServices.Announcer.SendBattleTalk(bt);
                     PluginServices.Announcer.PlaySound(bt.GetShoutcastSoundPathWithGenderAndLang(
                         PluginServices.Config.Language, PluginServices.Config.WantsAttribute("Feminine Pronouns")));
+                }
+
+                ImGui.SameLine();
+                if (PluginServices.Config.MutedShouts.Contains(bt.Id))
+                {
+                    if (ImGui.Button("Unmute###Unmute" + bt.SoundPath))
+                    {
+                        PluginServices.Config.MutedShouts.Remove(bt.Id);
+                        PluginServices.Config.Save();
+                    }
+                }
+                else
+                {
+                    if (ImGui.Button("Mute###Mute" + bt.SoundPath))
+                    {
+                        PluginServices.Config.MutedShouts.Add(bt.Id);
+                        PluginServices.Config.Save();
+                    }
+                }
+
+                ImGui.SameLine();
+                if (PluginServices.Config.CustomShoutcasts.ContainsKey(bt.Id))
+                {
+                    if (ImGui.Button("Edit###EditVL" + bt.SoundPath))
+                    {
+                        PluginServices.VoicelineCreationWindow.Edit(bt);
+                        PluginServices.VoicelineCreationWindow.IsOpen = true;
+                        PluginServices.VoicelineCreationWindow.BringToFront();
+                    }
+
+                    ImGui.SameLine();
+                    if (ImguiTools.CtrlShiftButton("Delete###Delete" + bt.SoundPath))
+                        PluginServices.ConfigManager.DeleteAndDeregisterShoutcast(bt.Id);
                 }
             }
 
