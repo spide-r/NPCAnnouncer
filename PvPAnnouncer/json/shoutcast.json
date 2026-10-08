@@ -2142,13 +2142,6 @@
     "cutsceneLine": "TEXT_VOICEMAN_06006_008210_ZENOS"
   },
   {
-    "id": "DidYouFindFulfillment",
-    "icon": "073002",
-    "shoutcaster": "Zenos",
-    "duration": "3",
-    "cutsceneLine": "TEXT_VOICEMAN_06006_008210_ZENOS"
-  },
-  {
     "id": "FarewellFirstFriend",
     "icon": "073002",
     "shoutcaster": "Zenos",
@@ -6715,7 +6708,7 @@
   {
     "id": "Damn",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "2",
     "style": "6",
     "soundPath": "cut/ex1/sound/voicem/voiceman_03001/vo_voiceman_03001_700070_m",
@@ -6724,7 +6717,7 @@
   {
     "id": "There",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "2",
     "style": "6",
     "soundPath": "cut/ex1/sound/voicem/voiceman_03004/vo_voiceman_03004_000010_m",
@@ -6733,7 +6726,7 @@
   {
     "id": "LookOut",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "2",
     "style": "6",
     "soundPath": "cut/ex1/sound/voicem/voiceman_03004/vo_voiceman_03004_600080_m",
@@ -6742,7 +6735,7 @@
   {
     "id": "MustAway",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "5",
     "style": "6",
     "soundPath": "cut/ex1/sound/voicem/voiceman_03001/vo_voiceman_03001_700060_m",
@@ -6751,7 +6744,7 @@
   {
     "id": "Reinforcements",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "2",
     "style": "6",
     "soundPath": "cut/ex1/sound/voicem/voiceman_03001/vo_voiceman_03001_700010_m",
@@ -6760,7 +6753,7 @@
   {
     "id": "DontLookAtMeSo",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "3",
     "style": "6",
     "soundPath": "cut/ex1/sound/voicem/voiceman_03004/vo_voiceman_03004_600120_m",
@@ -6770,7 +6763,7 @@
   {
     "id": "WhatIsTheMeaningHaurchefant",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "3",
     "style": "6",
     "soundPath": "cut/ffxiv/sound/voicem/voiceman_02400/vo_voiceman_02400_300450_m",
@@ -6779,7 +6772,7 @@
   {
     "id": "SmileSuits",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "5",
     "style": "6",
     "soundPath": "cut/ex1/sound/voicem/voiceman_03004/vo_voiceman_03004_600121_m",
@@ -6789,7 +6782,7 @@
   {
     "id": "HaveFaith",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "3",
     "style": "6",
     "soundPath": "cut/ffxiv/sound/voicem/voiceman_02400/vo_voiceman_02400_F00500_m",
@@ -6798,7 +6791,7 @@
   {
     "id": "NotWithoutAllies",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "4",
     "style": "6",
     "soundPath": "cut/ffxiv/sound/voicem/voiceman_02500/vo_voiceman_02500_W00060_m",
@@ -6807,7 +6800,7 @@
   {
     "id": "PrecautionsForNaught",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "5",
     "style": "6",
     "soundPath": "cut/ffxiv/sound/voicem/voiceman_02400/vo_voiceman_02400_300480_m",
@@ -6816,7 +6809,7 @@
   {
     "id": "JoinYourCompanions",
     "icon": "73124",
-    "shoutcaster": "Haurchefant ",
+    "shoutcaster": "Haurchefant",
     "duration": "5",
     "style": "6",
     "soundPath": "cut/ffxiv/sound/voicem/voiceman_02500/vo_voiceman_02500_W00110_m",
@@ -7659,5 +7652,374 @@
     "style": "6",
     "soundPath": "sound/voice/vo_line/8201335",
     "npcYell": "4617"
+  },
+  {
+    "id": "Stop",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_001330_LYSE"
+  },
+  {
+    "id": "Gotcha",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_002140_LYSE"
+  },
+  {
+    "id": "Right",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_001500_LYSE"
+  },
+  {
+    "id": "Expected",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_000100_LYSE"
+  },
+  {
+    "id": "OofCourse",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_002270_LYSE"
+  },
+  {
+    "id": "WasThat",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04001_000820_LYSE"
+  },
+  {
+    "id": "NowOrNever",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_006470_LYSE"
+  },
+  {
+    "id": "HellsTake",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001750_LYSE"
+  },
+  {
+    "id": "TheEnd",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_001520_LYSE"
+  },
+  {
+    "id": "IsntFair",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001350_LYSE"
+  },
+  {
+    "id": "World",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_001590_LYSE"
+  },
+  {
+    "id": "MakeWay",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_001750_LYSE"
+  },
+  {
+    "id": "AreYouAllRight2",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_001230_LYSE"
+  },
+  {
+    "id": "DidntUm",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_001660_LYSE"
+  },
+  {
+    "id": "WelcomeBack",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05400_000070_LYSE"
+  },
+  {
+    "id": "ThereTheyAre",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_004150_LYSE"
+  },
+  {
+    "id": "Goodness",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05400_003350_LYSE"
+  },
+  {
+    "id": "ButWhyWhyWouldYouDoThat",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_002050_LYSE"
+  },
+  {
+    "id": "Waiting",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_002490_LYSE"
+  },
+  {
+    "id": "ImOnlyGoingToSayThisOnce",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04100_002120_LYSE"
+  },
+  {
+    "id": "StopDoingThat",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_000580_LYSE"
+  },
+  {
+    "id": "FindWayOut",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04001_000540_LYSE"
+  },
+  {
+    "id": "ForAlaMhigo",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_001450_LYSE"
+  },
+  {
+    "id": "MoveOut",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_000620_LYSE"
+  },
+  {
+    "id": "NoEnd",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_002030_LYSE"
+  },
+  {
+    "id": "UmAnythingElse",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_000850_LYSE"
+  },
+  {
+    "id": "NoMoreRunning",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_000230_LYSE"
+  },
+  {
+    "id": "DontLikeEachOther",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_04003_000080_LYSE"
+  },
+  {
+    "id": "PrimalStanding",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_001710_LYSE"
+  },
+  {
+    "id": "FineNoq",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_05400_000090_LYSE"
+  },
+  {
+    "id": "OffToBed",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_000380_LYSE"
+  },
+  {
+    "id": "IsThatWhatIThinkItIs",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_02500_900090_YDA"
+  },
+  {
+    "id": "MissAnything",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_03500_000010_YDA"
+  },
+  {
+    "id": "Massacre",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_03500_000710_YDA"
+  },
+  {
+    "id": "Stuff",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_02500_P00150_YDA"
+  },
+  {
+    "id": "WhereGoing",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_03500_000940_YDA"
+  },
+  {
+    "id": "CompletelyMad",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_03400_001900_YDA"
+  },
+  {
+    "id": "WillSting",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "soundPath": "sound/voice/vo_line/8201274",
+    "npcYell": "4298"
+  },
+  {
+    "id": "HoldingBack",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "soundPath": "sound/voice/vo_line/8201275",
+    "npcYell": "4299"
+  },
+  {
+    "id": "TryThisOne",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "soundPath": "sound/voice/vo_line/8201277",
+    "npcYell": "4301"
+  },
+  {
+    "id": "ItsAllOverNow",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "3",
+    "soundPath": "sound/voice/vo_line/8201279",
+    "npcYell": "4303"
+  },
+  {
+    "id": "Certainly",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_02400_F00450_HAURCHEFANT"
+  },
+  {
+    "id": "ProvidingAid",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "8",
+    "cutsceneLine": "TEXT_VOICEMAN_03004_000150_HAURCHEFANT"
+  },
+  {
+    "id": "Unharmed",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "13",
+    "cutsceneLine": "TEXT_VOICEMAN_03004_600110_HAURCHEFANT"
+  },
+  {
+    "id": "Faith",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_02400_300010_HAURCHEFANT"
+  },
+  {
+    "id": "HoldFast",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "2",
+    "transcription": {
+      "en": "Hold fast!"
+    },
+    "soundPath": "sound/voice/vo_line/8201099"
+  },
+  {
+    "id": "HouseFortemps",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "3",
+    "transcription": {
+      "en": "For the honor of House Fortemps!"
+    },
+    "soundPath": "sound/voice/vo_line/8201105"
+  },
+  {
+    "id": "BearWitness",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "3",
+    "transcription": {
+      "en": "Bear witness!"
+    },
+    "soundPath": "sound/voice/vo_line/8201102"
+  },
+  {
+    "id": "Thee",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "2",
+    "transcription": {
+      "en": "Have at thee!"
+    },
+    "soundPath": "sound/voice/vo_line/8201101"
+  },
+  {
+    "id": "Come",
+    "icon": "73124",
+    "shoutcaster": "Haurchefant",
+    "duration": "2",
+    "transcription": {
+      "en": "Come!"
+    },
+    "soundPath": "sound/voice/vo_line/8201100"
   }
 ]

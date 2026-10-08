@@ -69,7 +69,7 @@ namespace PvPAnnouncer
 
         public string Language { get; set; } = "en";
         public string TextLanguage { get; set; } = "en";
-        public int Version { get; set; } = 9;
+        public int Version { get; set; } = 10;
 
         public void AddCustomShoutCast(string shoutcastId, string shoutcastJson)
         {
@@ -165,7 +165,6 @@ namespace PvPAnnouncer
                         {"Matches Ending", "MatchEndEvent"},
                         {"Matches Started", "MatchStartEvent"},
                         {"Entered Rival Wings Mech", "EnteredMechEvent"},
-                        {"Stormy Weather", "MatchStormyWeatherEvent"},
                         {"Battle High V / Flying High Gained", "MaxBattleFeverEvent"},
                     };
                     foreach (var oldName in oldBl)
@@ -346,6 +345,17 @@ namespace PvPAnnouncer
             if (Version == 10)
             {
                 if (PvE) FieldOps = true;
+
+                Version++;
+            }
+
+            if (Version == 11)
+            {
+                if (DesiredAttributes.Contains("Haurchefant "))
+                {
+                    DesiredAttributes.Remove("Haurchefant ");
+                    DesiredAttributes.Add("Haurchefant");
+                }
 
                 Version++;
             }

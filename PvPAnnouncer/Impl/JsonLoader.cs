@@ -20,14 +20,32 @@ public class JsonLoader(
     IShoutcastRepository shoutcastRepository,
     IEventShoutcastMapping eventShoutcastMapping) : IJsonLoader
 {
+    private List<string> _limitBreakListStr = [];
+
     public void ClearAndLoadEmbeddedValuesIntoMemory()
     {
         shoutcastRepository.Clear();
         eventShoutcastMapping.Clear();
         LoadShoutcasts();
         //todo bad design - shoutcasts needs to be loaded w/ the above method before the below methods can complete - divide responsibility?
+        LoadLimitBreakShoutcasts();
         LoadAndMapActionIdEvents();
         LoadMapping();
+    }
+
+    private void LoadLimitBreakShoutcasts()
+    {
+        var mappingJ = ReadEmbeddedFile("mapping.json");
+        var r = JsonNode.Parse(mappingJ);
+        if (r is JsonArray j)
+            foreach (var mapping in j)
+            {
+                var id = mapping?["eventId"]?.GetValue<string>();
+                var shouts = mapping?["shouts"]?.Deserialize<List<string>>();
+                if (id == null || shouts == null) continue;
+
+                if (id.Equals(InternalConstants.LimitBreakList)) _limitBreakListStr = shouts;
+            }
     }
 
 
@@ -111,9 +129,9 @@ public class JsonLoader(
         List<string> newShoutList = [];
         foreach (var shout in shouts)
         {
-            if (shout.Equals("LIMIT_BREAK_LIST"))
+            if (shout.Equals(InternalConstants.LimitBreakList))
             {
-                foreach (var se in InternalConstants.LimitBreakListStr)
+                foreach (var se in _limitBreakListStr)
                 {
                     if (shoutcastRepository.ContainsKey(se))
                     {
@@ -145,7 +163,7 @@ public class JsonLoader(
             {
                 var id = mapping?["eventId"]?.GetValue<string>();
                 var shouts = mapping?["shouts"]?.Deserialize<List<string>>();
-                if (id == null || shouts == null)
+                if (id == null || shouts == null || id.Equals(InternalConstants.LimitBreakList))
                 {
                     continue;
                 }
