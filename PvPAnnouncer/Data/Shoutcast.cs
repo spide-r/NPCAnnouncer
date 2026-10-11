@@ -69,6 +69,11 @@ public partial class Shoutcast(
         var transcription = Transcription.GetValueOrDefault(lang, "");
         if (!IsGendered)
         {
+            if (NpcYell == 0 && ContentDirectorBattleTalkVo == 0 && InstanceContentTextDataRow == 0 &&
+                CutsceneLine.Equals(""))
+                // not from game text, probably  from user input - bodge and send raw string instead of evaluating macro
+                return transcription;
+
             return evaluator.EvaluateMacroString(transcription).ToString();
         }
 

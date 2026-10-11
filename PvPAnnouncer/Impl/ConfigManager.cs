@@ -1,4 +1,5 @@
-﻿using PvPAnnouncer.Interfaces;
+﻿using System;
+using PvPAnnouncer.Interfaces;
 
 namespace PvPAnnouncer.Impl;
 
@@ -15,16 +16,32 @@ public class ConfigManager(Configuration pluginConfiguration, IJsonLoader jsonLo
         PluginServices.PluginLog.Verbose("Applying custom values!");
         foreach (var keyValuePair in pluginConfiguration.CustomShoutcasts)
         {
-            var sc = keyValuePair.Value;
-            var scObj = PluginServices.JsonLoader.ConstructShoutcast(sc);
-            PluginServices.ShoutcastRepository.SetShoutcast(keyValuePair.Key, scObj);
+            try
+            {
+                var sc = keyValuePair.Value;
+                var scObj = PluginServices.JsonLoader.ConstructShoutcast(sc);
+                PluginServices.ShoutcastRepository.SetShoutcast(keyValuePair.Key, scObj);
+            }
+            catch (Exception e)
+            {
+                PluginServices.PluginLog.Error(
+                    $"Issue parsing Shoutcast {keyValuePair.Key}: {e.Message} VALUE: {keyValuePair.Value}");
+            }
         }
 
         foreach (var keyValuePair in pluginConfiguration.MappingOverride)
         {
-            var jsonMapping = keyValuePair.Value;
-            PluginServices.EventShoutcastMapping.ProcessMappingDelta(keyValuePair.Key,
-                PluginServices.JsonLoader.ConvertJsonToMappingDelta(jsonMapping));
+            try
+            {
+                var jsonMapping = keyValuePair.Value;
+                PluginServices.EventShoutcastMapping.ProcessMappingDelta(keyValuePair.Key,
+                    PluginServices.JsonLoader.ConvertJsonToMappingDelta(jsonMapping));
+            }
+            catch (Exception e)
+            {
+                PluginServices.PluginLog.Error(
+                    $"Issue parsing Mapping {keyValuePair.Key}: {e.Message} VALUE: {keyValuePair.Value}");
+            }
         }
 
         foreach (var keyValuePair in pluginConfiguration.CustomEvents)
