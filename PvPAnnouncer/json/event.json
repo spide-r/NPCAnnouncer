@@ -8,7 +8,8 @@
     ],
     "shouts": [
       "RoarNidhogg",
-      "ADragon"
+      "ADragon",
+      "GoodGodsVoice"
     ]
   },
   {
@@ -70,7 +71,8 @@
       43252
     ],
     "shouts": [
-      "UnleashedFullMightMasc"
+      "UnleashedFullMightMasc",
+      "FireworksBegin"
     ]
   },
   {
@@ -127,7 +129,9 @@
     "shouts": [
       "LIMIT_BREAK_LIST",
       "GrownWingsFem",
-      "SomethingGrowingFem"
+      "SomethingGrowingFem",
+      "RadiantLight",
+      "FloodOfLight"
     ]
   },
   {
@@ -149,7 +153,9 @@
       "Transforming",
       "ItsAliveLindwurm",
       "TransformationTakeYou",
-      "BloodAndAsh"
+      "BloodAndAsh",
+      "FearsomeFamiliar",
+      "Couldn"
     ]
   },
   {
@@ -186,7 +192,11 @@
       "Stuff",
       "NoMoreRunning",
       "MoveOut",
-      "MakeWay"
+      "MakeWay",
+      "Time",
+      "GoQuickly",
+      "Comrades",
+      "WhereAreYouGoing"
     ]
   },
   {
@@ -236,7 +246,8 @@
     ],
     "shouts": [
       "StartedFire",
-      "BurnBurn"
+      "BurnBurn",
+      "FireworksBegin"
     ]
   },
   {
@@ -264,7 +275,8 @@
       "CompletelyMad",
       "IsntFair",
       "WasThat",
-      "DidntUm"
+      "DidntUm",
+      "Damn2"
     ]
   },
   {
@@ -301,7 +313,10 @@
       "StopDoingThat",
       "ImOnlyGoingToSayThisOnce",
       "CompletelyMad",
-      "Certainly"
+      "Certainly",
+      "Dare",
+      "Curiouser",
+      "NoMorePleaseNoMore"
     ]
   },
   {
@@ -318,7 +333,8 @@
       "BurnBurn",
       "InfernoSwelling",
       "WillSting",
-      "HoldingBack"
+      "HoldingBack",
+      "FireworksBegin"
     ]
   },
   {
@@ -364,7 +380,10 @@
       "LIMIT_BREAK_LIST",
       "River",
       "StarsFavorUs",
-      "DanceOfTheStars"
+      "DanceOfTheStars",
+      "Starshower",
+      "Starshower2",
+      "Magick"
     ]
   }
 ]

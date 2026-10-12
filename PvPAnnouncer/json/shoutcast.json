@@ -1326,10 +1326,7 @@
       "Masculine Pronouns"
     ],
     "duration": "4",
-    "transcription": {
-      "en": "This man has absolutely no respect for the rules!",
-      "fr": "Incroyable ! Brute Bomber se moque clairement des règles !"
-    }
+    "instanceContentTextDataRow": "40211"
   },
   {
     "id": "UnusedUpOnThePost",
@@ -1376,10 +1373,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206126",
     "duration": "5",
-    "transcription": {
-      "en": "Yes! You've got the serpent on the back tail! Press the advantage and finish this!",
-      "fr": "Le challenger ne laisse aucun répit à son adversaire ! Allez, il faut continuer !"
-    }
+    "instanceContentTextDataRow": "43913"
   },
   {
     "id": "MjGameChanger",
@@ -1720,10 +1714,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206131",
     "duration": "4",
-    "transcription": {
-      "en": "It's pulsating... I've got a bad feeling about this!",
-      "fr": "Oh là là là, j'entends encore un pouls... J'ai bien peur que le combat ne soit pas encore terminé !"
-    }
+    "instanceContentTextDataRow": "43918"
   },
   {
     "id": "Transforming",
@@ -1753,10 +1744,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206134",
     "duration": "5",
-    "transcription": {
-      "en": "Alas, the battle isn't over yet, but don't despair Champion!",
-      "fr": "Le duel n'est pas terminé ! Il ne faut pas abandonner maintenant !"
-    }
+    "instanceContentTextDataRow": "43921"
   },
   {
     "id": "CreatingMore",
@@ -1764,10 +1752,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206135",
     "duration": "3",
-    "transcription": {
-      "en": "The Lindwurm is creating more of itself!",
-      "fr": "J'en crois pas mes yeux ! Le serpent se démultiplie !"
-    }
+    "instanceContentTextDataRow": "43922"
   },
   {
     "id": "ContinuesToMultiply",
@@ -1775,10 +1760,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206136",
     "duration": "6",
-    "transcription": {
-      "en": "The Lindwurm continues to multiply! We've gone well beyond mortal limits now!",
-      "fr": "Aïe, aïe, aïe, aïe ! Le Lindwurm continue de se dédoubler ! Rien ne semble pouvoir l'arrêter !"
-    }
+    "instanceContentTextDataRow": "43923"
   },
   {
     "id": "CuriousProps",
@@ -1786,10 +1768,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206137",
     "duration": "5",
-    "transcription": {
-      "en": "Some curious props have appeared... What would they possibly be?",
-      "fr": "D'étranges silhouettes viennent d'apparaître dans l'arène ! Que se passe-t-il !?"
-    }
+    "instanceContentTextDataRow": "43924"
   },
   {
     "id": "TakenOnChampionForm",
@@ -1797,10 +1776,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206138",
     "duration": "5",
-    "transcription": {
-      "en": "Egads! They've taken on the Champion's form! This bodes ill!",
-      "fr": "Ces drôles de pantins ont pris l'apparence de notre challenger ! Que vont-ils faire à présent !?"
-    }
+    "instanceContentTextDataRow": "43925"
   },
   {
     "id": "DejaVu",
@@ -1808,10 +1784,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206139",
     "duration": "4",
-    "transcription": {
-      "en": "Ah-I've got a serious case of deja vu here.",
-      "fr": "J'ai comme une sérieuse impression de déjà-vu, pas vous ?"
-    }
+    "instanceContentTextDataRow": "43926"
   },
   {
     "id": "RingRendInTwo",
@@ -1819,10 +1792,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206140",
     "duration": "4",
-    "transcription": {
-      "en": "What destructiveness! The ring has been rend in two!",
-      "fr": "Quel effroyable pouvoir destructeur ! Il a même fracturé le ring !"
-    }
+    "instanceContentTextDataRow": "43927"
   },
   {
     "id": "MutationCorrupting",
@@ -1830,10 +1800,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206141",
     "duration": "5",
-    "transcription": {
-      "en": "The mutation is...corrupting the champion! Let's hope they keep it together!",
-      "fr": "Ces parasites s'attaquent à notre challenger ! Il faut garder la tête froide !"
-    }
+    "instanceContentTextDataRow": "43928"
   },
   {
     "id": "SomethingsComing",
@@ -1841,10 +1808,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206142",
     "duration": "3",
-    "transcription": {
-      "en": "Something's coming! Stay on your toes!",
-      "fr": "Prudence ! Le Lindwurm semble préparer un autre coup fourré !"
-    }
+    "instanceContentTextDataRow": "43929"
   },
   {
     "id": "WarpedFabric",
@@ -1866,10 +1830,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206144",
     "duration": "5",
-    "transcription": {
-      "en": "Is this another dimension? I must confess, I am utterly bewildered!",
-      "fr": "Quel est cet endroit ? Une nouvelle dimension ? Je n'y comprends plus rien !"
-    }
+    "instanceContentTextDataRow": "43931"
   },
   {
     "id": "HardPressed",
@@ -1877,10 +1838,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206145",
     "duration": "4",
-    "transcription": {
-      "en": "A relentless assault! The Champion is hard-pressed!",
-      "fr": "Une tempête de coups s'abat sur notre challenger ! Arrivera-t-il à riposter ?"
-    }
+    "instanceContentTextDataRow": "43932"
   },
   {
     "id": "FeverPitch",
@@ -1888,10 +1846,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206146",
     "duration": "5",
-    "transcription": {
-      "en": "The battle has reached a fever pitch, but the Champion still stands!",
-      "fr": "Ce combat acharné dépasse les limites de l'entendement ! Mais le challenger tient bon !"
-    }
+    "instanceContentTextDataRow": "43933"
   },
   {
     "id": "StayStrong",
@@ -1899,10 +1854,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206147",
     "duration": "4",
-    "transcription": {
-      "en": "There's so many of them! Stay strong, I beg you!",
-      "fr": "Le challenge se retrouve en sous-nombre ! Mais rien n'est encore joué !"
-    }
+    "instanceContentTextDataRow": "43934"
   },
   {
     "id": "NotSureIUnderstand",
@@ -1910,10 +1862,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206148",
     "duration": "4",
-    "transcription": {
-      "en": "I'm not sure I understand what's going on anymore, folks!",
-      "fr": "Euh... Je ne suis pas certain de comprendre ce qui se passe ici..."
-    }
+    "instanceContentTextDataRow": "43935"
   },
   {
     "id": "LeftRealmOfLogic",
@@ -1932,10 +1881,7 @@
     "shoutcaster": "Metem",
     "soundPath": "sound/voice/vo_line/8206150",
     "duration": "5",
-    "transcription": {
-      "en": "Something that defies all comprehension is unfolding before our very eyes!",
-      "fr": "Le spectacle qui s'offre à nous est tout simplement in-des-crip-tible !"
-    }
+    "instanceContentTextDataRow": "43937"
   },
   {
     "id": "ThisEndsHere",
@@ -3193,10 +3139,7 @@
     "shoutcaster": "Thancred",
     "soundPath": "sound/voice/vo_line/8203021",
     "duration": "4",
-    "transcription": {
-      "en": "This is Thancred. The explosives are in place.",
-      "fr": "Ici Thancred. J'ai fini de poser les explosifs."
-    }
+    "instanceContentTextDataRow": "31617"
   },
   {
     "id": "SevenHells",
@@ -4320,7 +4263,8 @@
     "duration": "4",
     "transcription": {
       "en": "Stay with me. Focus on victory.",
-      "fr": "Ça va marcher, ça doit marcher !"
+      "fr": "Ça va marcher, ça doit marcher !",
+      "ja": "さあ、すりぬけてくれるなよ…！"
     }
   },
   {
@@ -4331,7 +4275,8 @@
     "duration": "6",
     "transcription": {
       "en": "The time has come to declare our intentions as well.",
-      "fr": "Je vois que, toi aussi, tu garrrdes un atout dans ta manche !"
+      "fr": "Je vois que, toi aussi, tu garrrdes un atout dans ta manche !",
+      "ja": "切り札は、最後まで隠しておくものだ！"
     }
   },
   {
@@ -4342,7 +4287,8 @@
     "duration": "5",
     "transcription": {
       "en": "What say you? Shall we make a stand ourselves?",
-      "fr": "On a un trrrain de retard. Il va falloir s'activer !"
+      "fr": "On a un trrrain de retard. Il va falloir s'activer !",
+      "ja": "どうする、迎え撃つか？"
     }
   },
   {
@@ -4353,7 +4299,8 @@
     "duration": "5",
     "transcription": {
       "en": "They're not going down without a fight, are they?",
-      "fr": "Décidément, nos adversaires ne nous accordent aucun répit !"
+      "fr": "Décidément, nos adversaires ne nous accordent aucun répit !",
+      "ja": "大人しくしててはくれないか！"
     }
   },
   {
@@ -4364,7 +4311,8 @@
     "duration": "4",
     "transcription": {
       "en": "They may test us, but we shall prevail.",
-      "fr": "Ils ne font pas mine d'abandonner... La victoirrre nous appartient !"
+      "fr": "Ils ne font pas mine d'abandonner... La victoirrre nous appartient !",
+      "ja": "来たな、でも勝つのはオレたちだ！"
     }
   },
   {
@@ -4375,7 +4323,8 @@
     "duration": "5",
     "transcription": {
       "en": "Finish them! Oh, erm... too much?",
-      "fr": "Ron ! Désolé si je t'ai grrrillé la politesse !"
+      "fr": "Ron ! Désolé si je t'ai grrrillé la politesse !",
+      "ja": "ロン！って言ってみたかったんだよな！"
     },
     "attributes": [
       "Contains Mahjong Reference (Non-English)"
@@ -4389,7 +4338,8 @@
     "duration": "5",
     "transcription": {
       "en": "We shall have victory. Points and all!",
-      "fr": "Laissez-nous vous soulager de ce trrrop-plein de points !"
+      "fr": "Laissez-nous vous soulager de ce trrrop-plein de points !",
+      "ja": "全部まとめていただくぞ！"
     }
   },
   {
@@ -4400,7 +4350,8 @@
     "duration": "5",
     "transcription": {
       "en": "Oh dear, are you alright?",
-      "fr": "C'est un coup dur... Tout va bien ?"
+      "fr": "C'est un coup dur... Tout va bien ?",
+      "ja": "やられたな、大丈夫か？"
     }
   },
   {
@@ -4411,7 +4362,8 @@
     "duration": "5",
     "transcription": {
       "en": "We avoided the worst, but it's not what I'd hoped for.",
-      "fr": "Nous l'avons échappé belle, mais la situation est prrréocuppante !"
+      "fr": "Nous l'avons échappé belle, mais la situation est prrréocuppante !",
+      "ja": "躱せはしたか、よくはないよな。"
     }
   },
   {
@@ -4422,7 +4374,8 @@
     "duration": "4",
     "transcription": {
       "en": "They beat us to it. The next time will be different.",
-      "fr": "On nous a prrris de vitesse... Veillons à ce que ça ne se reproduise pas."
+      "fr": "On nous a prrris de vitesse... Veillons à ce que ça ne se reproduise pas.",
+      "ja": "あっちの方は速かったが、でも次は！"
     }
   },
   {
@@ -4433,7 +4386,8 @@
     "duration": "4",
     "transcription": {
       "en": "Tremendous. The stuff of living legends!",
-      "fr": "Quel exploit mémorrrable ! J'en frémis d'excitation !"
+      "fr": "Quel exploit mémorrrable ! J'en frémis d'excitation !",
+      "ja": "本物だ…！すげーっ！"
     }
   },
   {
@@ -4444,7 +4398,8 @@
     "duration": "5",
     "transcription": {
       "en": "A splendid result! Keep up the good work, my friend.",
-      "fr": "Nous avons prrris une sacré longueur d'avance ! Continuons sur cette lancée !"
+      "fr": "Nous avons prrris une sacré longueur d'avance ! Continuons sur cette lancée !",
+      "ja": "決まったな！このまま突っ走ろ！"
     }
   },
   {
@@ -4455,7 +4410,8 @@
     "duration": "4",
     "transcription": {
       "en": "Focus on the task at hand and victory shall be ours.",
-      "fr": "Trrrès bien ! Mais ne baissons pas notre garde !"
+      "fr": "Trrrès bien ! Mais ne baissons pas notre garde !",
+      "ja": "よーし！油断せずに行こう！"
     }
   },
   {
@@ -4466,7 +4422,8 @@
     "duration": "4",
     "transcription": {
       "en": "We can and we will do even better.",
-      "fr": "C'est pas le moment de se reposer sur ses lauriers !"
+      "fr": "C'est pas le moment de se reposer sur ses lauriers !",
+      "ja": "次もやってやるさ！"
     }
   },
   {
@@ -4477,7 +4434,8 @@
     "duration": "4",
     "transcription": {
       "en": "Oh, how embarassing.",
-      "fr": "Woah... La honte !"
+      "fr": "Woah... La honte !",
+      "ja": "マジかよ……うわー……。"
     }
   },
   {
@@ -4488,7 +4446,8 @@
     "duration": "4",
     "transcription": {
       "en": "We cannot leave matters half finished.",
-      "fr": "La mort m'a accordé un sursis, pour que je puisse te venir en aide."
+      "fr": "La mort m'a accordé un sursis, pour que je puisse te venir en aide.",
+      "ja": "げっ…このままじゃ凍みきれるもんか！？"
     }
   },
   {
@@ -4499,7 +4458,8 @@
     "duration": "3",
     "transcription": {
       "en": "Do you require healing?",
-      "fr": "Attends ! Je connais un sort de soin pour ce genre de situation."
+      "fr": "Attends ! Je connais un sort de soin pour ce genre de situation.",
+      "ja": "ケアル！？ケアルガいるか！？"
     }
   },
   {
@@ -4510,7 +4470,8 @@
     "duration": "4",
     "transcription": {
       "en": "Well, that would scarcely cause my cowl to stir.",
-      "fr": "Ça me rrrappelle quand on a essayé de m'ôter ma capuche..."
+      "fr": "Ça me rrrappelle quand on a essayé de m'ôter ma capuche...",
+      "ja": "いて…！外れない…フードは外れないから…。"
     }
   },
   {
@@ -4521,7 +4482,8 @@
     "duration": "4",
     "transcription": {
       "en": "A performance befitting of my inspiration!",
-      "fr": "Je ne rrregrette pas d'avoir joué avec toi !"
+      "fr": "Je ne rrregrette pas d'avoir joué avec toi !",
+      "ja": "さすが、オレの一番の英雄だ！"
     }
   },
   {
@@ -4532,7 +4494,8 @@
     "duration": "4",
     "transcription": {
       "en": "Continue with the same courage and zeal, and victory will be yours!",
-      "fr": "Je souhaite que tu continues ton périple avec autant de zêle et de courage !"
+      "fr": "Je souhaite que tu continues ton périple avec autant de zêle et de courage !",
+      "ja": "カッコいい活躍。次はもっと見せてくれよな？"
     }
   },
   {
@@ -4543,7 +4506,8 @@
     "duration": "4",
     "transcription": {
       "en": "Were it an allagan game perhaps I might have been more useful to you?",
-      "fr": "La prrrochaine fois, on jouera plutôt au mahjong allagois."
+      "fr": "La prrrochaine fois, on jouera plutôt au mahjong allagois.",
+      "ja": "ドマ式じゃなくて、アラグ式なら役に立てるのに…"
     },
     "attributes": [
       "Contains Mahjong Reference (Non-English)"
@@ -4557,7 +4521,8 @@
     "duration": "6",
     "transcription": {
       "en": "While I'd rather you have triumphed, even in defeat you have something to teach us.",
-      "fr": "C'est rrrare de te voir perdre... J'espère que tu remporteras la prochaine partie !"
+      "fr": "C'est rrrare de te voir perdre... J'espère que tu remporteras la prochaine partie !",
+      "ja": "あんたが負けるなんて貴重だよな。もちろん、勝ってほしいけどさ。"
     }
   },
   {
@@ -4568,7 +4533,8 @@
     "duration": "4",
     "transcription": {
       "en": "Your tale will not end here. Is that not so, my friend?",
-      "fr": "Tu n'as pas intérrrêt à abandonner là dessus, tu m'entends ?"
+      "fr": "Tu n'as pas intérrrêt à abandonner là dessus, tu m'entends ?",
+      "ja": "あんたはこんなところじゃ終わらない。そうだろう、英雄！"
     }
   },
   {
@@ -4602,7 +4568,8 @@
     "soundPath": "sound/voice/vo_line/8202341",
     "duration": "2",
     "transcription": {
-      "en": "Show me what you can do!"
+      "en": "Show me what you can do!",
+      "ja": "活躍を見せてくれ！"
     }
   },
   {
@@ -4613,7 +4580,8 @@
     "duration": "2",
     "transcription": {
       "en": "Are you alright!?",
-      "fr": "Ça va aller ?"
+      "fr": "Ça va aller ?",
+      "ja": "大丈夫か！？"
     }
   },
   {
@@ -4624,7 +4592,8 @@
     "duration": "3",
     "transcription": {
       "en": "The air crackles with energy. Find cover!",
-      "fr": "L'air est trrrès instable ! Vite, à l'abri !"
+      "fr": "L'air est trrrès instable ! Vite, à l'abri !",
+      "ja": "空気が震えてる……！？物陰に隠れろ！"
     }
   },
   {
@@ -6609,6 +6578,9 @@
     "shoutcaster": "Aymeric",
     "duration": "4",
     "style": "6",
+    "attributes": [
+      "Feminine Pronouns"
+    ],
     "soundPath": "cut/ex1/sound/voicem/voiceman_03200/vo_voiceman_03200_001680_m",
     "cutsceneLine": "TEXT_VOICEMAN_03200_001680_AYMERIC"
   },
@@ -8021,5 +7993,1021 @@
       "en": "Come!"
     },
     "soundPath": "sound/voice/vo_line/8201100"
+  },
+  {
+    "id": "Pardon",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_02300_300030_ALPHINAUD"
+  },
+  {
+    "id": "Gods",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_03300_001050_ALPHINAUD"
+  },
+  {
+    "id": "GoodGods",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_03003_500060_ALPHINAUD"
+  },
+  {
+    "id": "Hells",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_03004_C00110_ALPHINAUD"
+  },
+  {
+    "id": "ThereYouAre",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_05000_002420_ALPHINAUD"
+  },
+  {
+    "id": "Stand",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_001600_ALPHINAUD"
+  },
+  {
+    "id": "WhatWasThat",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_03005_500040_ALPHINAUD"
+  },
+  {
+    "id": "Ready",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_000330_ALPHINAUD"
+  },
+  {
+    "id": "Incredible",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_001940_ALPHINAUD"
+  },
+  {
+    "id": "Happened",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_05100_001430_ALPHINAUD"
+  },
+  {
+    "id": "Wait",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05300_005580_ALPHINAUD"
+  },
+  {
+    "id": "Finish",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_003680_ALPHINAUD"
+  },
+  {
+    "id": "Hells2",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_05001_004060_ALPHINAUD"
+  },
+  {
+    "id": "Curiouser",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_000600_ALPHINAUD"
+  },
+  {
+    "id": "Dare",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05200_003010_ALPHINAUD"
+  },
+  {
+    "id": "Goodness2",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_006390_ALPHINAUD",
+    "isGendered": true
+  },
+  {
+    "id": "Scratch",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_06000_007200_ALPHINAUD"
+  },
+  {
+    "id": "Predicament",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07505_000703_ALPHINAUD"
+  },
+  {
+    "id": "End",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06000_007110_ALPHINAUD"
+  },
+  {
+    "id": "WhatExactlyDoYouMeanToDo",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_03500_000810_ALPHINAUD"
+  },
+  {
+    "id": "Courage2",
+    "icon": "073008",
+    "shoutcaster": "Alphinaud",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06003_001710_ALPHINAUD"
+  },
+  {
+    "id": "DontAlisae",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_007350_ALISAIE"
+  },
+  {
+    "id": "Madness",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_000610_ALISAIE"
+  },
+  {
+    "id": "Ugh",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06000_007120_ALISAIE"
+  },
+  {
+    "id": "Proud",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04400_002820_ALISAIE"
+  },
+  {
+    "id": "LetsBeOffThen",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04500_000560_ALISAIE"
+  },
+  {
+    "id": "That─",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05000_004330_ALISAIE"
+  },
+  {
+    "id": "Starshower",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05300_002040_ALISAIE"
+  },
+  {
+    "id": "GoodStrike",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_007250_ALISAIE"
+  },
+  {
+    "id": "Plan",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07001_002700_ALISAIE"
+  },
+  {
+    "id": "EveryoneAlright",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07000_005970_ALISAIE"
+  },
+  {
+    "id": "WaitSomething",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_001810_ALISAIE"
+  },
+  {
+    "id": "RollDice",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_000750_ALISAIE"
+  },
+  {
+    "id": "Finished2",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05300_002570_ALISAIE"
+  },
+  {
+    "id": "Finished3",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06300_001090_ALISAIE"
+  },
+  {
+    "id": "Open",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04400_002760_ALISAIE"
+  },
+  {
+    "id": "WhatHappened",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_06000_007180_ALISAIE"
+  },
+  {
+    "id": "WorkingOrder",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_006420_ALISAIE"
+  },
+  {
+    "id": "Understand",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07000_001590_ALISAIE"
+  },
+  {
+    "id": "Happening",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_06005_006460_ALISAIE"
+  },
+  {
+    "id": "IKnowWhereThisIsGoing",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_000590_ALISAIE"
+  },
+  {
+    "id": "Couldn",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07004_005570_ALISAIE"
+  },
+  {
+    "id": "Rise",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_005960_ALISAIE"
+  },
+  {
+    "id": "Won",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_001750_ALISAIE"
+  },
+  {
+    "id": "Time",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07500_010620_ALISAIE"
+  },
+  {
+    "id": "Making",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_002630_ALISAIE"
+  },
+  {
+    "id": "AreYouAllRightSsaySomething",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_003890_ALISAIE"
+  },
+  {
+    "id": "Bahamut",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_02401_600140_ALISAIE"
+  },
+  {
+    "id": "DamnWorry",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_008520_ALISAIE"
+  },
+  {
+    "id": "Rest",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_002610_ALISAIE"
+  },
+  {
+    "id": "LingeringEffects",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "7",
+    "cutsceneLine": "TEXT_VOICEMAN_07400_000270_ALISAIE"
+  },
+  {
+    "id": "Earned",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_005170_ALISAIE"
+  },
+  {
+    "id": "GoodGodsVoice",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_03500_001710_ALISAIE"
+  },
+  {
+    "id": "Prepared",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06003_000250_ALISAIE"
+  },
+  {
+    "id": "Daresay",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_04500_003210_ALISAIE"
+  },
+  {
+    "id": "Decided",
+    "icon": "073036",
+    "shoutcaster": "Alisaie",
+    "duration": "8",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_001450_ALISAIE"
+  },
+  {
+    "id": "Bastard",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_004230_THANCRED"
+  },
+  {
+    "id": "Miss",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_02200_600030_THANCRED"
+  },
+  {
+    "id": "ImpeccableTiming",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07001_001360_THANCRED"
+  },
+  {
+    "id": "WellgoOnThen",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05002_001100_THANCRED"
+  },
+  {
+    "id": "Gods2",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_04400_000010_THANCRED"
+  },
+  {
+    "id": "Feeling",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05001_002020_THANCRED"
+  },
+  {
+    "id": "Hope",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_008570_THANCRED"
+  },
+  {
+    "id": "Glad",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05003_002940_THANCRED"
+  },
+  {
+    "id": "Good",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05003_002030_THANCRED"
+  },
+  {
+    "id": "HeadBack",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_07500_000574_THANCRED"
+  },
+  {
+    "id": "GoDoWhatYouCameHereToDo",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_05003_002290_THANCRED"
+  },
+  {
+    "id": "Assume",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_000750_THANCRED"
+  },
+  {
+    "id": "Hey",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_03200_001020_THANCRED"
+  },
+  {
+    "id": "FireworksBegin",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_001750_THANCRED"
+  },
+  {
+    "id": "Damn2",
+    "icon": "073024",
+    "shoutcaster": "Thancred",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05001_001580_THANCRED"
+  },
+  {
+    "id": "Newcomers",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_000810_URIANGER"
+  },
+  {
+    "id": "Starshower2",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05200_003220_URIANGER"
+  },
+  {
+    "id": "Comrades",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_000420_URIANGER"
+  },
+  {
+    "id": "Magick",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05300_002200_URIANGER"
+  },
+  {
+    "id": "Quarry",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_05200_002250_URIANGER"
+  },
+  {
+    "id": "Strike",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05005_003480_URIANGER"
+  },
+  {
+    "id": "PotencyDefied",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05001_002210_URIANGER"
+  },
+  {
+    "id": "Discomfort",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06002_001580_URIANGER"
+  },
+  {
+    "id": "ThouArt",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_03500_001200_URIANGER"
+  },
+  {
+    "id": "ReviewMatters",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06400_002310_URIANGER"
+  },
+  {
+    "id": "ThouNeedst2",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "7",
+    "cutsceneLine": "TEXT_VOICEMAN_05003_001620_URIANGER"
+  },
+  {
+    "id": "MakePeace",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_06002_001570_URIANGER"
+  },
+  {
+    "id": "FortuitousOpportunity",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "7",
+    "cutsceneLine": "TEXT_VOICEMAN_06100_001540_URIANGER"
+  },
+  {
+    "id": "ThineInitiative",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_06400_002720_URIANGER"
+  },
+  {
+    "id": "Aught",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_000120_URIANGER"
+  },
+  {
+    "id": "TroublethThee",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_05003_001500_URIANGER"
+  },
+  {
+    "id": "IllustriousChampion",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06100_001400_URIANGER"
+  },
+  {
+    "id": "ImSorryITrulyTrulyAm",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_06005_003630_URIANGER"
+  },
+  {
+    "id": "RemainWatchful",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_02200_000030_URIANGER"
+  },
+  {
+    "id": "MagicalDefense",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_006560_URIANGER"
+  },
+  {
+    "id": "ThineArrival",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06002_001400_URIANGER"
+  },
+  {
+    "id": "IifIMay",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07505_000090_KRILE"
+  },
+  {
+    "id": "Stand2",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07400_002770_KRILE"
+  },
+  {
+    "id": "Triumph",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_001230_KRILE"
+  },
+  {
+    "id": "Beg",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07005_001700_KRILE"
+  },
+  {
+    "id": "GoQuickly",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07300_000130_KRILE"
+  },
+  {
+    "id": "IsThatAllOfThem",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07400_002830_KRILE"
+  },
+  {
+    "id": "NoMorePleaseNoMore",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07505_001730_KRILE"
+  },
+  {
+    "id": "AimisIt",
+    "icon": "073071",
+    "shoutcaster": "Krile",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_03200_002430_KRILE"
+  },
+  {
+    "id": "Fortuitous",
+    "icon": "73030",
+    "shoutcaster": "Aymeric",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_02500_M00070_AYMERIC"
+  },
+  {
+    "id": "FairShot",
+    "icon": "073275",
+    "shoutcaster": "Erenville",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06000_002020_ERENVILLE"
+  },
+  {
+    "id": "Hey2",
+    "icon": "073275",
+    "shoutcaster": "Erenville",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06002_003860_ERENVILLE"
+  },
+  {
+    "id": "Quick",
+    "icon": "073275",
+    "shoutcaster": "Erenville",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07000_000030_ERENVILLE"
+  },
+  {
+    "id": "Trial",
+    "icon": "073275",
+    "shoutcaster": "Erenville",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07300_004080_ERENVILLE"
+  },
+  {
+    "id": "Enjoying",
+    "icon": "073275",
+    "shoutcaster": "Erenville",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07000_000710_ERENVILLE"
+  },
+  {
+    "id": "IsThereAnythingICanDoToHelp",
+    "icon": "073275",
+    "shoutcaster": "Erenville",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_001170_ERENVILLE"
+  },
+  {
+    "id": "Interesting",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06300_001540_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "YouAndMeBoth",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06200_002570_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "HereItIsAgain",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06400_002240_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "WhatAreYouDoing",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06300_002170_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "AreYouAllRightZero",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06400_004460_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "TillWeMeet",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06500_003170_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "WhereAreYouGoing",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_06500_002730_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "LotOfMortals",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06200_003910_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "WhatAreYouDoingHere",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07500_001020_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "Noticed",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07500_001196_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "Fought",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_06400_001550_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "StrangeLand",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06200_003870_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "OnMyWay",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06400_004000_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "CarefreeAmidst",
+    "icon": "73077",
+    "shoutcaster": "Zero",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07500_001030_MYSTERIOUSPERSON"
+  },
+  {
+    "id": "HmphPrattle",
+    "icon": "73256",
+    "shoutcaster": "Emet-Selch",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05005_003000_EMETSELCH"
+  },
+  {
+    "id": "AhThereYouAre",
+    "icon": "73256",
+    "shoutcaster": "Emet-Selch",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05002_003240_EMETSELCH"
+  },
+  {
+    "id": "NoItCantBe",
+    "icon": "73256",
+    "shoutcaster": "Emet-Selch",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05005_003250_EMETSELCH"
+  },
+  {
+    "id": "StartFromBeginning",
+    "icon": "73256",
+    "shoutcaster": "Emet-Selch",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06004_004030_EMETSELCH"
+  },
+  {
+    "id": "CantBeEntrusted",
+    "icon": "73256",
+    "shoutcaster": "Emet-Selch",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05005_002700_EMETSELCH"
+  },
+  {
+    "id": "SurprisedStand",
+    "icon": "73256",
+    "shoutcaster": "Emet-Selch",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_05005_003290_EMETSELCH"
+  },
+  {
+    "id": "NoYouDont",
+    "icon": "073104",
+    "shoutcaster": "Lyse",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04100_002000_LYSE"
+  },
+  {
+    "id": "NoWuk",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07002_003490_WUKLAMAT"
+  },
+  {
+    "id": "Amazing",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_004250_WUKLAMAT"
+  },
+  {
+    "id": "What",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07200_001840_WUKLAMAT"
+  },
+  {
+    "id": "Steady",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_002490_WUKLAMAT"
+  },
+  {
+    "id": "UhWuk",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07001_003940_WUKLAMAT"
+  },
+  {
+    "id": "ATrap",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_006520_WUKLAMAT"
+  },
+  {
+    "id": "Bizarre",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_004630_WUKLAMAT"
+  },
+  {
+    "id": "IsItOver",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07300_003450_WUKLAMAT"
+  },
+  {
+    "id": "WhatHappenedWuk",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07001_002430_WUKLAMAT"
+  },
+  {
+    "id": "ComeBack",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07400_000490_WUKLAMAT"
+  },
+  {
+    "id": "TillNextTime",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07400_000570_WUKLAMAT"
+  },
+  {
+    "id": "Alright",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_07100_000670_WUKLAMAT"
+  },
+  {
+    "id": "StubbornLittle",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07003_004520_WUKLAMAT"
+  },
+  {
+    "id": "UghStinks",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07000_005340_WUKLAMAT"
+  },
+  {
+    "id": "EndsHere",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_07004_005700_WUKLAMAT"
+  },
+  {
+    "id": "AhBliss",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07002_001420_WUKLAMAT"
+  },
+  {
+    "id": "Victory",
+    "icon": "073265",
+    "shoutcaster": "Wuk Lamat",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_07002_000330_WUKLAMAT"
   }
 ]

@@ -12,7 +12,7 @@ public class AboutTab : ITab
     {
         ImGui.TextWrapped(
             "Welcome to NPC Announcer! This plugin will take many NPC's and put them into your game! " +
-            "\nPlease contact .spider in the Dalamud Discord for feedback/suggestions!");
+            "\nPlease contact .spider in the Dalamud Discord for feedback or suggestions!");
         ImGui.Spacing();
         ImGui.Text("Attributions");
         ImGui.BulletText("DeathRecap, VFXEditor, OofPlugin");
