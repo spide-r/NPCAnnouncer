@@ -2,9 +2,11 @@
 using System.Linq;
 using Dalamud.Game.Addon.Lifecycle;
 using Dalamud.Game.Addon.Lifecycle.AddonArgTypes;
+using Dalamud.Game.ClientState.Objects.Enums;
 using Dalamud.Game.DutyState;
 using FFXIVClientStructs.FFXIV.Component.GUI;
 using Lumina.Excel.Sheets;
+using PvPAnnouncer.Data;
 using PvPAnnouncer.Impl.Messages;
 using PvPAnnouncer.Interfaces;
 
@@ -30,12 +32,20 @@ public class DutyManager : IDutyManager, IEventPublisher
 
     public bool IsActiveTrustNPC(string npc)
     {
-        return false; //todo
+        if (InternalConstants.TrustNpcNames.ContainsKey(npc))
+        {
+            //this is all for crystal boyfriend btw
+            var list = InternalConstants.TrustNpcNames[npc];
+            return list.Contains(npc);
+        }
+
+        return false;
     }
 
     public bool InTrust()
     {
-        return false; //todo
+        return PluginServices.ObjectTable.Any(o => o is
+            {ObjectKind: ObjectKind.BattleNpc, SubKind: (byte) BattleNpcSubKind.NpcPartyMember});
     }
 
 

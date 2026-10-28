@@ -1,4 +1,6 @@
-﻿namespace PvPAnnouncer.Data;
+﻿using System.Collections.Generic;
+
+namespace PvPAnnouncer.Data;
 
 public abstract class InternalConstants : ImguiTools
 {
@@ -13,4 +15,42 @@ public abstract class InternalConstants : ImguiTools
         "Untranslated Text! Contact the NPCAnnouncer developer if you wish to contribute!";
 
     public const string LimitBreakList = "LIMIT_BREAK_LIST";
+
+    public static readonly Dictionary<string, List<string>> TrustNpcNames = new()
+    {
+        ["Alisaie"] = ["Alisaie", "アリゼー"],
+        ["Alphinaud"] = ["Alphinaud", "アルフィノ"],
+        ["Arenvald"] = ["Arenvald", "アレンヴァルド"],
+        ["Aymeric"] = ["Aymeric", "アイメリク"],
+        ["Carvallain"] = ["Carvallain", "カルヴァラン"],
+        ["Crystal Exarch"] =
+            ["G'raha Tia", "グ・ラハ・ティア", "Crystal Exarch", "exarque du Cristal", "Kristallexarch", "水晶公"],
+        ["Emet-Selch"] = ["Emet-Selch", "エメトセルク"],
+        ["Estinien"] = ["Estinien", "エスティニアン"],
+        ["G'raha Tia"] = ["G'raha Tia", "グ・ラハ・ティア", "Crystal Exarch", "exarque du Cristal", "Kristallexarch", "水晶公"],
+        ["Gosetsu"] = ["Gosetsu", "ゴウセツ"],
+        ["Haurchefant"] = ["Haurchefant", "オルシュファン"],
+        ["Hien"] = ["Hien", "ヒエン"],
+        ["Hythlodaeus"] = ["Hythlodaeus", "ヒュトロダエウス"],
+        ["J'moldva"] = ["J'moldva", "ジャ・モルバ"],
+        ["Koana"] = ["Koana", "コーナ"],
+        ["Krile"] = ["Krile", "クルル"],
+        ["Lyna"] = ["Lyna", "ライナ"],
+        ["Lyse"] = ["Lyse", "リセ"],
+        ["Minfilia"] = ["Ryne", "リーン", "Minfilia", "ミンフィリア"],
+        ["Pero Roggo"] = ["Pero Roggo", "ペロ・ロッゴ"],
+        ["Raubahn"] = ["Raubahn", "ラウバーン"],
+        ["Ryne"] = ["Ryne", "リーン", "Minfilia", "ミンフィリア"],
+        ["Sphene"] = ["Sphene", "スフェーン"],
+        ["Thancred"] = ["Thancred", "サンクレッド"],
+        ["Urianger"] = ["Urianger", "ウリエンジェ"],
+        ["Varshahn"] = ["Varshahn", "ヴァルシャン"],
+        ["Venat"] = ["Venat", "ヴェーネス"],
+        ["Wuk Lamat"] = ["Wuk Lamat", "ウクラマト"],
+        ["Y'shtola"] = ["Y'shtola", "ヤ・シュトラ"],
+        ["Ysayle"] = ["Ysayle", "イゼル"],
+        ["Yugiri"] = ["Yugiri", "ユウギリ"],
+        ["Zero"] = ["Zero", "ゼロ"],
+        ["Zoraal Ja"] = ["Zoraal Ja", "ゾラージャ"]
+    };
 }
