@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Dalamud.Game.Addon.Lifecycle;
 using Dalamud.Game.Addon.Lifecycle.AddonArgTypes;
@@ -15,6 +16,7 @@ namespace PvPAnnouncer.Impl;
 public class DutyManager : IDutyManager, IEventPublisher
 {
     private readonly IPlayerStateTracker _playerState;
+    private readonly List<string> _trusts = [];
 
     public DutyManager(IPlayerStateTracker playerState)
     {
@@ -28,18 +30,40 @@ public class DutyManager : IDutyManager, IEventPublisher
         PluginServices.DutyState.DutyRecommenced += DutyStateOnDutyRecommenced;
         PluginServices.DutyState.DutyWiped += DutyStateOnDutyWiped;
         PluginServices.DutyState.DutyCompleted += DutyCompleted;
+
+        if (InTrust())
+            //fix for when reloading plugin within trust
+            LoadTrusts();
     }
 
-    public bool IsActiveTrustNPC(string npc)
+    public bool IsActiveTrustNPC(string npc) //this is all for crystal boyfriend btw
     {
         if (InternalConstants.TrustNpcNames.ContainsKey(npc))
         {
-            //this is all for crystal boyfriend btw
-            var list = InternalConstants.TrustNpcNames[npc];
-            return list.Contains(npc);
+            //is trust npc - need to check if its active
+            var list = InternalConstants.TrustNpcNames[npc]; // all npc names
+
+            if (_trusts.Any(t =>
+                    list.Contains(t, StringComparer.OrdinalIgnoreCase))) //if any names in trusts exists in list
+                return true;
         }
 
         return false;
+    }
+
+    private void LoadTrusts()
+    {
+        foreach (var gameObject in PluginServices.ObjectTable.Where(o => o is
+                     {ObjectKind: ObjectKind.BattleNpc, SubKind: (byte) BattleNpcSubKind.NpcPartyMember}))
+        {
+            var name = gameObject.Name.ToString();
+            _trusts.Add(name);
+        }
+    }
+
+    private void ClearTrusts()
+    {
+        _trusts.Clear();
     }
 
     public bool InTrust()
@@ -133,6 +157,7 @@ public class DutyManager : IDutyManager, IEventPublisher
 
     private void ClientStateOnCfPop(ContentFinderCondition obj)
     {
+        ClearTrusts();
         PluginServices.PluginLog.Verbose("OnCfPop");
         EmitToBroker(new DutyPopMessage());
     }
@@ -164,6 +189,7 @@ public class DutyManager : IDutyManager, IEventPublisher
 
     public void DutyStarted(IDutyStateEventArgs args)
     {
+        LoadTrusts(); //low possibility of a bug where trusts dont finish loading before the message is sent
         PluginServices.Announcer.ClearQueue(); // new duty - fully reset everything
         EmitToBroker(new MatchStartedMessage());
     }

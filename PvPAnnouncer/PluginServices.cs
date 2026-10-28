@@ -80,6 +80,7 @@ internal class PluginServices
 
         EventShoutcastMapping = new EventShoutcastMapping();
         ShoutcastRepository = new ShoutcastRepository(DataManager);
+        RestrictionRepository = new RestrictionRepository();
 
         JsonLoader = new JsonLoader(DataManager, PvPEventBroker,
             ShoutcastRepository, EventShoutcastMapping, RestrictionRepository);

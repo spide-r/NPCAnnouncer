@@ -70,9 +70,9 @@ namespace PvPAnnouncer
 
         public List<uint> DisabledContent { get; set; } = [];
 
-        public bool WantsTrustNpc = true; // play voicelines of trusts while in duty support
-        public bool ReallyWantsTrustNpc; //play trust voicelines regardless of announcer settings
-        public bool OnlyWantsTrustNpc; //only play trust voicelines when in duty support
+        public bool WantsTrustNpc { get; set; } = true; // play voicelines of trusts while in duty support
+        public bool ReallyWantsTrustNpc { get; set; } //play trust voicelines regardless of announcer settings
+        public bool OnlyWantsTrustNpc { get; set; } //only play trust voicelines when in duty support
 
 
         public string Language { get; set; } = "en";

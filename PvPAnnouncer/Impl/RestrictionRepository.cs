@@ -14,7 +14,7 @@ public class RestrictionRepository : IRestrictionRepository
         return _restrictions.Values
             .Where(r => PluginServices.Config.Restrictions.Contains(r.id))
             .Where(r => r.shoutcaster.Equals(shoutcaster) || r.alternateNames.Contains(shoutcaster))
-            .SelectMany(r => r.duties)
+            .SelectMany(r => r.tt)
             .ToHashSet();
     }
 

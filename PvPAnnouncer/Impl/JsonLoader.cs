@@ -187,10 +187,10 @@ public class JsonLoader(
                 var shoutcaster = restriction?["shoutcaster"]?.GetValue<string>();
                 var restrictionName = restriction?["restrictionName"]?.GetValue<string>();
                 var alternateNames = restriction?["alternateNames"]?.Deserialize<List<string>>();
-                var duties = restriction?["duties"]?.Deserialize<List<uint>>();
+                var tt = restriction?["tt"]?.Deserialize<List<uint>>();
 
                 var rr =
-                    new ShoutcasterRestriction(id, shoutcaster, alternateNames, restrictionName, duties);
+                    new ShoutcasterRestriction(id, shoutcaster, alternateNames, restrictionName, tt);
 
                 restrictionRepository.SetShoutcasterRestriction(id, rr);
             }
