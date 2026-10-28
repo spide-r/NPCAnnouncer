@@ -22,7 +22,6 @@ public class DutyManager : IDutyManager, IEventPublisher
         PluginServices.AddonLifecycle.RegisterListener(AddonEvent.PostSetup, "MKSRecord", HandleCCRecordPostSetup);
         PluginServices.ClientState.EnterPvP += EnterPvP;
         PluginServices.ClientState.CfPop += ClientStateOnCfPop;
-        PluginServices.ClientState.LevelChanged += ClientStateOnLevelChanged;
         PluginServices.DutyState.DutyStarted += DutyStarted;
         PluginServices.DutyState.DutyRecommenced += DutyStateOnDutyRecommenced;
         PluginServices.DutyState.DutyWiped += DutyStateOnDutyWiped;
@@ -100,11 +99,6 @@ public class DutyManager : IDutyManager, IEventPublisher
         EmitToBroker(new MatchLossMessage());
     }
 
-    private void ClientStateOnLevelChanged(uint classJobId, uint level)
-    {
-        EmitToBroker(new LevelUpMessage());
-    }
-
     private void DutyStateOnDutyRecommenced(IDutyStateEventArgs args)
     {
         EmitToBroker(new DutyRecommenceMessage());
@@ -174,7 +168,6 @@ public class DutyManager : IDutyManager, IEventPublisher
         PluginServices.DutyState.DutyCompleted -= DutyCompleted;
         PluginServices.DutyState.DutyRecommenced -= DutyStateOnDutyRecommenced;
         PluginServices.DutyState.DutyWiped -= DutyStateOnDutyWiped;
-        PluginServices.ClientState.LevelChanged -= ClientStateOnLevelChanged;
 
         PluginServices.AddonLifecycle.UnregisterListener(AddonEvent.PostSetup, "FrontlineRecord",
             HandleFrontlineRecordPostSetup);

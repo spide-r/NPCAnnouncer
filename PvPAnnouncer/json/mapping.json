@@ -2167,46 +2167,5 @@
       "NothingToFearYet",
       "IntentionsKnown"
     ]
-  },
-  {
-    "eventId": "LevelUpEvent",
-    "shouts": [
-      "ShowThemWhatYoureMadeOf",
-      "JustWhatWeNeeded",
-      "WellDone",
-      "Proud",
-      "Rise",
-      "PraiseTheTwelve",
-      "Curiouser",
-      "Incredible",
-      "RayOfHope",
-      "HonorAndGloryOfIshgard",
-      "Prevailed",
-      "Satisfied",
-      "TearToEye",
-      "LuckyYou",
-      "Trial",
-      "Enjoying",
-      "LivingLegends",
-      "SplendidResultKeepUp",
-      "BefittingMyInspiration",
-      "HavePrevailed",
-      "ProudOfYou",
-      "DoneWell",
-      "MjMadeYourMark",
-      "WhatPower",
-      "PotentMagicks",
-      "ImpeccableTiming",
-      "Feeling",
-      "WellgoOnThen",
-      "AllRightYouDidGreat",
-      "SmilingBecauseSmiling",
-      "FeatOldManWuk",
-      "OverestimatedPotential",
-      "ExpectNoLessBahamut",
-      "Diversion",
-      "FaithNotMisplaced",
-      "CarefreeAmidst"
-    ]
   }
 ]

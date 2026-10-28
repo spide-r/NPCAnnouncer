@@ -18,7 +18,6 @@ public class PluginSoundManager : ISoundManager
     private readonly PlaySoundDelegate _playSoundPath;
 
     private bool _muted;
-    //todo - its about time you had another look at this code - different sounds have different volume levels (varies by source, lang, etc)
 
     private const string InitSoundSig = "E8 ?? ?? ?? ?? 8B 5D 77";
 

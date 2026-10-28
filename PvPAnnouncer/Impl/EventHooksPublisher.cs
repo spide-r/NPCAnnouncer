@@ -50,7 +50,6 @@ public class EventHooksPublisher : IEventPublisher, IDisposable
                             ActionEffectType
                                 .ApplyStatusEffectTarget) //someone applied a status effect to our monitored user
                         {
-                            //todo - 2 bugs here - this isnt filtering by enemy this also isnt triggering when enemies give you cc (in pve) why?
                             var effectValue = actionEffectVar.Value;
                             EmitToBroker(new AppliedStatusMessage(effectValue));
                         }

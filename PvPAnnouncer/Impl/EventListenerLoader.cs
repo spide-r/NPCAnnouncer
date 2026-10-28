@@ -29,8 +29,7 @@ public class EventListenerLoader : IEventListenerLoader
         new VulnStackDDEvent(),
         new EnemyHitCcEvent(),
         new MaxBattleFeverEvent(),
-        new DutyPopEvent(),
-        new LevelUpEvent()
+        new DutyPopEvent()
     ];
 
     public void LoadEventListeners()

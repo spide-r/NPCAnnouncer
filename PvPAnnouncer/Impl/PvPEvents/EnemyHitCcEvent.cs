@@ -13,7 +13,7 @@ public class EnemyHitCcEvent : PvPActionEvent
         Id = "EnemyHitCcEvent";
     }
 
-    //todo no current way to check/validate detrimental effect was actually from an enemy - no big issue rn since detrimental, but something to think about
+    //no current way to check/validate detrimental effect was actually from an enemy - no big issue rn since detrimental, but something to think about
     public override bool InvokeRule(IMessage message)
     {
         if (message is AppliedStatusMessage enemyAppliedStatusEvent)
@@ -24,13 +24,11 @@ public class EnemyHitCcEvent : PvPActionEvent
             {
                 if (status.LockMovement) // probably stun/sleep
                 {
-                    PluginServices.PluginLog.Debug("Hit with stun/sleep!!!!!");
                     return true;
                 }
 
                 if (status.HitEffect.RowId == 4) // probably slow
                 {
-                    PluginServices.PluginLog.Debug("Hit with slow!!!!!!!!");
                     return true;
                 }
             }
