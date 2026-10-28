@@ -1,5 +1,6 @@
 ﻿using PvPAnnouncer.Impl.PvEEvents;
 using PvPAnnouncer.Impl.PvPEvents;
+using PvPAnnouncer.Impl.WorldEvents;
 using PvPAnnouncer.Interfaces;
 using PvPAnnouncer.Interfaces.PvPEvents;
 
@@ -27,7 +28,9 @@ public class EventListenerLoader : IEventListenerLoader
         new DutyRecommenceEvent(),
         new VulnStackDDEvent(),
         new EnemyHitCcEvent(),
-        new MaxBattleFeverEvent()
+        new MaxBattleFeverEvent(),
+        new DutyPopEvent(),
+        new LevelUpEvent()
     ];
 
     public void LoadEventListeners()

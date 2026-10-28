@@ -128,7 +128,8 @@
       "HereItIsAgain",
       "WhatAreYouDoing",
       "LotOfMortals",
-      "WhatAreYouDoingHere"
+      "WhatAreYouDoingHere",
+      "SpectacleResumes"
     ]
   },
   {
@@ -897,7 +898,8 @@
       "WhatHappenedWuk",
       "AreYouAllRightZero",
       "Noticed",
-      "StrangeLand"
+      "StrangeLand",
+      "SpectacleResumes"
     ]
   },
   {
@@ -1307,14 +1309,8 @@
       "Quarry",
       "ThineArrival",
       "WhereAreYouGoing",
-      "StrangeLand"
-    ]
-  },
-  {
-    "eventId": "MatchStormyWeatherEvent",
-    "shouts": [
-      "StormParasols",
-      "Thunderstorm"
+      "StrangeLand",
+      "SpectacleResumes"
     ]
   },
   {
@@ -2100,6 +2096,117 @@
       "ThineInitiative",
       "Amazing",
       "EndsHere"
+    ]
+  },
+  {
+    "eventId": "DutyPopEvent",
+    "shouts": [
+      "Decided",
+      "Prepared",
+      "Time",
+      "IKnowWhereThisIsGoing",
+      "AreYouReady",
+      "Ready",
+      "ForTheHouseOfLeveilleur",
+      "Pardon",
+      "Finish",
+      "BegPardon",
+      "FutureOfEorzea",
+      "VictoryOurs",
+      "GoodLuck",
+      "OhForTheLove",
+      "PartWays",
+      "CouldBeChance",
+      "IsThereAnythingICanDoToHelp",
+      "BackToTheFray",
+      "HaventLostEdge",
+      "EndTheirStruggles",
+      "FocusOnVictoryGraha",
+      "DeclareIntentions",
+      "ShowMeWhatYouCanDo",
+      "Come",
+      "BearWitness",
+      "Thee",
+      "LetUsBeAboutIt",
+      "SafeJourney",
+      "UmOfCourse",
+      "Triumph",
+      "Beg",
+      "DidntUm",
+      "IsThatWhatIThinkItIs",
+      "Waiting",
+      "ThereTheyAre",
+      "MjGoodnessGracious",
+      "MjHeatingUp",
+      "SomethingsComing",
+      "SendingCameras",
+      "OurTurnThancred",
+      "ToTheBoldGoTheSpoils",
+      "Miss",
+      "ImpeccableTiming",
+      "WellgoOnThen",
+      "Hope",
+      "Hey",
+      "ThineArrival",
+      "ReviewMatters",
+      "Quarry",
+      "UhWuk",
+      "LooksPromising",
+      "MayTheTwelveGuideYou",
+      "MakeReady",
+      "WereCountingOnYou",
+      "ATestOfYourReflexes",
+      "HaveYouTheStrength",
+      "YesYesJustSo",
+      "SoWhatNow",
+      "OnMyWay",
+      "WaitingFor",
+      "StrangelyFamiliar",
+      "StayAlert",
+      "MuchToBeExpected",
+      "NothingToFearYet",
+      "IntentionsKnown"
+    ]
+  },
+  {
+    "eventId": "LevelUpEvent",
+    "shouts": [
+      "ShowThemWhatYoureMadeOf",
+      "JustWhatWeNeeded",
+      "WellDone",
+      "Proud",
+      "Rise",
+      "PraiseTheTwelve",
+      "Curiouser",
+      "Incredible",
+      "RayOfHope",
+      "HonorAndGloryOfIshgard",
+      "Prevailed",
+      "Satisfied",
+      "TearToEye",
+      "LuckyYou",
+      "Trial",
+      "Enjoying",
+      "LivingLegends",
+      "SplendidResultKeepUp",
+      "BefittingMyInspiration",
+      "HavePrevailed",
+      "ProudOfYou",
+      "DoneWell",
+      "MjMadeYourMark",
+      "WhatPower",
+      "PotentMagicks",
+      "ImpeccableTiming",
+      "Feeling",
+      "WellgoOnThen",
+      "AllRightYouDidGreat",
+      "SmilingBecauseSmiling",
+      "FeatOldManWuk",
+      "OverestimatedPotential",
+      "ExpectNoLessBahamut",
+      "Diversion",
+      "FaithNotMisplaced",
+      "CarefreeAmidst"
     ]
   }
 ]
