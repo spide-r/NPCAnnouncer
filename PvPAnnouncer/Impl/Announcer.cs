@@ -101,8 +101,17 @@ public class Announcer : IAnnouncer, IDisposable
 
         if (PluginServices.DutyState.IsDutyStarted || PluginServices.Condition.Any(ConditionFlag.BoundByDuty,
                 ConditionFlag.BoundByDuty56, ConditionFlag.BoundByDuty95))
+        {
             //in duty
+
+            if (pve)
+            {
+                var contentFinderCondition = PluginServices.DutyState.ContentFinderCondition.Value.ContentType.Value;
+                if (PluginServices.Config.DisabledContent.Contains(contentFinderCondition.RowId)) return false;
+            }
+
             return pve;
+        }
 
         //not started and/or in overworld
         return overworld;
@@ -156,7 +165,7 @@ public class Announcer : IAnnouncer, IDisposable
 
         if (PluginServices.Condition.Any(ConditionFlag.BoundByDuty,
                 ConditionFlag.BoundByDuty56, ConditionFlag.BoundByDuty95) && !PluginServices.DutyState
-                .IsDutyStarted) //fixes bug with kardia and other stuff at start of duty but does not allow for weather events
+                .IsDutyStarted) //does not allow events to occur until the gates drop
         {
             var id = pvpEvent.Id;
             //duty not started, dont care about wolves den
@@ -304,6 +313,7 @@ public class Announcer : IAnnouncer, IDisposable
     {
         List<Shoutcast> sounds = [];
 
+        var inTrust = PluginServices.DutyManager.InTrust();
         foreach (var shoutcastId in _eventShoutcastMapping.GetShoutcastList(pvpEvent.Id))
         {
             var sound = _shoutcastRepository.GetShoutcast(shoutcastId);
@@ -322,24 +332,46 @@ public class Announcer : IAnnouncer, IDisposable
 
             if (PluginServices.Config.MutedShouts.Contains(shoutcastId)) continue;
 
-            // == Objective 5 == 
-            if (PluginServices.Config.WantsAllAttributes(sound.Attributes) &&
-                PluginServices.Config.WantsAttribute(sound.Shoutcaster))
+            if (sound.IsGendered)
             {
-                if (sound.IsGendered)
-                {
-                    var masc = PluginServices.Config.WantsAttribute("Masculine Pronouns");
-                    var fem = PluginServices.Config.WantsAttribute("Feminine Pronouns");
-                    if (masc || fem) // voice is gendered and user wants at least 1
-                    {
-                        sounds.Add(sound);
-                    }
-                }
-                else
+                var masc = PluginServices.Config.WantsAttribute("Masculine Pronouns");
+                var fem = PluginServices.Config.WantsAttribute("Feminine Pronouns");
+                if (!masc && !fem) // voice is gendered and user doesn't want either
+                    continue;
+            }
+
+            if (!PluginServices.Config
+                    .WantsTheseAttributes(sound.Attributes)) //user doesn't want the attributes listed here
+                continue;
+
+            var restrictedDuties = PluginServices.RestrictionRepository.GetRestrictedDuties(sound.Shoutcaster);
+            if (restrictedDuties.Contains(PluginServices.ClientState.TerritoryType)) continue;
+
+            var isTrustNpc = PluginServices.DutyManager.IsActiveTrustNPC(sound.Shoutcaster);
+
+            if (inTrust)
+            {
+                if (!PluginServices.Config.WantsTrustNpc &&
+                    isTrustNpc) continue; // doesn't want trust NPC's to play during duty support
+
+                if (PluginServices.Config.ReallyWantsTrustNpc && isTrustNpc)
                 {
                     sounds.Add(sound);
+                    continue; // load bearing continue to prevent duplicates - might want to remember this in the announcer rewrite
+                }
+
+                if (PluginServices.Config.WantsTrustNpc && PluginServices.Config.OnlyWantsTrustNpc && !isTrustNpc)
+                {
+                    continue; // user only wants to hear trust NPC's
                 }
             }
+            //not in trust/duty support - no special considerations made.
+
+            if (!PluginServices.Config.WantsAttribute(sound.Shoutcaster)) //user doesn't want the shoutcaster
+                continue;
+
+
+            sounds.Add(sound);
         }
 
         // == Objective 2 == 

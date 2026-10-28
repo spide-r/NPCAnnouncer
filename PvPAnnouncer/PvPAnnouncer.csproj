@@ -38,6 +38,7 @@
         <EmbeddedResource Include="json\mapping.json" />
         <EmbeddedResource Include="json\shoutcast.json" />
         <EmbeddedResource Include="json\csl.json" />
+        <EmbeddedResource Include="json\restrictions.json"/>
         <EmbeddedResource Include="EnglishStopList.txt"/>
         <EmbeddedResource Include="FrenchStopList.txt"/>
         <EmbeddedResource Include="GermanStopList.txt"/>

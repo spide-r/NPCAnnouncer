@@ -59,6 +59,7 @@ internal class PluginServices
     internal static IPlayerStateTracker PlayerStateTracker { get; private set; }
     internal static IEventShoutcastMapping EventShoutcastMapping { get; private set; }
     internal static IShoutcastRepository ShoutcastRepository { get; private set; }
+    internal static IRestrictionRepository RestrictionRepository { get; private set; }
     internal static IJsonLoader JsonLoader { get; private set; }
 
     internal static VoicelineCreationWindow VoicelineCreationWindow { get; private set; }
@@ -81,7 +82,7 @@ internal class PluginServices
         ShoutcastRepository = new ShoutcastRepository(DataManager);
 
         JsonLoader = new JsonLoader(DataManager, PvPEventBroker,
-            ShoutcastRepository, EventShoutcastMapping);
+            ShoutcastRepository, EventShoutcastMapping, RestrictionRepository);
         VoicelineDataResolver = new VoicelineDataResolver(DataManager, JsonLoader);
 
         JsonLoader.ClearAndLoadEmbeddedValuesIntoMemory();

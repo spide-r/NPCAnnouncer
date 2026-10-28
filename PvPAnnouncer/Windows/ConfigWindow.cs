@@ -57,7 +57,7 @@ public class ConfigWindow : Window, IDisposable
             PluginServices.PlayerStateTracker.CheckSoundState();
             Shoutcast[] bt = _shoutcastRepository.GetShoutcasts()
                 .Where(bt => PluginServices.Config.WantsAttribute(bt.Shoutcaster))
-                .Where(bt => PluginServices.Config.WantsAllAttributes(bt.Attributes)).ToArray();
+                .Where(bt => PluginServices.Config.WantsTheseAttributes(bt.Attributes)).ToArray();
             if (bt.Length != 0) // no announcers selected
             {
                 var e = bt[Random.Shared.Next(bt.Length)];

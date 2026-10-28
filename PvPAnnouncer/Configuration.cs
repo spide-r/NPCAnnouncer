@@ -66,6 +66,14 @@ namespace PvPAnnouncer
 
         public Dictionary<string, string> Translations { get; set; } = []; //id -> jsonof(lang: text)
 
+        public List<string> Restrictions { get; set; } = [];
+
+        public List<uint> DisabledContent { get; set; } = [];
+
+        public bool WantsTrustNpc = true; // play voicelines of trusts while in duty support
+        public bool ReallyWantsTrustNpc; //play trust voicelines regardless of announcer settings
+        public bool OnlyWantsTrustNpc; //only play trust voicelines when in duty support
+
 
         public string Language { get; set; } = "en";
         public string TextLanguage { get; set; } = "en";
@@ -370,7 +378,7 @@ namespace PvPAnnouncer
         }
 
 
-        public bool WantsAllAttributes(List<string> attributes)
+        public bool WantsTheseAttributes(List<string> attributes)
         {
             foreach (var p in attributes)
             {

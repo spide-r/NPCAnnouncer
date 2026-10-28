@@ -18,7 +18,8 @@ public class JsonLoader(
     IDataManager dataManager,
     IPvPEventBroker pvPEventBroker,
     IShoutcastRepository shoutcastRepository,
-    IEventShoutcastMapping eventShoutcastMapping) : IJsonLoader
+    IEventShoutcastMapping eventShoutcastMapping,
+    IRestrictionRepository restrictionRepository) : IJsonLoader
 {
     private List<string> _limitBreakListStr = [];
 
@@ -26,11 +27,13 @@ public class JsonLoader(
     {
         shoutcastRepository.Clear();
         eventShoutcastMapping.Clear();
+        restrictionRepository.Clear();
         LoadShoutcasts();
         //todo bad design - shoutcasts needs to be loaded w/ the above method before the below methods can complete - divide responsibility?
         LoadLimitBreakShoutcasts();
         LoadAndMapActionIdEvents();
         LoadMapping();
+        LoadRestrictions();
     }
 
     private void LoadLimitBreakShoutcasts()
@@ -171,6 +174,26 @@ public class JsonLoader(
                 MapEvent(id, shouts);
             }
         }
+    }
+
+    public void LoadRestrictions()
+    {
+        var restrictionsJ = ReadEmbeddedFile("restrictions.json");
+        var r = JsonNode.Parse(restrictionsJ);
+        if (r is JsonArray j)
+            foreach (var restriction in j)
+            {
+                var id = restriction?["id"]?.GetValue<string>();
+                var shoutcaster = restriction?["shoutcaster"]?.GetValue<string>();
+                var restrictionName = restriction?["restrictionName"]?.GetValue<string>();
+                var alternateNames = restriction?["alternateNames"]?.Deserialize<List<string>>();
+                var duties = restriction?["duties"]?.Deserialize<List<uint>>();
+
+                var rr =
+                    new ShoutcasterRestriction(id, shoutcaster, alternateNames, restrictionName, duties);
+
+                restrictionRepository.SetShoutcasterRestriction(id, rr);
+            }
     }
 
     public Dictionary<string, List<string>> LoadCutsceneLines()

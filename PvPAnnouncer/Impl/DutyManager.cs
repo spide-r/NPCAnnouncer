@@ -28,6 +28,17 @@ public class DutyManager : IDutyManager, IEventPublisher
         PluginServices.DutyState.DutyCompleted += DutyCompleted;
     }
 
+    public bool IsActiveTrustNPC(string npc)
+    {
+        return false; //todo
+    }
+
+    public bool InTrust()
+    {
+        return false; //todo
+    }
+
+
     private void HandleCCRecordPostSetup(AddonEvent type, AddonArgs args)
     {
         unsafe
