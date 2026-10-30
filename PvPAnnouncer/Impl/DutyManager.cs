@@ -76,6 +76,7 @@ public class DutyManager : IDutyManager, IEventPublisher
 
     private void HandleCCRecordPostSetup(AddonEvent type, AddonArgs args)
     {
+        if (!PluginServices.ClientState.IsPvP) return;
         unsafe
         {
             try
@@ -112,6 +113,7 @@ public class DutyManager : IDutyManager, IEventPublisher
 
     private void HandleFrontlineRecordPostSetup(AddonEvent type, AddonArgs args)
     {
+        if (!PluginServices.ClientState.IsPvP) return;
         unsafe
         {
             try
@@ -197,7 +199,7 @@ public class DutyManager : IDutyManager, IEventPublisher
 
     public void DutyCompleted(IDutyStateEventArgs args)
     {
-        if (!PluginServices.ClientState.IsPvP)
+        if (!PluginServices.ClientState.IsPvP) // we only want to emit this when in PVE
         {
             EmitToBroker(new MatchVictoryMessage()); // pve - default to victory
         }
