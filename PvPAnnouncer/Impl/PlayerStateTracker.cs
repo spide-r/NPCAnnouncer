@@ -94,16 +94,6 @@ public class PlayerStateTracker : IPlayerStateTracker
         WasFalling = isFalling;
     }
 
-    public bool IsPvP()
-    {
-        if (PluginServices.Config.WolvesDen)
-        {
-            return PluginServices.ClientState.IsPvP;
-        }
-
-        return PluginServices.ClientState.IsPvPExcludingDen;
-    }
-
     public void CheckSoundState()
     {
         if (!PluginServices.Config.Notify)

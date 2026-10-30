@@ -30,10 +30,11 @@ public class DutyManager : IDutyManager, IEventPublisher
         PluginServices.DutyState.DutyRecommenced += DutyStateOnDutyRecommenced;
         PluginServices.DutyState.DutyWiped += DutyStateOnDutyWiped;
         PluginServices.DutyState.DutyCompleted += DutyCompleted;
-
-        if (InTrust())
-            //fix for when reloading plugin within trust
-            LoadTrusts();
+        PluginServices.Framework.RunOnFrameworkThread(() =>
+        {
+            if (InTrust()) //fix for when reloading plugin within trust
+                LoadTrusts();
+        });
     }
 
     public bool IsActiveTrustNPC(string npc) //this is all for crystal boyfriend btw
@@ -172,10 +173,10 @@ public class DutyManager : IDutyManager, IEventPublisher
         if (PluginServices.ObjectTable.LocalPlayer != null &&
             entityId == PluginServices.PlayerState.EntityId) return true;
 
-        if (PluginServices.PlayerStateTracker.IsPvP() && PluginServices.Config.PartyMembersPvP)
+        if (PluginServices.ClientState.IsPvPExcludingDen && PluginServices.Config.PartyMembersPvP)
             return PlayerInParty(entityId);
 
-        if (!PluginServices.PlayerStateTracker.IsPvP() && PluginServices.Config.PartyMembersPvE)
+        if (!PluginServices.ClientState.IsPvPExcludingDen && PluginServices.Config.PartyMembersPvE)
             return PlayerInParty(entityId);
 
         return false;

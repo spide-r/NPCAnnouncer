@@ -48,14 +48,13 @@ namespace PvPAnnouncer
         public bool ExportSingleCharacter { get; set; } = false;
 
         public bool Overworld { get; set; } = false;
-        public bool FieldOps { get; set; }
+        [Obsolete] public bool FieldOps { get; set; }
         public bool PvE { get; set; } = true;
-        public bool PvECrits { get; set; } = false;
         public bool PvP { get; set; } = true;
-        public bool WolvesDen { get; set; } = false;
 
         public bool PartyMembersPvP { get; set; } = false;
         public bool PartyMembersPvE { get; set; } = false;
+        public bool PvECrits { get; set; }
 
 
         public Dictionary<string, string> CustomShoutcasts { get; set; } = [];
@@ -77,7 +76,7 @@ namespace PvPAnnouncer
 
         public string Language { get; set; } = "en";
         public string TextLanguage { get; set; } = "en";
-        public int Version { get; set; } = 10;
+        public int Version { get; set; } = 13;
 
         public void AddCustomShoutCast(string shoutcastId, string shoutcastJson)
         {
@@ -364,6 +363,13 @@ namespace PvPAnnouncer
                     DesiredAttributes.Remove("Haurchefant ");
                     DesiredAttributes.Add("Haurchefant");
                 }
+
+                Version++;
+            }
+
+            if (Version == 12)
+            {
+                if (!FieldOps) DisabledContent.AddRange([26, 29, 38]);
 
                 Version++;
             }
