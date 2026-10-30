@@ -248,7 +248,7 @@ public class GeneralSettingsTab : ITab
             ImGuiComponents.HelpMarker(
                 "NPCAnnouncer will play trust voicelines even when they aren't explicitly selected.");
 
-            if (ImGui.Checkbox("ONLY Play Voicelines of Trusts that have been selected while in Duty Support.",
+            if (ImGui.Checkbox("Only Play Voicelines of Trusts that have been selected while in Duty Support.",
                     ref onlyWantsTrustNpc))
             {
                 _configuration.OnlyWantsTrustNpc = onlyWantsTrustNpc;
