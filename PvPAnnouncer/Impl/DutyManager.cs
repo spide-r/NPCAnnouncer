@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Dalamud.Game.Addon.Lifecycle;
 using Dalamud.Game.Addon.Lifecycle.AddonArgTypes;
 using Dalamud.Game.ClientState.Objects.Enums;
@@ -162,7 +163,11 @@ public class DutyManager : IDutyManager, IEventPublisher
     {
         ClearTrusts();
         PluginServices.PluginLog.Verbose("OnCfPop");
-        EmitToBroker(new DutyPopMessage());
+        PluginServices.Framework.RunOnTick(async () =>
+        {
+            await Task.Delay(500); // delay to avoid staring the voiceline directly after the SHHHING sound effect 
+            EmitToBroker(new DutyPopMessage());
+        });
     }
 
     public bool IsMonitoredUser(int userId)
