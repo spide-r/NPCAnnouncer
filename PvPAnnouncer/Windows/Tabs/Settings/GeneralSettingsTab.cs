@@ -234,7 +234,7 @@ public class GeneralSettingsTab : ITab
 
         ImGui.SameLine();
         ImGuiComponents.HelpMarker(
-            "NPCAnnouncer will still play voicelines from characters in your party when in Trust/Duty Support.");
+            "NPCAnnouncer will play voicelines from characters announcers you have selected when in Trust/Duty Support.");
 
         if (wantsTrust)
         {
@@ -246,7 +246,7 @@ public class GeneralSettingsTab : ITab
 
             ImGui.SameLine();
             ImGuiComponents.HelpMarker(
-                "NPCAnnouncer will play trust voicelines even when they aren't explicitly selected.");
+                "NPCAnnouncer will play trust voicelines even when they haven't been explicitly selected.");
 
             if (ImGui.Checkbox("Only Play Voicelines of Trusts that have been selected while in Duty Support.",
                     ref onlyWantsTrustNpc))
@@ -257,7 +257,7 @@ public class GeneralSettingsTab : ITab
 
             ImGui.SameLine();
             ImGuiComponents.HelpMarker(
-                "You must still pick announcers for this to work. If you want all trusts, select the above toggle as well.");
+                "You must still select announcers. If you want all trusts, enable the above setting as well.");
         }
     }
 }
