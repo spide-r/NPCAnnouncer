@@ -84,7 +84,7 @@ internal class PluginServices
 
         JsonLoader = new JsonLoader(DataManager, PvPEventBroker,
             ShoutcastRepository, EventShoutcastMapping, RestrictionRepository);
-        VoicelineDataResolver = new VoicelineDataResolver(DataManager, JsonLoader);
+        VoicelineDataResolver = new VoicelineDataResolver(DataManager);
 
         JsonLoader.ClearAndLoadEmbeddedValuesIntoMemory();
         ConfigManager = new ConfigManager(Config, JsonLoader);

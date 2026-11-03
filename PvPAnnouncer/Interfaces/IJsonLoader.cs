@@ -12,7 +12,6 @@ public interface IJsonLoader
     public void LoadShoutcasts();
     public void LoadMapping();
     public JsonObject BuildCustomShoutJson(Shoutcast s);
-    public Dictionary<string, List<string>> LoadCutsceneLines();
     public Shoutcast ConstructShoutcast(string json);
 
     [Obsolete("Use ConvertJsonToMappingDelta")]

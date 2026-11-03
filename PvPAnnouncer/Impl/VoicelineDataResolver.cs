@@ -20,11 +20,12 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
     private List<ContentDirectorBattleTalk> _ctrList = [];
     private readonly Dictionary<Language, List<NpcYell>> _npcYellMemo = [];
     private readonly Dictionary<string, string> _cSLineTagDict = []; // me when memoization
+    private readonly Dictionary<string, List<string>> _csLineSorted = []; //me when more memoization
     private readonly Dictionary<Language, ExcelSheet<InstanceContentTextData>> _instanceContentTextData = new();
+    private bool _cslInit;
 
-    public VoicelineDataResolver(IDataManager dataManager, IJsonLoader jsonLoader)
+    public VoicelineDataResolver(IDataManager dataManager)
     {
-        InitCutsceneLines(jsonLoader);
         InitOrphanedLines(dataManager);
     }
 
@@ -54,11 +55,53 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
         });
     }
 
-    public void InitCutsceneLines(IJsonLoader jsonLoader)
+    private void InitCutsceneLines()
     {
-        PluginServices.PluginLog.Verbose("Started Loading all Cutscene Lines! ");
-        _cutsceneLines = jsonLoader.LoadCutsceneLines();
-        PluginServices.PluginLog.Verbose("Finished Loading all Cutscene Lines!");
+        if (_cslInit) //sloppy but eh it works
+            return;
+
+        _cslInit = true;
+        var dataManager = PluginServices.DataManager;
+        var lang = PluginServices.Config.Language;
+        PluginServices.PluginLog.Verbose("Starting to load all cutscene lines!");
+        Task.Run(() =>
+        {
+            var cutsceneLines = new Dictionary<string, List<string>>();
+            var sheets = dataManager.Excel.SheetNames.Where(n =>
+                n.StartsWith("cut_scene/") &&
+                n.Contains("VoiceMan_")); //basically all cutscenes
+            foreach (var sheetName in sheets)
+            foreach (var row in dataManager.Excel.GetSheet<CutsceneText>(name: sheetName))
+            {
+                var tag = row.MessageTag.ExtractText();
+                var audio = GetCutsceneSoundPath(tag);
+                if (!dataManager.FileExists($"{audio}_{lang}.scd")) continue;
+
+                var split = tag.Split("_");
+                var speaker = split[split.Length - 1];
+                if (cutsceneLines.TryGetValue(speaker, out var tags))
+                    tags.Add(tag);
+                else
+                    cutsceneLines[speaker] = [tag];
+            }
+
+            PluginServices.Framework.RunOnFrameworkThread(() =>
+            {
+                _cutsceneLines = cutsceneLines;
+                PluginServices.PluginLog.Verbose("Finished loading all cutscene lines!");
+            });
+        });
+    }
+
+    private static string GetCutsceneSoundPath(string tag)
+    {
+        var split = tag.Split("_");
+        var number = split[2];
+        var secondNumber = split[3];
+        var prefix = int.Parse(number[..2]);
+        var ex = prefix - 2;
+        var exStr = ex == 0 ? "ffxiv" : $"ex{ex}";
+        return $"cut/{exStr}/sound/voicem/voiceman_{number}/vo_voiceman_{number}_{secondNumber}_m";
     }
 
     public List<string> GetOrphanedLines()
@@ -68,11 +111,13 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
 
     public Dictionary<string, List<string>> GetCutsceneLineTags()
     {
+        InitCutsceneLines();
         return _cutsceneLines;
     }
 
     public List<string> GetSortedCharacterNames()
     {
+        InitCutsceneLines();
         if (_sortedCharacterNames.Count > 0) return _sortedCharacterNames;
 
         var k = new List<string>(_cutsceneLines.Keys);
@@ -142,6 +187,15 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
 
         _ctrList = PluginServices.DataManager.Excel.GetSubrowSheet<ContentDirectorBattleTalk>().Flatten().ToList();
         return _ctrList;
+    }
+
+    public List<string> GetSortedCutsceneLines(string speaker)
+    {
+        if (_csLineSorted.TryGetValue(speaker, out var cached)) return cached;
+
+        _csLineSorted[speaker] = GetCutsceneLineTags()[speaker]
+            .OrderBy(t => ResolveCutsceneLineWithTag(t).Length).ToList();
+        return _csLineSorted[speaker];
     }
 
 

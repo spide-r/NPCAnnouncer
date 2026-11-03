@@ -196,13 +196,6 @@ public class JsonLoader(
             }
     }
 
-    public Dictionary<string, List<string>> LoadCutsceneLines()
-    {
-        var cs = ReadEmbeddedFile("csl.json");
-        var cutsceneLines = JsonSerializer.Deserialize<Dictionary<string, List<string>>>(cs.Trim()) ?? [];
-        return cutsceneLines;
-    }
-
     [Obsolete("Use ConvertJsonToMappingDelta")]
     public List<string> ConstructMappingFromJson(string json)
     {

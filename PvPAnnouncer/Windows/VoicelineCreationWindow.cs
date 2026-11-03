@@ -628,8 +628,8 @@ public class VoicelineCreationWindow : Window, IDisposable
                     ImGui.TableSetupColumn("Button", ImGuiTableColumnFlags.WidthFixed);
 
                     ImGui.TableHeadersRow();
-                    foreach (var cutsceneLineTag in PluginServices.VoicelineDataResolver.GetCutsceneLineTags()[
-                                 _chosenChar])
+                    foreach (var cutsceneLineTag in PluginServices.VoicelineDataResolver.GetSortedCutsceneLines(
+                                 _chosenChar))
                     {
                         var text = PluginServices.VoicelineDataResolver.ResolveCutsceneLineWithTag(cutsceneLineTag);
                         if (!_cutsceneLineFilter.Equals(""))
