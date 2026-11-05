@@ -9009,5 +9009,222 @@
     "shoutcaster": "Wuk Lamat",
     "duration": "4",
     "cutsceneLine": "TEXT_VOICEMAN_07002_000330_WUKLAMAT"
+  },
+  {
+    "id": "LetUsSee",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "2",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_001270_ZENOS"
+  },
+  {
+    "id": "HmVeryWell",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_001190_ZENOS"
+  },
+  {
+    "id": "DoAsYouWill",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05300_005870_ZENOS"
+  },
+  {
+    "id": "WhateverTakes",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_006630_ZENOS"
+  },
+  {
+    "id": "HereWeStand",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_007480_ZENOS"
+  },
+  {
+    "id": "Disappointing",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_008140_ZENOS"
+  },
+  {
+    "id": "GonetooSoon",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_008180_ZENOS"
+  },
+  {
+    "id": "NotWorthyZenos",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_003880_ZENOS"
+  },
+  {
+    "id": "NearTotal",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001420_ZENOS"
+  },
+  {
+    "id": "Tremble",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04005_001090_ZENOS"
+  },
+  {
+    "id": "HopingAscian",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05005_004450_ZENOS"
+  },
+  {
+    "id": "Hone",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_06005_000810_ZENOS"
+  },
+  {
+    "id": "PlayHero",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_008070_ZENOS"
+  },
+  {
+    "id": "RemainsResistance",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_002450_ZENOS"
+  },
+  {
+    "id": "LifeGiftBurden",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_06006_008200_ZENOS"
+  },
+  {
+    "id": "HearEndure",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_003850_ZENOS"
+  },
+  {
+    "id": "AffectPlans",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05500_002540_ZENOS"
+  },
+  {
+    "id": "Dreamer",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_05505_003980_ZENOS"
+  },
+  {
+    "id": "Death",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04002_003960_ZENOS"
+  },
+  {
+    "id": "BloodlessGamesMake",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_05002_004440_ZENOS"
+  },
+  {
+    "id": "Cowards",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001480_ZENOS"
+  },
+  {
+    "id": "WastedEffort",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "8",
+    "cutsceneLine": "TEXT_VOICEMAN_06005_000890_ZENOS"
+  },
+  {
+    "id": "Walk",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "5",
+    "cutsceneLine": "TEXT_VOICEMAN_04004_001830_ZENOS"
+  },
+  {
+    "id": "FerocityTenacity",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "12",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_000930_ZENOS"
+  },
+  {
+    "id": "Promising",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04200_002440_ZENOS"
+  },
+  {
+    "id": "Spirited",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "4",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001840_ZENOS"
+  },
+  {
+    "id": "WellWell",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001770_ZENOS"
+  },
+  {
+    "id": "WeShallSee",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_06001_008090_ZENOS"
+  },
+  {
+    "id": "HehHehHehHeh",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04006_000920_ZENOS"
+  },
+  {
+    "id": "Save",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001870_ZENOS"
+  },
+  {
+    "id": "MagicalBarrier",
+    "icon": "073002",
+    "shoutcaster": "Zenos",
+    "duration": "6",
+    "cutsceneLine": "TEXT_VOICEMAN_04000_001860_ZENOS"
   }
 ]

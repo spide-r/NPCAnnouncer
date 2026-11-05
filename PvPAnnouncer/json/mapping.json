@@ -129,7 +129,14 @@
       "WhatAreYouDoing",
       "LotOfMortals",
       "WhatAreYouDoingHere",
-      "SpectacleResumes"
+      "SpectacleResumes",
+      "Disappointing",
+      "NotWorthyZenos",
+      "AffectPlans",
+      "FerocityTenacity",
+      "WellWell",
+      "HehHehHehHeh",
+      "Save"
     ]
   },
   {
@@ -290,7 +297,19 @@
       "WhatAreYouDoing",
       "TillWeMeet",
       "Noticed",
-      "Fought"
+      "Fought",
+      "Disappointing",
+      "GonetooSoon",
+      "NotWorthyZenos",
+      "Tremble",
+      "Hone",
+      "LifeGiftBurden",
+      "Dreamer",
+      "Death",
+      "WastedEffort",
+      "Spirited",
+      "WeShallSee",
+      "HehHehHehHeh"
     ]
   },
   {
@@ -398,7 +417,12 @@
       "StubbornLittle",
       "UghStinks",
       "Interesting",
-      "HereItIsAgain"
+      "HereItIsAgain",
+      "NotWorthyZenos",
+      "AffectPlans",
+      "FerocityTenacity",
+      "WeShallSee",
+      "Save"
     ]
   },
   {
@@ -484,7 +508,11 @@
       "Amazing",
       "StubbornLittle",
       "LotOfMortals",
-      "CarefreeAmidst"
+      "CarefreeAmidst",
+      "DoAsYouWill",
+      "WhateverTakes",
+      "Cowards",
+      "Promising"
     ]
   },
   {
@@ -574,7 +602,15 @@
       "Steady",
       "ATrap",
       "HereItIsAgain",
-      "WhatAreYouDoingHere"
+      "WhatAreYouDoingHere",
+      "AffectPlans",
+      "HearEndure",
+      "Tremble",
+      "Cowards",
+      "WastedEffort",
+      "Promising",
+      "Save",
+      "MagicalBarrier"
     ]
   },
   {
@@ -640,7 +676,14 @@
       "FortuitousOpportunity",
       "MagicalDefense",
       "Steady",
-      "StubbornLittle"
+      "StubbornLittle",
+      "LetUsSee",
+      "HereWeStand",
+      "WhateverTakes",
+      "Tremble",
+      "PlayHero",
+      "HearEndure",
+      "MagicalBarrier"
     ]
   },
   {
@@ -693,7 +736,13 @@
       "Bizarre",
       "WhatAreYouDoing",
       "HereItIsAgain",
-      "WhatAreYouDoingHere"
+      "WhatAreYouDoingHere",
+      "HearEndure",
+      "Promising",
+      "Spirited",
+      "HmVeryWell",
+      "DoAsYouWill",
+      "ATaste"
     ]
   },
   {
@@ -899,7 +948,21 @@
       "AreYouAllRightZero",
       "Noticed",
       "StrangeLand",
-      "SpectacleResumes"
+      "SpectacleResumes",
+      "DoAsYouWill",
+      "GonetooSoon",
+      "NotWorthyZenos",
+      "Tremble",
+      "HopingAscian",
+      "Hone",
+      "LifeGiftBurden",
+      "HearEndure",
+      "Dreamer",
+      "Death",
+      "Spirited",
+      "WellWell",
+      "WeShallSee",
+      "HehHehHehHeh"
     ]
   },
   {
@@ -968,7 +1031,11 @@
       "Bizarre",
       "WhatHappenedWuk",
       "Interesting",
-      "Noticed"
+      "Noticed",
+      "NotWorthyZenos",
+      "GonetooSoon",
+      "Disappointing",
+      "WastedEffort"
     ]
   },
   {
@@ -1030,7 +1097,11 @@
       "Scratch",
       "NotSoFast",
       "Amazing",
-      "CarefreeAmidst"
+      "CarefreeAmidst",
+      "Promising",
+      "FerocityTenacity",
+      "RemainsResistance",
+      "WastedEffort"
     ]
   },
   {
@@ -1049,7 +1120,14 @@
       "ForAlaMhigo",
       "World",
       "HouseFortemps",
-      "Understand"
+      "Understand",
+      "DoAsYouWill",
+      "DanceForMe",
+      "RunBeastRun",
+      "RemainsResistance",
+      "HereWeStand",
+      "WhateverTakes",
+      "Promising"
     ]
   },
   {
@@ -1201,7 +1279,16 @@
       "UghStinks",
       "TillWeMeet",
       "Fought",
-      "OnMyWay"
+      "OnMyWay",
+      "HmVeryWell",
+      "Disappointing",
+      "Tremble",
+      "Hone",
+      "Dreamer",
+      "Death",
+      "BloodlessGamesMake",
+      "WastedEffort",
+      "Walk"
     ]
   },
   {
@@ -1310,7 +1397,18 @@
       "ThineArrival",
       "WhereAreYouGoing",
       "StrangeLand",
-      "SpectacleResumes"
+      "SpectacleResumes",
+      "LetUsSee",
+      "HmVeryWell",
+      "HereWeStand",
+      "HopingAscian",
+      "Hone",
+      "RemainsResistance",
+      "Cowards",
+      "Promising",
+      "Walk",
+      "WellWell",
+      "WeShallSee"
     ]
   },
   {
@@ -1452,7 +1550,16 @@
       "ComeBack",
       "TillNextTime",
       "TillWeMeet",
-      "OnMyWay"
+      "OnMyWay",
+      "NearTotal",
+      "Hone",
+      "RemainsResistance",
+      "Cowards",
+      "Promising",
+      "Spirited",
+      "Walk",
+      "FerocityTenacity",
+      "WellWell"
     ]
   },
   {
@@ -1546,7 +1653,10 @@
       "FortuitousOpportunity",
       "Strike",
       "Amazing",
-      "CarefreeAmidst"
+      "CarefreeAmidst",
+      "NearTotal",
+      "RemainsResistance",
+      "WellWell"
     ]
   },
   {
@@ -1683,7 +1793,14 @@
       "NoWuk",
       "Steady",
       "UhWuk",
-      "CarefreeAmidst"
+      "CarefreeAmidst",
+      "NotWorthyZenos",
+      "Disappointing",
+      "Tremble",
+      "HearEndure",
+      "LifeGiftBurden",
+      "AffectPlans",
+      "Spirited"
     ]
   },
   {
@@ -1931,7 +2048,14 @@
       "IsItOver",
       "Alright",
       "UghStinks",
-      "AreYouAllRightZero"
+      "AreYouAllRightZero",
+      "LetUsSee",
+      "LifeGiftBurden",
+      "HearEndure",
+      "BloodlessGamesMake",
+      "WastedEffort",
+      "Spirited",
+      "Walk"
     ]
   },
   {
@@ -2095,7 +2219,16 @@
       "FortuitousOpportunity",
       "ThineInitiative",
       "Amazing",
-      "EndsHere"
+      "EndsHere",
+      "LetUsSee",
+      "DoAsYouWill",
+      "WhateverTakes",
+      "PlayHero",
+      "Cowards",
+      "Promising",
+      "FerocityTenacity",
+      "WellWell",
+      "HehHehHehHeh"
     ]
   },
   {
@@ -2165,7 +2298,14 @@
       "StayAlert",
       "MuchToBeExpected",
       "NothingToFearYet",
-      "IntentionsKnown"
+      "IntentionsKnown",
+      "BloodlessGamesMake",
+      "Promising",
+      "Hone",
+      "RemainsResistance",
+      "Cowards",
+      "HehHehHehHeh",
+      "WeShallSee"
     ]
   }
 ]
