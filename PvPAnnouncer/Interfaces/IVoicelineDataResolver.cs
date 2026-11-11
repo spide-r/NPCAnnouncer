@@ -11,6 +11,7 @@ public interface IVoicelineDataResolver
     Dictionary<string, List<string>> GetCutsceneLineTags();
     List<string> GetSortedCutsceneLines(string character);
     List<string> GetSortedCharacterNames();
+    bool FileIsBigEnoughToHaveAudio(string path);
     string ResolveCutsceneLineWithTag(string tag);
     string ResolveTextWithNpcYell(uint npcYell);
     string? ResolveTextWithIctdRow(uint row);

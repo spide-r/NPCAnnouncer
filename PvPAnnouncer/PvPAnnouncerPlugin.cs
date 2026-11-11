@@ -26,17 +26,16 @@ namespace PvPAnnouncer
 
         public static void PluginUpdateMessage()
         {
-            if (PluginServices.Config.ShowNotification)
+            if (!PluginServices.Config.SeenUpdateMessages.Contains(InternalConstants.CurrentUpdateMessage))
             {
-                if (PluginServices.ClientState.IsLoggedIn == false)
+                if (!PluginServices.ClientState.IsLoggedIn)
                 {
                     return;
                 }
 
-                PluginServices.ChatGui.Print(
-                    "PVPAnnouncer is now NPCAnnouncer! Your existing config has been preserved. (You are also able to toggle this new behavior off in the plugin config.)\nYour favorite NPC can now comment on ALL. CONTENT. Dungeons, Alliance Raids, Fates, Ultimate raids, you name it. Tell your non-pvp friends to rejoice!!!! Please report using the feedback button if you see any issues or bugs!",
-                    "NPCAnnouncer", 15);
-                PluginServices.Config.ShowNotification = false;
+                PluginServices.ChatGui.Print(InternalConstants.CurrentUpdateMessage,
+                    InternalConstants.MessageTag, 15);
+                PluginServices.Config.SeenUpdateMessages.Add(InternalConstants.CurrentUpdateMessage);
                 PluginServices.Config.Save();
             }
         }
@@ -54,8 +53,7 @@ namespace PvPAnnouncer
         private void OnCommandPvP(string command, string args)
         {
             PluginServices.ChatGui.Print(
-                "PVPAnnouncer is now NPCAnnouncer! Your existing config has been preserved. (You are also able to toggle this new behavior off in the plugin config.)\nYour favorite NPC can now comment on ALL. CONTENT. Dungeons, Alliance Raids, Fates, Ultimate raids, you name it." +
-                "\nPlease use /npcannouncer, the old command /pvpannouncer will be removed soon.",
+                "Please use /npcannouncer, the old command /pvpannouncer will be removed soon.",
                 InternalConstants.MessageTag, 15);
             ToggleConfigWindow();
         }

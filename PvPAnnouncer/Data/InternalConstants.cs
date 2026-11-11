@@ -11,6 +11,10 @@ public abstract class InternalConstants : ImguiTools
     public const string ErrorContactDev = "Uh oh! You shouldn't see this! Contact the NPCAnnouncer dev!";
     public const string MahjongAttribute = "Contains Mahjong Reference (Non-English)";
 
+    public const string CurrentUpdateMessage =
+        "Over 200 new voicelines have been added! Bugs have been fixed, UI has been improved." +
+        "\nNew Settings for Trust & Duty support!";
+
     public const string Untranslated =
         "Untranslated Text! Contact the NPCAnnouncer developer if you wish to contribute!";
 

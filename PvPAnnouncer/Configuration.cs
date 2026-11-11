@@ -41,8 +41,6 @@ namespace PvPAnnouncer
 
         public int Percent { get; set; } = 70;
 
-        public bool ShowNotification { get; set; } = false;
-
         public int DupeVoicelineChoice { get; set; } = 0;
         public int DupeMappingChoice { get; set; } = 0;
         public bool ExportSingleCharacter { get; set; } = false;
@@ -56,6 +54,7 @@ namespace PvPAnnouncer
         public bool PartyMembersPvE { get; set; } = false;
         public bool PvECrits { get; set; }
 
+        public List<string> SeenUpdateMessages { get; set; } = [];
 
         public Dictionary<string, string> CustomShoutcasts { get; set; } = [];
         public Dictionary<string, string> CustomEvents { get; set; } = []; //unused for now
@@ -189,7 +188,6 @@ namespace PvPAnnouncer
             if (Version == 2) //2 week spoiler embargo had a personalization Spoiler value of 15 - to remove any wonkyness, remake the personalization int without 15
             {
                 Version++;
-                ShowNotification = false;
             }
 
             if (Version == 3)
@@ -201,7 +199,6 @@ namespace PvPAnnouncer
                     BlacklistedEvents.Add("AllyHitByLimitBreakEvent");
                 }
 
-                ShowNotification = true;
                 Version++;
             }
 
@@ -209,7 +206,6 @@ namespace PvPAnnouncer
             {
                 // Personalization rework
 
-                ShowNotification = true;
                 Version++;
             }
 
@@ -225,7 +221,6 @@ namespace PvPAnnouncer
 
             if (Version == 6)
             {
-                ShowNotification = true;
                 var values = (Personalization[]) Enum.GetValues(typeof(Personalization));
 
                 foreach (var p in values)
@@ -333,19 +328,16 @@ namespace PvPAnnouncer
 
             if (Version == 7)
             {
-                ShowNotification = true;
                 Version++;
             }
 
             if (Version == 8)
             {
-                ShowNotification = true;
                 Version++;
             }
 
             if (Version == 9)
             {
-                ShowNotification = true;
                 Version++;
             }
 

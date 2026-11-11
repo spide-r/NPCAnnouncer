@@ -101,8 +101,9 @@ public partial class Shoutcast(
     {
         var potentialSoundPath = SoundPath.Replace("_m", "_f") + "_" + lang + ".scd";
         if (fem && IsGendered &&
-            PluginServices.DataManager
-                .FileExists(potentialSoundPath)) // if this is a gendered voiceline and the user wants the fem version
+            PluginServices.VoicelineDataResolver
+                .FileIsBigEnoughToHaveAudio(
+                    potentialSoundPath)) // if this is a gendered voiceline and the user wants the fem version AND the file ACTUALLY exists AND has data instead of empty files
         {
             return potentialSoundPath;
         }

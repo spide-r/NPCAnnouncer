@@ -79,7 +79,7 @@ internal class PluginServices
         DutyManager = new DutyManager(PlayerStateTracker);
 
         EventShoutcastMapping = new EventShoutcastMapping();
-        ShoutcastRepository = new ShoutcastRepository(DataManager);
+        ShoutcastRepository = new ShoutcastRepository();
         RestrictionRepository = new RestrictionRepository();
 
         JsonLoader = new JsonLoader(DataManager, PvPEventBroker,

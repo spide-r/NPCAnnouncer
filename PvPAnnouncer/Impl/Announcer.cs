@@ -303,8 +303,9 @@ public class Announcer : IAnnouncer, IDisposable
                 continue;
             }
 
-            if (!PluginServices.DataManager.FileExists(
-                    sound.GetShoutcastSoundPathWithLang(PluginServices.Config.Language)))
+            var soundWithLang = sound.GetShoutcastSoundPathWithLang(PluginServices.Config.Language);
+            if (!PluginServices.DataManager.FileExists(soundWithLang) ||
+                !PluginServices.VoicelineDataResolver.FileIsBigEnoughToHaveAudio(soundWithLang))
             {
                 PluginServices.PluginLog.Error($"Sound file {sound} not found!");
                 continue;

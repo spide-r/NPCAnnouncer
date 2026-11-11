@@ -75,7 +75,9 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
             {
                 var tag = row.MessageTag.ExtractText();
                 var audio = GetCutsceneSoundPath(tag);
-                if (!dataManager.FileExists($"{audio}_{lang}.scd")) continue;
+                var path = $"{audio}_{lang}.scd";
+                if (!dataManager.FileExists(path)) continue;
+                if (!FileIsBigEnoughToHaveAudio(path)) continue;
 
                 var split = tag.Split("_");
                 var speaker = split[split.Length - 1];
@@ -196,6 +198,12 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
         _csLineSorted[speaker] = GetCutsceneLineTags()[speaker]
             .OrderBy(t => ResolveCutsceneLineWithTag(t).Length).ToList();
         return _csLineSorted[speaker];
+    }
+
+    // thank you square enix, for shipping scd files that dont actually have audio in them. who decided this? I want to talk.
+    public bool FileIsBigEnoughToHaveAudio(string path)
+    {
+        return PluginServices.DataManager.GameData.GetFileMetadata(path)?.RawFileSize > 1000;
     }
 
 

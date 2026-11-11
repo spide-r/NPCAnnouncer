@@ -1,12 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Dalamud.Plugin.Services;
 using PvPAnnouncer.Data;
 using PvPAnnouncer.Interfaces;
 
 namespace PvPAnnouncer.Impl;
 
-public class ShoutcastRepository(IDataManager _dataManager) : IShoutcastRepository
+public class ShoutcastRepository : IShoutcastRepository
 {
     private readonly Dictionary<string, Shoutcast> _shoutcasts = new();
 
@@ -32,7 +31,8 @@ public class ShoutcastRepository(IDataManager _dataManager) : IShoutcastReposito
 
     public void SetShoutcast(string shoutcastId, Shoutcast shoutcast)
     {
-        if (_dataManager.FileExists(shoutcast.GetShoutcastSoundPathWithLang(PluginServices.Config.Language)))
+        if (PluginServices.DataManager.FileExists(
+                shoutcast.GetShoutcastSoundPathWithLang(PluginServices.Config.Language)))
             _shoutcasts[shoutcastId] = shoutcast;
         else
             PluginServices.PluginLog.Warning($"Shoutcast {shoutcastId} does not have a path that exists.");
