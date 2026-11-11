@@ -1,10 +1,10 @@
 ﻿{
   "name": "NPCAnnouncer",
   "author": "spide-r",
-  "punchline": "Do you want an announcer in your PvP matches, PvE duties, and fates? Metem and the Scions have offered their services!",
-  "description": "This plugin will cause character voice lines to play upon specific conditions being met.",
-  "repo_url": "https://github.com/spide-r/PvPAnnouncer",
-  "IconURL": "https://github.com/spide-r/PvPAnnouncer/blob/main/images/icon.png",
+  "punchline": "Do you want an announcer in your PvP matches, PvE duties, field operations, etc? Metem, the Scions, and more folks have offered their voice!",
+  "description": "This plugin lets NPCs react to your gameplay. It uses existing character voicelines and recontextualizes them with a bit of comedic timing.",
+  "repo_url": "https://github.com/spide-r/NPCAnnouncer",
+  "IconURL": "https://github.com/spide-r/NPCAnnouncer/blob/main/images/icon.png",
   "AcceptsFeedback": true,
   "tags": [
     "frontlines",
@@ -14,14 +14,17 @@
     "metem",
     "arcadion",
     "scions",
-    "alisaie",
-    "alphinaud",
-    "thancred",
-    "graha",
-    "npc"
+    "npc",
+    "pve",
+    "duty",
+    "trust",
+    "voicelines",
+    "commentary",
+    "crystalline conflict"
   ],
   "CategoryTags": [
     "utility",
-    "other"
+    "other",
+    "sound"
   ]
 }
