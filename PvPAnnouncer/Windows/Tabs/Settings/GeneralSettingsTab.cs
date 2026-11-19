@@ -194,7 +194,7 @@ public class GeneralSettingsTab : ITab
             2 => "Dungeons",
             3 => "Guildhests",
             4 => "Trials",
-            5 => "Raids",
+            5 => "Raids (Normal and Savage)",
             7 => "Quest Battles",
             9 => "Treasure Dungeons",
             16 => "Ocean Fishing and the Diadem",

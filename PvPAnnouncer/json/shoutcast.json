@@ -9226,5 +9226,12 @@
     "shoutcaster": "Zenos",
     "duration": "6",
     "cutsceneLine": "TEXT_VOICEMAN_04000_001860_ZENOS"
+  },
+  {
+    "id": "DoNotInterfere",
+    "icon": "073026",
+    "shoutcaster": "Urianger",
+    "duration": "3",
+    "cutsceneLine": "TEXT_VOICEMAN_05004_004020_URIANGER"
   }
 ]

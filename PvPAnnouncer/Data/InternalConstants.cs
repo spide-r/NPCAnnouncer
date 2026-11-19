@@ -20,7 +20,7 @@ public abstract class InternalConstants : ImguiTools
 
     public const string LimitBreakList = "LIMIT_BREAK_LIST";
 
-    public static readonly Dictionary<string, List<string>> TrustNpcNames = new()
+    public static readonly Dictionary<string, List<string>> TrustNpcNames = new() //todo support CN/KR/TW
     {
         ["Alisaie"] = ["Alisaie", "アリゼー"],
         ["Alphinaud"] = ["Alphinaud", "アルフィノ"],

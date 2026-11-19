@@ -136,7 +136,8 @@
       "FerocityTenacity",
       "WellWell",
       "HehHehHehHeh",
-      "Save"
+      "Save",
+      "DoNotInterfere"
     ]
   },
   {
@@ -422,7 +423,8 @@
       "AffectPlans",
       "FerocityTenacity",
       "WeShallSee",
-      "Save"
+      "Save",
+      "DoNotInterfere"
     ]
   },
   {
@@ -512,7 +514,8 @@
       "DoAsYouWill",
       "WhateverTakes",
       "Cowards",
-      "Promising"
+      "Promising",
+      "DoNotInterfere"
     ]
   },
   {
@@ -610,7 +613,8 @@
       "WastedEffort",
       "Promising",
       "Save",
-      "MagicalBarrier"
+      "MagicalBarrier",
+      "DoNotInterfere"
     ]
   },
   {
@@ -683,7 +687,8 @@
       "Tremble",
       "PlayHero",
       "HearEndure",
-      "MagicalBarrier"
+      "MagicalBarrier",
+      "DoNotInterfere"
     ]
   },
   {
@@ -742,7 +747,8 @@
       "Spirited",
       "HmVeryWell",
       "DoAsYouWill",
-      "ATaste"
+      "ATaste",
+      "DoNotInterfere"
     ]
   },
   {
@@ -1101,7 +1107,8 @@
       "Promising",
       "FerocityTenacity",
       "RemainsResistance",
-      "WastedEffort"
+      "WastedEffort",
+      "DoNotInterfere"
     ]
   },
   {
@@ -2228,7 +2235,8 @@
       "Promising",
       "FerocityTenacity",
       "WellWell",
-      "HehHehHehHeh"
+      "HehHehHehHeh",
+      "DoNotInterfere"
     ]
   },
   {
