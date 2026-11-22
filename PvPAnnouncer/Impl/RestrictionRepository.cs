@@ -9,6 +9,13 @@ public class RestrictionRepository : IRestrictionRepository
 {
     private readonly Dictionary<string, ShoutcasterRestriction> _restrictions = new();
 
+    public bool Restricted(string shoutcaster, uint territory)
+    {
+        return _restrictions.Values.Any(r =>
+            r.tt.Contains(territory) && PluginServices.Config.Restrictions.Contains(r.id) &&
+            (r.shoutcaster.Equals(shoutcaster) || r.alternateNames.Contains(shoutcaster)));
+    }
+
     public HashSet<uint> GetRestrictedDuties(string shoutcaster)
     {
         return _restrictions.Values

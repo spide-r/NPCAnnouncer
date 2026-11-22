@@ -59,7 +59,8 @@ public class EventHooksPublisher : IEventPublisher, IDisposable
             var s = "S:" + actionEffect.SourceId + " SN: " + actionEffect.GetSource() + "|A: " +
                     actionEffect.ActionId + "|AN: " +
                     actionEffect.GetAction()?.Name.ToString() + " |ET: " + "EA: ";
-            PluginServices.PluginLog.Verbose(s);
+            if (PluginServices.Config.DebugText) PluginServices.PluginLog.Verbose(s);
+
             EmitToBroker(actionEffect);
         }
         catch (Exception e)
@@ -87,9 +88,10 @@ public class EventHooksPublisher : IEventPublisher, IDisposable
                 return;
             }
 
-            PluginServices.PluginLog.Verbose(
-                $"Processing Actor Control entityId {entityId},  category {(ActorControlCategory) category}, arg1 {arg1}, " +
-                $"a2 {arg2}, a3 {arg3}, a4 {arg4}, a5 {arg5}, a6 {arg6}, a7 {arg7}, a8 {arg8}, targetId {targetId}, flag {isRecorded}");
+            if (PluginServices.Config.DebugText)
+                PluginServices.PluginLog.Verbose(
+                    $"Processing Actor Control entityId {entityId},  category {(ActorControlCategory) category}, arg1 {arg1}, " +
+                    $"a2 {arg2}, a3 {arg3}, a4 {arg4}, a5 {arg5}, a6 {arg6}, a7 {arg7}, a8 {arg8}, targetId {targetId}, flag {isRecorded}");
 
             if (actorControlMessage.GetCategory() == ActorControlCategory.GainEffect)
             {

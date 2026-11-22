@@ -77,7 +77,9 @@ public class JsonLoader(
             foreach (var shout in j)
             {
                 var sh = ConstructShoutcast(shout?.ToString() ?? "");
-                PluginServices.PluginLog.Verbose($"Constructed {sh.Id} with {sh.SoundPath}");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose($"Constructed {sh.Id} with {sh.SoundPath}");
+
                 shoutcastRepository.SetShoutcast(sh.Id, sh);
             }
         }
@@ -148,7 +150,8 @@ public class JsonLoader(
             }
             else
             {
-                PluginServices.PluginLog.Verbose($"Shout {shout} for {id} added.");
+                if (PluginServices.Config.DebugText) PluginServices.PluginLog.Verbose($"Shout {shout} for {id} added.");
+
                 newShoutList.Add(shout);
             }
         }

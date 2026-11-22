@@ -303,7 +303,7 @@ public class VoicelineCreationWindow : Window, IDisposable
             }
             else
             {
-                PluginServices.ChatGui.PrintError("Game data has not yet loaded! Please try again in a few moments.");
+                PluginServices.ChatGui.PrintError("Loading Orphaned voice lines. Please try again in a few moments.");
             }
         }
 

@@ -21,12 +21,9 @@ public class EventBroker : IPvPEventBroker
 
         if (message is ActionEffectMessage aaa)
         {
-            string s = "S:" + aaa.SourceId + " SN: " + aaa.GetSource() + "|A: " + aaa.ActionId + "|AN: " +
-                       aaa.GetAction()?.Name.ToString();
             var shouldEmit = PluginServices.DutyManager.IsMonitoredUser(aaa.SourceId);
             if (shouldEmit)
             {
-                PluginServices.PluginLog.Verbose(s);
                 _lastUsedAction = aaa.ActionId.ToString();
             }
         }
@@ -76,7 +73,7 @@ public class EventBroker : IPvPEventBroker
     public void RegisterListener(PvPEvent e)
     {
         _pvpEventIdBinding[e.Id] = e;
-        PluginServices.PluginLog.Verbose("Registered listener: " + e.Id);
+        if (PluginServices.Config.DebugText) PluginServices.PluginLog.Verbose("Registered listener: " + e.Id);
     }
 
     public string GetLastAction()

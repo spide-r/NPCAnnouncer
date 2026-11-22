@@ -75,6 +75,7 @@ namespace PvPAnnouncer
 
         public string Language { get; set; } = "en";
         public string TextLanguage { get; set; } = "en";
+        public bool DebugText { get; set; }
         public int Version { get; set; } = 13;
 
         public void AddCustomShoutCast(string shoutcastId, string shoutcastJson)

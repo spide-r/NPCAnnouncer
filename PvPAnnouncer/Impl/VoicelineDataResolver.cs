@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Dalamud.Plugin.Services;
 using Lumina.Data;
 using Lumina.Excel;
 using Lumina.Excel.Sheets;
@@ -23,24 +23,23 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
     private readonly Dictionary<string, List<string>> _csLineSorted = []; //me when more memoization
     private readonly Dictionary<Language, ExcelSheet<InstanceContentTextData>> _instanceContentTextData = new();
     private bool _cslInit;
+    private bool _orphanInit;
 
-    public VoicelineDataResolver(IDataManager dataManager)
+    private void InitOrphanedLines()
     {
-        InitOrphanedLines(dataManager);
-    }
-
-    public void InitOrphanedLines(IDataManager dataManager)
-    {
-        var sheet = dataManager.GetSubrowExcelSheet<ContentDirectorBattleTalk>();
+        if (_orphanInit)
+            return;
+        _orphanInit = true;
+        var sheet = PluginServices.DataManager.GetSubrowExcelSheet<ContentDirectorBattleTalk>();
         var allUints = sheet.Flatten().Select(k => k.VoLine).ToHashSet();
         PluginServices.PluginLog.Verbose("Starting to load all orphaned lines!");
         Task.Run(() =>
         {
             var results = new List<string>();
-            for (uint j = 0; j < 9999999; j++)
+            for (uint j = 8000000; j < 9999999; j++)
             {
                 var voLine = $"sound/voice/vo_line/{j}_en.scd";
-                if (!dataManager.FileExists(voLine)) continue;
+                if (!PluginServices.DataManager.FileExists(voLine)) continue;
 
                 if (!allUints.Contains(j))
                     // if the VO Line does not exist in sheet, its orphaned so we need to add data ourselves
@@ -108,6 +107,7 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
 
     public List<string> GetOrphanedLines()
     {
+        InitOrphanedLines();
         return _orphanedVoLines;
     }
 
@@ -201,9 +201,15 @@ public partial class VoicelineDataResolver : IVoicelineDataResolver
     }
 
     // thank you square enix, for shipping scd files that dont actually have audio in them. who decided this? I want to talk.
+    private readonly ConcurrentDictionary<string, bool> _fileBigEnough = new(); // give it up for memoization #3
+
     public bool FileIsBigEnoughToHaveAudio(string path)
     {
-        return PluginServices.DataManager.GameData.GetFileMetadata(path)?.RawFileSize > 1000;
+        if (_fileBigEnough.TryGetValue(path, out var audio)) return audio;
+
+        var fileBigEnough = PluginServices.DataManager.GameData.GetFileMetadata(path)?.RawFileSize > 1000;
+        _fileBigEnough[path] = fileBigEnough;
+        return fileBigEnough;
     }
 
 

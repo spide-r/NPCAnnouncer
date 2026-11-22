@@ -304,8 +304,7 @@ public class Announcer : IAnnouncer, IDisposable
             }
 
             var soundWithLang = sound.GetShoutcastSoundPathWithLang(PluginServices.Config.Language);
-            if (!PluginServices.DataManager.FileExists(soundWithLang) ||
-                !PluginServices.VoicelineDataResolver.FileIsBigEnoughToHaveAudio(soundWithLang))
+            if (!PluginServices.DataManager.FileExists(soundWithLang))
             {
                 PluginServices.PluginLog.Error($"Sound file {sound} not found!");
                 continue;
@@ -325,8 +324,8 @@ public class Announcer : IAnnouncer, IDisposable
                     .WantsTheseAttributes(sound.Attributes)) //user doesn't want the attributes listed here
                 continue;
 
-            var restrictedDuties = PluginServices.RestrictionRepository.GetRestrictedDuties(sound.Shoutcaster);
-            if (restrictedDuties.Contains(PluginServices.ClientState.TerritoryType)) continue;
+            if (PluginServices.RestrictionRepository.Restricted(sound.Shoutcaster,
+                    PluginServices.ClientState.TerritoryType)) continue;
 
             var isTrustNpc = PluginServices.DutyManager.IsActiveTrustNPC(sound.Shoutcaster);
 

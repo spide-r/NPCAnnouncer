@@ -23,9 +23,9 @@ public class AllyActionEvent : PvPActionEvent
         if (p is ActionEffectMessage)
         {
             ActionEffectMessage message = (ActionEffectMessage) p;
-            if (PluginServices.DutyManager.IsMonitoredUser(message.SourceId))
+            if (ActionIds.Contains(message.ActionId))
             {
-                return ActionIds.Contains(message.ActionId);
+                return PluginServices.DutyManager.IsMonitoredUser(message.SourceId);
             }
         }
 

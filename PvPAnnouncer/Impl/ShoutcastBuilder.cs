@@ -28,7 +28,8 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
     public Shoutcast BuildAndRefreshProperties()
     {
         var result = BuildAndPreserveProperties();
-        PluginServices.PluginLog.Verbose($"Replacing {result.Id}");
+        if (PluginServices.Config.DebugText) PluginServices.PluginLog.Verbose($"Replacing {result.Id}");
+
         _instance = NewShoutcast();
         return result;
     }
@@ -41,8 +42,9 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
     public Shoutcast BuildAndPreserveProperties()
     {
         var result = _instance;
-        PluginServices.PluginLog.Verbose($"Building shoutcast {result.Id} and preserving properties");
 
+        if (PluginServices.Config.DebugText)
+            PluginServices.PluginLog.Verbose($"Building shoutcast {result.Id} and preserving properties");
 
         /*
          * Time to build!
@@ -53,7 +55,9 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
          */
         if (result.ContentDirectorBattleTalkVo != 0)
         {
-            PluginServices.PluginLog.Verbose($"ContentDirectorBattleTalkVo: {result.ContentDirectorBattleTalkVo}");
+            if (PluginServices.Config.DebugText)
+                PluginServices.PluginLog.Verbose($"ContentDirectorBattleTalkVo: {result.ContentDirectorBattleTalkVo}");
+
             /*
                 name: ContentDirectorBattleTalk
                 fields:
@@ -66,7 +70,9 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
                 - name: Unknown4 -> BattleTalkStyle
             */
             result.SoundPath = "sound/voice/vo_line/" + result.ContentDirectorBattleTalkVo;
-            PluginServices.PluginLog.Debug($"BattleTalkVO Sound path: {result.SoundPath}");
+            if (PluginServices.Config.DebugText)
+                PluginServices.PluginLog.Debug($"BattleTalkVO Sound path: {result.SoundPath}");
+
             var d = GetContentDirectorBattleTalkAllLanguages(result.ContentDirectorBattleTalkVo);
 
             if (d.Keys.Count > 0) // record exists in the sheets - attempt to set the other values
@@ -85,14 +91,15 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
 
         if (result.InstanceContentTextDataRow != 0)
         {
-            PluginServices.PluginLog.Verbose($"InstanceContentTextDataRow: {result.InstanceContentTextDataRow}");
+            if (PluginServices.Config.DebugText)
+                PluginServices.PluginLog.Verbose($"InstanceContentTextDataRow: {result.InstanceContentTextDataRow}");
 
             result.Transcription = GetInstanceContentTextDataAllLang(result.InstanceContentTextDataRow);
         }
 
         if (result.NpcYell != 0)
         {
-            PluginServices.PluginLog.Verbose($"NpcYell: {result.NpcYell}");
+            if (PluginServices.Config.DebugText) PluginServices.PluginLog.Verbose($"NpcYell: {result.NpcYell}");
 
             var d = GetNpcYellAllLang(result.NpcYell);
             var sheet = dataManager.GetExcelSheet<NpcYell>();
@@ -178,12 +185,14 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
                     .Replace(dialogue,
                         ""); // any dialogue with (- text_here -) at the start will override the name shown in battletalk
                 dict.Add(langStr, dialogue);
-                PluginServices.PluginLog.Verbose($"CutsceneLineLang: {langStr}, Transcription: {dialogue}");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose($"CutsceneLineLang: {langStr}, Transcription: {dialogue}");
             }
             catch (UnsupportedLanguageException)
             {
-                PluginServices.PluginLog.Verbose(
-                    $"Attempted to pull Cutscene Lang for {langStr} and failed due to unsupported language");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose(
+                        $"Attempted to pull Cutscene Lang for {langStr} and failed due to unsupported language");
             }
         }
 
@@ -201,13 +210,14 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
                 var foundEntry = sheet.TryGetRow(yell, out var row);
                 var text = foundEntry ? row.Text.ToString() : InternalConstants.ErrorContactDev;
                 dict[langStr] = text;
-
-                PluginServices.PluginLog.Verbose($"NPCYellLang: {langStr}, Transcription: {text}");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose($"NPCYellLang: {langStr}, Transcription: {text}");
             }
             catch (UnsupportedLanguageException)
             {
-                PluginServices.PluginLog.Verbose(
-                    $"Attempted to pull NPC Yell for {langStr} and failed due to unsupported language");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose(
+                        $"Attempted to pull NPC Yell for {langStr} and failed due to unsupported language");
             }
         }
 
@@ -234,15 +244,17 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
                         var foundEntry = instanceContent.TryGetRow(textDataRow, out var ctrRow);
                         var text = foundEntry ? ctrRow.Text.ToString() : InternalConstants.ErrorContactDev;
                         dict[langStr] = text;
-                        PluginServices.PluginLog.Verbose(
-                            $"CtrDirectorBattleTalkLang: {langStr}, Transcription: {text}, Lang: {talk.ExcelPage.Language}");
+                        if (PluginServices.Config.DebugText)
+                            PluginServices.PluginLog.Verbose(
+                                $"CtrDirectorBattleTalkLang: {langStr}, Transcription: {text}, Lang: {talk.ExcelPage.Language}");
                     }
                 }
             }
             catch (UnsupportedLanguageException)
             {
-                PluginServices.PluginLog.Verbose(
-                    $"Attempted to pull CtrDirectorBattleTalk for {langStr} and failed due to unsupported language");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose(
+                        $"Attempted to pull CtrDirectorBattleTalk for {langStr} and failed due to unsupported language");
             }
         }
 
@@ -261,13 +273,15 @@ public partial class ShoutcastBuilder(IDataManager dataManager) : IShoutcastBuil
                 var foundEntry = sheet.TryGetRow(textDataRow, out var row);
                 var text = foundEntry ? row.Text.ToString() : InternalConstants.ErrorContactDev;
                 dict[langStr] = text;
-                PluginServices.PluginLog.Verbose(
-                    $"GetInstanceContentTextDataAllLang: {langStr}, Transcription: {text}");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose(
+                        $"GetInstanceContentTextDataAllLang: {langStr}, Transcription: {text}");
             }
             catch (UnsupportedLanguageException)
             {
-                PluginServices.PluginLog.Verbose(
-                    $"Attempted to pull Instance Content Text Data for {langStr} and failed due to unsupported language");
+                if (PluginServices.Config.DebugText)
+                    PluginServices.PluginLog.Verbose(
+                        $"Attempted to pull Instance Content Text Data for {langStr} and failed due to unsupported language");
             }
         }
 
