@@ -609,7 +609,10 @@ public class VoicelineCreationWindow : Window, IDisposable
 
             if (_chosenChar.Equals(""))
             {
-                ImGui.Text("Select A Character!");
+                if (PluginServices.VoicelineDataResolver.GetSortedCharacterNames().Count == 0)
+                    ImGui.Text("Characters are now preparing. Please wait warmly.");
+                else
+                    ImGui.Text("Select A Character!");
             }
             else
             {
